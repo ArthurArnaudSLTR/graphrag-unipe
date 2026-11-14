@@ -1,0 +1,8 @@
+google-genai>=1.0.0
+neo4j>=5.20
+pymupdf>=1.24
+pydantic>=2.6
+rapidfuzz>=3.6
+python-dotenv>=1.0
+tenacity>=8.2
+pytest>=8.0
