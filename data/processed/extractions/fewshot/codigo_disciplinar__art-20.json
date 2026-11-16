@@ -1,0 +1,65 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "órgão responsável por analisar a notícia de infração e determinar os desdobramentos",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Transação Administrativa",
+   "type": "Processo",
+   "description": "procedimento instaurado a partir da notícia de infração",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Sindicância",
+   "type": "Processo",
+   "description": "procedimento instaurado a partir da notícia de infração",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "procedimento instaurado a partir da notícia de infração",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Arquivamento da Notícia de Infração",
+   "type": "Processo",
+   "description": "arquivamento determinado quando o fato não for infração disciplinar ou pela irrelevância da conduta",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e2",
+   "target": "e1",
+   "type": "DECIDIDO_POR",
+   "evidence": "o Reitor analisará o caso e poderá determinar: I - a instauração do procedimento de Transação Administrativa"
+  },
+  {
+   "source": "e3",
+   "target": "e1",
+   "type": "DECIDIDO_POR",
+   "evidence": "o Reitor analisará o caso e poderá determinar: II - a instauração de Sindicância"
+  },
+  {
+   "source": "e4",
+   "target": "e1",
+   "type": "DECIDIDO_POR",
+   "evidence": "o Reitor analisará o caso e poderá determinar: III - a instauração de Processo Administrativo Disciplinar"
+  },
+  {
+   "source": "e5",
+   "target": "e1",
+   "type": "DECIDIDO_POR",
+   "evidence": "o Reitor analisará o caso e poderá determinar: IV - o arquivamento da notícia da infração"
+  }
+ ]
+}

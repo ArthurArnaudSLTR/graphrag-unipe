@@ -32,7 +32,7 @@ EMBED_MODEL = _env("EMBEDDING_MODEL", "EMBED_MODEL", default="gemini-embedding-2
 EMBED_DIM = int(_env("EMBEDDING_DIM", "EMBED_DIM", default="768"))
 
 NEO4J_URI = _env("NEO4J_URI", default="bolt://localhost:7687")
-NEO4J_USER = _env("NEO4J_USER", default="neo4j")
+NEO4J_USER = _env("NEO4J_USER", "NEO4J_USERNAME", default="neo4j")  # o .txt do Aura usa NEO4J_USERNAME
 NEO4J_PASSWORD = _env("NEO4J_PASSWORD", default="")
 NEO4J_DATABASE = _env("NEO4J_DATABASE", default="neo4j")
 

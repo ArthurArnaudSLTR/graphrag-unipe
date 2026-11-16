@@ -1,0 +1,72 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "processo disciplinar prévio",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Substituição por penalidade alternativa",
+   "type": "Processo",
+   "description": "substituição da sanção de suspensão por atividades educativas ou trabalhos comunitários",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "autoridade competente",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Termo de Compromisso",
+   "type": "DocumentoExigido",
+   "description": "documento de formalização da concordância",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Manifestação sobre descumprimento",
+   "type": "Processo",
+   "description": "procedimento de manifestação após notificação de descumprimento",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "5 dias úteis",
+   "type": "Prazo",
+   "description": "prazo de manifestação do aluno",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PRECEDE",
+   "evidence": "Ao encerramento do Processo Administrativo Disciplinar em que for aplicada sanção de suspensão, o Reitor poderá propor ao aluno a substituição"
+  },
+  {
+   "source": "e2",
+   "target": "e3",
+   "type": "DECIDIDO_POR",
+   "evidence": "o Reitor poderá propor ao aluno a substituição da sanção por penalidade alternativa"
+  },
+  {
+   "source": "e2",
+   "target": "e4",
+   "type": "EXIGE",
+   "evidence": "A substituição depende da expressa concordância do aluno, formalizada em Termo de Compromisso"
+  },
+  {
+   "source": "e5",
+   "target": "e6",
+   "type": "TEM_PRAZO",
+   "evidence": "notificará o aluno para manifestar-se no prazo de cinco dias úteis"
+  }
+ ]
+}

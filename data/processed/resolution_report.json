@@ -1,0 +1,54 @@
+{
+ "mencoes_brutas": 65,
+ "nos_unicos": 43,
+ "reducao_pct": 33.8,
+ "relacoes": 44,
+ "por_tipo": {
+  "DocumentoExigido": 3,
+  "Infracao": 5,
+  "Orgao": 3,
+  "Penalidade": 6,
+  "Prazo": 9,
+  "Processo": 14,
+  "Regra": 3
+ },
+ "grupos_fundidos": [
+  {
+   "canonico": "15 dias",
+   "tipo": "Prazo",
+   "variantes": [
+    "Até 15 dias"
+   ]
+  },
+  {
+   "canonico": "30 dias",
+   "tipo": "Prazo",
+   "variantes": [
+    "Até 30 dias"
+   ]
+  },
+  {
+   "canonico": "Apuração de Infração Disciplinar",
+   "tipo": "Processo",
+   "variantes": [
+    "Apuração de infração disciplinar"
+   ]
+  }
+ ],
+ "prazos_normalizados": [
+  {
+   "nome": "15 dias",
+   "variantes": [
+    "Até 15 dias"
+   ]
+  },
+  {
+   "nome": "30 dias",
+   "variantes": [
+    "Até 30 dias"
+   ]
+  }
+ ],
+ "decisoes_fuzzy": [],
+ "conflitos_gravidade": []
+}

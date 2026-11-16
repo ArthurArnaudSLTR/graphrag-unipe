@@ -1,0 +1,540 @@
+[
+ {
+  "type": "DocumentoExigido",
+  "nome": "Relatório de recomendação",
+  "aliases": [],
+  "descricao": "relatório mencionando os fatos e indicando os envolvidos",
+  "trecho_ids": [
+   "codigo_disciplinar:art-19"
+  ],
+  "chave": "relatorio recomendacao",
+  "id": "relatorio_de_recomendacao"
+ },
+ {
+  "type": "DocumentoExigido",
+  "nome": "Requerimento escrito",
+  "aliases": [],
+  "descricao": "requerimento com narração do fato e indicação dos envolvidos",
+  "trecho_ids": [
+   "codigo_disciplinar:art-19"
+  ],
+  "chave": "requerimento escrito",
+  "id": "requerimento_escrito"
+ },
+ {
+  "type": "DocumentoExigido",
+  "nome": "Termo de Compromisso",
+  "aliases": [],
+  "descricao": "documento de formalização da concordância",
+  "trecho_ids": [
+   "codigo_disciplinar:art-14"
+  ],
+  "chave": "termo compromisso",
+  "id": "termo_de_compromisso"
+ },
+ {
+  "type": "Infracao",
+  "nome": "Infração grave",
+  "aliases": [],
+  "descricao": "infração disciplinar grave",
+  "trecho_ids": [
+   "codigo_disciplinar:art-18",
+   "codigo_disciplinar:art-4"
+  ],
+  "chave": "infracao grave",
+  "gravidade": "grave",
+  "gravidade_conflito": false,
+  "id": "infracao_grave"
+ },
+ {
+  "type": "Infracao",
+  "nome": "Infração gravíssima",
+  "aliases": [],
+  "descricao": "infração disciplinar gravíssima",
+  "trecho_ids": [
+   "codigo_disciplinar:art-18",
+   "codigo_disciplinar:art-4"
+  ],
+  "chave": "infracao gravissima",
+  "gravidade": "gravissima",
+  "gravidade_conflito": false,
+  "id": "infracao_gravissima"
+ },
+ {
+  "type": "Infracao",
+  "nome": "Infração leve",
+  "aliases": [],
+  "descricao": "infração disciplinar leve",
+  "trecho_ids": [
+   "codigo_disciplinar:art-18",
+   "codigo_disciplinar:art-4"
+  ],
+  "chave": "infracao leve",
+  "gravidade": "leve",
+  "gravidade_conflito": false,
+  "id": "infracao_leve"
+ },
+ {
+  "type": "Infracao",
+  "nome": "Infração média",
+  "aliases": [],
+  "descricao": "infração disciplinar média",
+  "trecho_ids": [
+   "codigo_disciplinar:art-18",
+   "codigo_disciplinar:art-4"
+  ],
+  "chave": "infracao media",
+  "gravidade": "media",
+  "gravidade_conflito": false,
+  "id": "infracao_media"
+ },
+ {
+  "type": "Infracao",
+  "nome": "Infração trabalhista",
+  "aliases": [],
+  "descricao": "infração específica prevista na legislação trabalhista",
+  "trecho_ids": [
+   "codigo_disciplinar:art-2"
+  ],
+  "chave": "infracao trabalhista",
+  "gravidade": "",
+  "gravidade_conflito": false,
+  "id": "infracao_trabalhista"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Área de Compliance",
+  "aliases": [],
+  "descricao": "setor responsável pela apuração de desvios éticos",
+  "trecho_ids": [
+   "codigo_disciplinar:art-2"
+  ],
+  "chave": "area compliance",
+  "id": "area_de_compliance"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Recursos Humanos",
+  "aliases": [],
+  "descricao": "setor responsável pela apuração de infrações trabalhistas",
+  "trecho_ids": [
+   "codigo_disciplinar:art-2"
+  ],
+  "chave": "recursos humanos",
+  "id": "recursos_humanos"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Reitor",
+  "aliases": [],
+  "descricao": "autoridade competente",
+  "trecho_ids": [
+   "codigo_disciplinar:art-14",
+   "codigo_disciplinar:art-19",
+   "codigo_disciplinar:art-20",
+   "codigo_disciplinar:art-21",
+   "codigo_disciplinar:art-23",
+   "codigo_disciplinar:art-27"
+  ],
+  "chave": "reitor",
+  "id": "reitor"
+ },
+ {
+  "type": "Penalidade",
+  "nome": "Advertência",
+  "aliases": [],
+  "descricao": "penalidade disciplinar para corpo docente e técnico-administrativo",
+  "trecho_ids": [
+   "codigo_disciplinar:art-2",
+   "codigo_disciplinar:art-4"
+  ],
+  "chave": "advertencia",
+  "id": "advertencia"
+ },
+ {
+  "type": "Penalidade",
+  "nome": "Desligamento",
+  "aliases": [],
+  "descricao": "penalidade disciplinar máxima",
+  "trecho_ids": [
+   "codigo_disciplinar:art-4"
+  ],
+  "chave": "desligamento",
+  "id": "desligamento"
+ },
+ {
+  "type": "Penalidade",
+  "nome": "Dispensa por justa causa",
+  "aliases": [],
+  "descricao": "penalidade disciplinar para corpo docente e técnico-administrativo",
+  "trecho_ids": [
+   "codigo_disciplinar:art-2"
+  ],
+  "chave": "dispensa por justa causa",
+  "id": "dispensa_por_justa_causa"
+ },
+ {
+  "type": "Penalidade",
+  "nome": "Penalidade por infração grave ou gravíssima",
+  "aliases": [],
+  "descricao": "penalidade decorrente de infração grave ou gravíssima",
+  "trecho_ids": [
+   "codigo_disciplinar:art-15"
+  ],
+  "chave": "penalidade por infracao grave ou gravissima",
+  "id": "penalidade_por_infracao_grave_ou_gravissima"
+ },
+ {
+  "type": "Penalidade",
+  "nome": "Repreensão",
+  "aliases": [],
+  "descricao": "penalidade disciplinar",
+  "trecho_ids": [
+   "codigo_disciplinar:art-4"
+  ],
+  "chave": "repreensao",
+  "id": "repreensao"
+ },
+ {
+  "type": "Penalidade",
+  "nome": "Suspensão",
+  "aliases": [],
+  "descricao": "penalidade disciplinar para corpo docente e técnico-administrativo",
+  "trecho_ids": [
+   "codigo_disciplinar:art-13",
+   "codigo_disciplinar:art-2",
+   "codigo_disciplinar:art-4"
+  ],
+  "chave": "suspensao",
+  "id": "suspensao"
+ },
+ {
+  "type": "Prazo",
+  "nome": "1 ano",
+  "aliases": [],
+  "descricao": "Prazo prescricional da punibilidade",
+  "trecho_ids": [
+   "codigo_disciplinar:art-18"
+  ],
+  "chave": "1 anos",
+  "valor": 1,
+  "unidade": "anos",
+  "tipo_dia": null,
+  "id": "1_ano"
+ },
+ {
+  "type": "Prazo",
+  "nome": "15 dias",
+  "aliases": [
+   "Até 15 dias"
+  ],
+  "descricao": "prazo máximo de suspensão para infração grave",
+  "trecho_ids": [
+   "codigo_disciplinar:art-4"
+  ],
+  "chave": "15 dias",
+  "valor": 15,
+  "unidade": "dias",
+  "tipo_dia": null,
+  "id": "15_dias"
+ },
+ {
+  "type": "Prazo",
+  "nome": "16 a 30 dias",
+  "aliases": [],
+  "descricao": "prazo de suspensão para infração gravíssima",
+  "trecho_ids": [
+   "codigo_disciplinar:art-4"
+  ],
+  "chave": "16 30 dias",
+  "valor": null,
+  "unidade": null,
+  "tipo_dia": null,
+  "id": "16_a_30_dias"
+ },
+ {
+  "type": "Prazo",
+  "nome": "2 anos",
+  "aliases": [],
+  "descricao": "prazo para cancelamento automático dos efeitos da penalidade",
+  "trecho_ids": [
+   "codigo_disciplinar:art-15",
+   "codigo_disciplinar:art-18"
+  ],
+  "chave": "2 anos",
+  "valor": 2,
+  "unidade": "anos",
+  "tipo_dia": null,
+  "id": "2_anos"
+ },
+ {
+  "type": "Prazo",
+  "nome": "3 anos",
+  "aliases": [],
+  "descricao": "Prazo prescricional da punibilidade",
+  "trecho_ids": [
+   "codigo_disciplinar:art-18"
+  ],
+  "chave": "3 anos",
+  "valor": 3,
+  "unidade": "anos",
+  "tipo_dia": null,
+  "id": "3_anos"
+ },
+ {
+  "type": "Prazo",
+  "nome": "3 dias úteis",
+  "aliases": [],
+  "descricao": "antecedência mínima para intimação sobre a reunião de apresentação da proposta",
+  "trecho_ids": [
+   "codigo_disciplinar:art-26"
+  ],
+  "chave": "3 dias uteis",
+  "valor": 3,
+  "unidade": "dias",
+  "tipo_dia": "uteis",
+  "id": "3_dias_uteis"
+ },
+ {
+  "type": "Prazo",
+  "nome": "30 dias",
+  "aliases": [
+   "Até 30 dias"
+  ],
+  "descricao": "Prazo inicial do afastamento temporário preventivo",
+  "trecho_ids": [
+   "codigo_disciplinar:art-21"
+  ],
+  "chave": "30 dias",
+  "valor": 30,
+  "unidade": "dias",
+  "tipo_dia": null,
+  "id": "30_dias"
+ },
+ {
+  "type": "Prazo",
+  "nome": "5 dias úteis",
+  "aliases": [],
+  "descricao": "prazo de manifestação do aluno",
+  "trecho_ids": [
+   "codigo_disciplinar:art-14"
+  ],
+  "chave": "5 dias uteis",
+  "valor": 5,
+  "unidade": "dias",
+  "tipo_dia": "uteis",
+  "id": "5_dias_uteis"
+ },
+ {
+  "type": "Prazo",
+  "nome": "6 meses",
+  "aliases": [],
+  "descricao": "Prazo prescricional da punibilidade",
+  "trecho_ids": [
+   "codigo_disciplinar:art-18"
+  ],
+  "chave": "6 meses",
+  "valor": 6,
+  "unidade": "meses",
+  "tipo_dia": null,
+  "id": "6_meses"
+ },
+ {
+  "type": "Processo",
+  "nome": "Afastamento temporário",
+  "aliases": [],
+  "descricao": "Medida preventiva de afastamento do envolvido em procedimento disciplinar",
+  "trecho_ids": [
+   "codigo_disciplinar:art-21"
+  ],
+  "chave": "afastamento temporario",
+  "id": "afastamento_temporario"
+ },
+ {
+  "type": "Processo",
+  "nome": "Apuração de desvio ético",
+  "aliases": [],
+  "descricao": "procedimento próprio de apuração de condutas que configurem desvio ético",
+  "trecho_ids": [
+   "codigo_disciplinar:art-2"
+  ],
+  "chave": "apuracao desvio etico",
+  "id": "apuracao_de_desvio_etico"
+ },
+ {
+  "type": "Processo",
+  "nome": "Apuração de Infração Disciplinar",
+  "aliases": [
+   "Apuração de infração disciplinar"
+  ],
+  "descricao": "procedimento para apuração de infrações disciplinares",
+  "trecho_ids": [
+   "codigo_disciplinar:art-19",
+   "codigo_disciplinar:art-27"
+  ],
+  "chave": "apuracao infracao disciplinar",
+  "id": "apuracao_de_infracao_disciplinar"
+ },
+ {
+  "type": "Processo",
+  "nome": "Apuração de infração trabalhista",
+  "aliases": [],
+  "descricao": "procedimento específico de apuração de infração de natureza trabalhista",
+  "trecho_ids": [
+   "codigo_disciplinar:art-2"
+  ],
+  "chave": "apuracao infracao trabalhista",
+  "id": "apuracao_de_infracao_trabalhista"
+ },
+ {
+  "type": "Processo",
+  "nome": "Arquivamento da Notícia de Infração",
+  "aliases": [],
+  "descricao": "arquivamento determinado quando o fato não for infração disciplinar ou pela irrelevância da conduta",
+  "trecho_ids": [
+   "codigo_disciplinar:art-20"
+  ],
+  "chave": "arquivamento noticia infracao",
+  "id": "arquivamento_da_noticia_de_infracao"
+ },
+ {
+  "type": "Processo",
+  "nome": "Avaliação",
+  "aliases": [],
+  "descricao": "Atividades de avaliação acadêmica",
+  "trecho_ids": [
+   "codigo_disciplinar:art-13"
+  ],
+  "chave": "avaliacao",
+  "id": "avaliacao"
+ },
+ {
+  "type": "Processo",
+  "nome": "Exclusão de sala de aula",
+  "aliases": [],
+  "descricao": "medida tomada pelo professor em caso de indisciplina em sala",
+  "trecho_ids": [
+   "codigo_disciplinar:art-9"
+  ],
+  "chave": "exclusao sala aula",
+  "id": "exclusao_de_sala_de_aula"
+ },
+ {
+  "type": "Processo",
+  "nome": "Manifestação sobre descumprimento",
+  "aliases": [],
+  "descricao": "procedimento de manifestação após notificação de descumprimento",
+  "trecho_ids": [
+   "codigo_disciplinar:art-14"
+  ],
+  "chave": "manifestacao sobre descumprimento",
+  "id": "manifestacao_sobre_descumprimento"
+ },
+ {
+  "type": "Processo",
+  "nome": "Monitoria",
+  "aliases": [],
+  "descricao": "vínculo acadêmico",
+  "trecho_ids": [
+   "codigo_disciplinar:art-15"
+  ],
+  "chave": "monitoria",
+  "id": "monitoria"
+ },
+ {
+  "type": "Processo",
+  "nome": "Procedimento disciplinar",
+  "aliases": [],
+  "descricao": "apuração de eventual infração disciplinar",
+  "trecho_ids": [
+   "codigo_disciplinar:art-9"
+  ],
+  "chave": "procedimento disciplinar",
+  "id": "procedimento_disciplinar"
+ },
+ {
+  "type": "Processo",
+  "nome": "Processo Administrativo Disciplinar",
+  "aliases": [],
+  "descricao": "processo disciplinar prévio",
+  "trecho_ids": [
+   "codigo_disciplinar:art-14",
+   "codigo_disciplinar:art-20",
+   "codigo_disciplinar:art-24"
+  ],
+  "chave": "processo administrativo disciplinar",
+  "id": "processo_administrativo_disciplinar"
+ },
+ {
+  "type": "Processo",
+  "nome": "Sindicância",
+  "aliases": [],
+  "descricao": "procedimento instaurado a partir da notícia de infração",
+  "trecho_ids": [
+   "codigo_disciplinar:art-20",
+   "codigo_disciplinar:art-24"
+  ],
+  "chave": "sindicancia",
+  "id": "sindicancia"
+ },
+ {
+  "type": "Processo",
+  "nome": "Substituição por penalidade alternativa",
+  "aliases": [],
+  "descricao": "substituição da sanção de suspensão por atividades educativas ou trabalhos comunitários",
+  "trecho_ids": [
+   "codigo_disciplinar:art-14"
+  ],
+  "chave": "substituicao por penalidade alternativa",
+  "id": "substituicao_por_penalidade_alternativa"
+ },
+ {
+  "type": "Processo",
+  "nome": "Transação Administrativa",
+  "aliases": [],
+  "descricao": "procedimento instaurado a partir da notícia de infração",
+  "trecho_ids": [
+   "codigo_disciplinar:art-20",
+   "codigo_disciplinar:art-23",
+   "codigo_disciplinar:art-24",
+   "codigo_disciplinar:art-25",
+   "codigo_disciplinar:art-26",
+   "codigo_disciplinar:art-27"
+  ],
+  "chave": "transacao administrativa",
+  "id": "transacao_administrativa"
+ },
+ {
+  "type": "Regra",
+  "nome": "Indicação de dois membros conciliadores",
+  "aliases": [],
+  "descricao": "membros oriundos do corpo técnico-administrativo ou docente da Instituição",
+  "trecho_ids": [
+   "codigo_disciplinar:art-25"
+  ],
+  "chave": "indicacao dois membros conciliadores",
+  "id": "indicacao_de_dois_membros_conciliadores"
+ },
+ {
+  "type": "Regra",
+  "nome": "Não ser reincidente",
+  "aliases": [],
+  "descricao": "requisito para ter direito à transação administrativa",
+  "trecho_ids": [
+   "codigo_disciplinar:art-23"
+  ],
+  "chave": "nao ser reincidente",
+  "id": "nao_ser_reincidente"
+ },
+ {
+  "type": "Regra",
+  "nome": "Não ter realizado Transação Administrativa anteriormente",
+  "aliases": [],
+  "descricao": "requisito para concessão de nova transação administrativa",
+  "trecho_ids": [
+   "codigo_disciplinar:art-23"
+  ],
+  "chave": "nao ter realizado transacao administrativa anteriormente",
+  "id": "nao_ter_realizado_transacao_administrativa_anteriormente"
+ }
+]

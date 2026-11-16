@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Transação Administrativa",
+   "type": "Processo",
+   "description": "procedimento alternativo aplicado em face de infrações disciplinares",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "autoridade competente para decidir sobre a aplicação da transação administrativa",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Não ser reincidente",
+   "type": "Regra",
+   "description": "requisito para ter direito à transação administrativa",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Não ter realizado Transação Administrativa anteriormente",
+   "type": "Regra",
+   "description": "requisito para concessão de nova transação administrativa",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "A Transação Administrativa pode ser aplicada, a critério do Reitor"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "para ter direito a ela o aluno: I - não pode ser reincidente"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "II - não pode ter realizado Transação Administrativa anteriormente"
+  }
+ ]
+}

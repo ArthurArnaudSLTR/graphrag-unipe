@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Transação Administrativa",
+   "type": "Processo",
+   "description": "procedimento aplicado por conciliadores para proposição de medidas",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Indicação de dois membros conciliadores",
+   "type": "Regra",
+   "description": "membros oriundos do corpo técnico-administrativo ou docente da Instituição",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "com indicação de dois membros, oriundos do corpo técnico-administrativo ou do corpo docente da Instituição, que serão os conciliadores"
+  }
+ ]
+}

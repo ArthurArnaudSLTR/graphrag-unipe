@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Penalidade por infração grave ou gravíssima",
+   "type": "Penalidade",
+   "description": "penalidade decorrente de infração grave ou gravíssima",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Monitoria",
+   "type": "Processo",
+   "description": "vínculo acadêmico",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "2 anos",
+   "type": "Prazo",
+   "description": "prazo para cancelamento automático dos efeitos da penalidade",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "AFETA",
+   "evidence": "destituição de cargos, funções e vínculos acadêmicos voluntários ou remunerados que o aluno ocupe na Instituição, incluindo, exemplificativamente [...] monitoria acadêmica"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "TEM_PRAZO",
+   "evidence": "Os efeitos da aplicação da penalidade ficam automaticamente cancelados após dois anos do trânsito em julgado da decisão"
+  }
+ ]
+}

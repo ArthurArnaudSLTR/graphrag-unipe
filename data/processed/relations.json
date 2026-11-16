@@ -1,0 +1,398 @@
+[
+ {
+  "source": "infracao_trabalhista",
+  "source_type": "Infracao",
+  "target": "advertencia",
+  "target_type": "Penalidade",
+  "type": "PUNIVEL_COM",
+  "trecho_id": "codigo_disciplinar:art-2",
+  "evidence": "penalidades disciplinares: I - advertência"
+ },
+ {
+  "source": "infracao_trabalhista",
+  "source_type": "Infracao",
+  "target": "suspensao",
+  "target_type": "Penalidade",
+  "type": "PUNIVEL_COM",
+  "trecho_id": "codigo_disciplinar:art-2",
+  "evidence": "penalidades disciplinares: I - advertência; II - suspensão"
+ },
+ {
+  "source": "infracao_trabalhista",
+  "source_type": "Infracao",
+  "target": "dispensa_por_justa_causa",
+  "target_type": "Penalidade",
+  "type": "PUNIVEL_COM",
+  "trecho_id": "codigo_disciplinar:art-2",
+  "evidence": "penalidades disciplinares: I - advertência; II - suspensão; e III - dispensa por justa causa."
+ },
+ {
+  "source": "apuracao_de_infracao_trabalhista",
+  "source_type": "Processo",
+  "target": "recursos_humanos",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-2",
+  "evidence": "encaminhado à área de Recursos Humanos, que aplicará procedimento específico de apuração"
+ },
+ {
+  "source": "apuracao_de_desvio_etico",
+  "source_type": "Processo",
+  "target": "area_de_compliance",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-2",
+  "evidence": "para apuração pela área de Compliance, na forma de seus procedimentos próprios."
+ },
+ {
+  "source": "infracao_leve",
+  "source_type": "Infracao",
+  "target": "advertencia",
+  "target_type": "Penalidade",
+  "type": "PUNIVEL_COM",
+  "trecho_id": "codigo_disciplinar:art-4",
+  "evidence": "leves, passíveis de advertência"
+ },
+ {
+  "source": "infracao_media",
+  "source_type": "Infracao",
+  "target": "advertencia",
+  "target_type": "Penalidade",
+  "type": "PUNIVEL_COM",
+  "trecho_id": "codigo_disciplinar:art-4",
+  "evidence": "médias, passíveis de advertência ou repreensão"
+ },
+ {
+  "source": "infracao_media",
+  "source_type": "Infracao",
+  "target": "repreensao",
+  "target_type": "Penalidade",
+  "type": "PUNIVEL_COM",
+  "trecho_id": "codigo_disciplinar:art-4",
+  "evidence": "médias, passíveis de advertência ou repreensão"
+ },
+ {
+  "source": "infracao_grave",
+  "source_type": "Infracao",
+  "target": "repreensao",
+  "target_type": "Penalidade",
+  "type": "PUNIVEL_COM",
+  "trecho_id": "codigo_disciplinar:art-4",
+  "evidence": "graves, passíveis de repreensão ou suspensão por até quinze dias"
+ },
+ {
+  "source": "infracao_grave",
+  "source_type": "Infracao",
+  "target": "suspensao",
+  "target_type": "Penalidade",
+  "type": "PUNIVEL_COM",
+  "trecho_id": "codigo_disciplinar:art-4",
+  "evidence": "graves, passíveis de repreensão ou suspensão por até quinze dias"
+ },
+ {
+  "source": "infracao_grave",
+  "source_type": "Infracao",
+  "target": "15_dias",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "codigo_disciplinar:art-4",
+  "evidence": "suspensão por até quinze dias"
+ },
+ {
+  "source": "infracao_gravissima",
+  "source_type": "Infracao",
+  "target": "suspensao",
+  "target_type": "Penalidade",
+  "type": "PUNIVEL_COM",
+  "trecho_id": "codigo_disciplinar:art-4",
+  "evidence": "gravíssimas, passíveis de suspensão de dezesseis a trinta dias ou de desligamento"
+ },
+ {
+  "source": "infracao_gravissima",
+  "source_type": "Infracao",
+  "target": "desligamento",
+  "target_type": "Penalidade",
+  "type": "PUNIVEL_COM",
+  "trecho_id": "codigo_disciplinar:art-4",
+  "evidence": "gravíssimas, passíveis de suspensão de dezesseis a trinta dias ou de desligamento"
+ },
+ {
+  "source": "infracao_gravissima",
+  "source_type": "Infracao",
+  "target": "16_a_30_dias",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "codigo_disciplinar:art-4",
+  "evidence": "suspensão de dezesseis a trinta dias"
+ },
+ {
+  "source": "exclusao_de_sala_de_aula",
+  "source_type": "Processo",
+  "target": "procedimento_disciplinar",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "codigo_disciplinar:art-9",
+  "evidence": "e poderá ensejar a abertura de procedimento disciplinar"
+ },
+ {
+  "source": "suspensao",
+  "source_type": "Penalidade",
+  "target": "avaliacao",
+  "target_type": "Processo",
+  "type": "AFETA",
+  "trecho_id": "codigo_disciplinar:art-13",
+  "evidence": "Durante o período de suspensão, o aluno fica impedido de assistir a aulas, realizar atividades de avaliação"
+ },
+ {
+  "source": "processo_administrativo_disciplinar",
+  "source_type": "Processo",
+  "target": "substituicao_por_penalidade_alternativa",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "codigo_disciplinar:art-14",
+  "evidence": "Ao encerramento do Processo Administrativo Disciplinar em que for aplicada sanção de suspensão, o Reitor poderá propor ao aluno a substituição"
+ },
+ {
+  "source": "substituicao_por_penalidade_alternativa",
+  "source_type": "Processo",
+  "target": "reitor",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-14",
+  "evidence": "o Reitor poderá propor ao aluno a substituição da sanção por penalidade alternativa"
+ },
+ {
+  "source": "substituicao_por_penalidade_alternativa",
+  "source_type": "Processo",
+  "target": "termo_de_compromisso",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "codigo_disciplinar:art-14",
+  "evidence": "A substituição depende da expressa concordância do aluno, formalizada em Termo de Compromisso"
+ },
+ {
+  "source": "manifestacao_sobre_descumprimento",
+  "source_type": "Processo",
+  "target": "5_dias_uteis",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "codigo_disciplinar:art-14",
+  "evidence": "notificará o aluno para manifestar-se no prazo de cinco dias úteis"
+ },
+ {
+  "source": "penalidade_por_infracao_grave_ou_gravissima",
+  "source_type": "Penalidade",
+  "target": "monitoria",
+  "target_type": "Processo",
+  "type": "AFETA",
+  "trecho_id": "codigo_disciplinar:art-15",
+  "evidence": "destituição de cargos, funções e vínculos acadêmicos voluntários ou remunerados que o aluno ocupe na Instituição, incluindo, exemplificativamente [...] monitoria acadêmica"
+ },
+ {
+  "source": "penalidade_por_infracao_grave_ou_gravissima",
+  "source_type": "Penalidade",
+  "target": "2_anos",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "codigo_disciplinar:art-15",
+  "evidence": "Os efeitos da aplicação da penalidade ficam automaticamente cancelados após dois anos do trânsito em julgado da decisão"
+ },
+ {
+  "source": "infracao_gravissima",
+  "source_type": "Infracao",
+  "target": "3_anos",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "codigo_disciplinar:art-18",
+  "evidence": "em três anos, para as infrações gravíssimas;"
+ },
+ {
+  "source": "infracao_grave",
+  "source_type": "Infracao",
+  "target": "2_anos",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "codigo_disciplinar:art-18",
+  "evidence": "em dois anos, para as infrações graves;"
+ },
+ {
+  "source": "infracao_media",
+  "source_type": "Infracao",
+  "target": "1_ano",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "codigo_disciplinar:art-18",
+  "evidence": "em um ano, para as infrações médias;"
+ },
+ {
+  "source": "infracao_leve",
+  "source_type": "Infracao",
+  "target": "6_meses",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "codigo_disciplinar:art-18",
+  "evidence": "em seis meses, para as infrações leves."
+ },
+ {
+  "source": "apuracao_de_infracao_disciplinar",
+  "source_type": "Processo",
+  "target": "reitor",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-19",
+  "evidence": "Os procedimentos para apuração das infrações disciplinares poderão ser iniciados: I - pelo Reitor, de ofício"
+ },
+ {
+  "source": "apuracao_de_infracao_disciplinar",
+  "source_type": "Processo",
+  "target": "requerimento_escrito",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "codigo_disciplinar:art-19",
+  "evidence": "O requerimento de que trata o inciso II deverá ser apresentado por escrito, contendo necessariamente a narração do fato"
+ },
+ {
+  "source": "apuracao_de_infracao_disciplinar",
+  "source_type": "Processo",
+  "target": "relatorio_de_recomendacao",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "codigo_disciplinar:art-19",
+  "evidence": "A recomendação de que trata o inciso III será feita mediante relatório, que mencionará os fatos e indicará os envolvidos."
+ },
+ {
+  "source": "transacao_administrativa",
+  "source_type": "Processo",
+  "target": "reitor",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-20",
+  "evidence": "o Reitor analisará o caso e poderá determinar: I - a instauração do procedimento de Transação Administrativa"
+ },
+ {
+  "source": "sindicancia",
+  "source_type": "Processo",
+  "target": "reitor",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-20",
+  "evidence": "o Reitor analisará o caso e poderá determinar: II - a instauração de Sindicância"
+ },
+ {
+  "source": "processo_administrativo_disciplinar",
+  "source_type": "Processo",
+  "target": "reitor",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-20",
+  "evidence": "o Reitor analisará o caso e poderá determinar: III - a instauração de Processo Administrativo Disciplinar"
+ },
+ {
+  "source": "arquivamento_da_noticia_de_infracao",
+  "source_type": "Processo",
+  "target": "reitor",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-20",
+  "evidence": "o Reitor analisará o caso e poderá determinar: IV - o arquivamento da notícia da infração"
+ },
+ {
+  "source": "afastamento_temporario",
+  "source_type": "Processo",
+  "target": "reitor",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-21",
+  "evidence": "o Reitor poderá determinar, em caráter preventivo e a qualquer tempo, o afastamento temporário"
+ },
+ {
+  "source": "afastamento_temporario",
+  "source_type": "Processo",
+  "target": "30_dias",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "codigo_disciplinar:art-21",
+  "evidence": "O afastamento temporário terá prazo inicial de até trinta dias"
+ },
+ {
+  "source": "transacao_administrativa",
+  "source_type": "Processo",
+  "target": "reitor",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-23",
+  "evidence": "A Transação Administrativa pode ser aplicada, a critério do Reitor"
+ },
+ {
+  "source": "transacao_administrativa",
+  "source_type": "Processo",
+  "target": "nao_ser_reincidente",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "codigo_disciplinar:art-23",
+  "evidence": "para ter direito a ela o aluno: I - não pode ser reincidente"
+ },
+ {
+  "source": "transacao_administrativa",
+  "source_type": "Processo",
+  "target": "nao_ter_realizado_transacao_administrativa_anteriormente",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "codigo_disciplinar:art-23",
+  "evidence": "II - não pode ter realizado Transação Administrativa anteriormente"
+ },
+ {
+  "source": "transacao_administrativa",
+  "source_type": "Processo",
+  "target": "sindicancia",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "codigo_disciplinar:art-24",
+  "evidence": "Transação Administrativa pode ser realizado após o recebimento da notícia da infração e antes da instauração de Sindicância"
+ },
+ {
+  "source": "transacao_administrativa",
+  "source_type": "Processo",
+  "target": "processo_administrativo_disciplinar",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "codigo_disciplinar:art-24",
+  "evidence": "antes da instauração de Sindicância ou de Processo Administrativo Disciplinar"
+ },
+ {
+  "source": "transacao_administrativa",
+  "source_type": "Processo",
+  "target": "indicacao_de_dois_membros_conciliadores",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "codigo_disciplinar:art-25",
+  "evidence": "com indicação de dois membros, oriundos do corpo técnico-administrativo ou do corpo docente da Instituição, que serão os conciliadores"
+ },
+ {
+  "source": "transacao_administrativa",
+  "source_type": "Processo",
+  "target": "3_dias_uteis",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "codigo_disciplinar:art-26",
+  "evidence": "informando, com pelo menos três dias úteis de antecedência, a data da reunião para apresentação da proposta da Transação Administrativa"
+ },
+ {
+  "source": "transacao_administrativa",
+  "source_type": "Processo",
+  "target": "reitor",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-27",
+  "evidence": "Termo de Compromisso assinado pelos interessados será submetido à homologação do Reitor"
+ },
+ {
+  "source": "transacao_administrativa",
+  "source_type": "Processo",
+  "target": "apuracao_de_infracao_disciplinar",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "codigo_disciplinar:art-27",
+  "evidence": "Sendo infrutífero o procedimento de Transação Administrativa [...] prosseguimento do procedimento de apuração da infração disciplinar"
+ }
+]

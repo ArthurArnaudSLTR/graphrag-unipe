@@ -1,0 +1,86 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Infração gravíssima",
+   "type": "Infracao",
+   "description": "Infração disciplinar gravíssima",
+   "gravidade": "gravissima"
+  },
+  {
+   "id": "e2",
+   "name": "3 anos",
+   "type": "Prazo",
+   "description": "Prazo prescricional da punibilidade",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Infração grave",
+   "type": "Infracao",
+   "description": "Infração disciplinar grave",
+   "gravidade": "grave"
+  },
+  {
+   "id": "e4",
+   "name": "2 anos",
+   "type": "Prazo",
+   "description": "Prazo prescricional da punibilidade",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Infração média",
+   "type": "Infracao",
+   "description": "Infração disciplinar média",
+   "gravidade": "media"
+  },
+  {
+   "id": "e6",
+   "name": "1 ano",
+   "type": "Prazo",
+   "description": "Prazo prescricional da punibilidade",
+   "gravidade": ""
+  },
+  {
+   "id": "e7",
+   "name": "Infração leve",
+   "type": "Infracao",
+   "description": "Infração disciplinar leve",
+   "gravidade": "leve"
+  },
+  {
+   "id": "e8",
+   "name": "6 meses",
+   "type": "Prazo",
+   "description": "Prazo prescricional da punibilidade",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "TEM_PRAZO",
+   "evidence": "em três anos, para as infrações gravíssimas;"
+  },
+  {
+   "source": "e3",
+   "target": "e4",
+   "type": "TEM_PRAZO",
+   "evidence": "em dois anos, para as infrações graves;"
+  },
+  {
+   "source": "e5",
+   "target": "e6",
+   "type": "TEM_PRAZO",
+   "evidence": "em um ano, para as infrações médias;"
+  },
+  {
+   "source": "e7",
+   "target": "e8",
+   "type": "TEM_PRAZO",
+   "evidence": "em seis meses, para as infrações leves."
+  }
+ ]
+}

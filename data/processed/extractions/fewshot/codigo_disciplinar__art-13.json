@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Suspensão",
+   "type": "Penalidade",
+   "description": "Penalidade que implica afastamento do aluno das atividades acadêmicas",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Avaliação",
+   "type": "Processo",
+   "description": "Atividades de avaliação acadêmica",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "AFETA",
+   "evidence": "Durante o período de suspensão, o aluno fica impedido de assistir a aulas, realizar atividades de avaliação"
+  }
+ ]
+}

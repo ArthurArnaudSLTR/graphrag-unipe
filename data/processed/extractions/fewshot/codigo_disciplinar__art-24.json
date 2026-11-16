@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Transação Administrativa",
+   "type": "Processo",
+   "description": "procedimento que pode ser realizado antes ou após apurações disciplinares",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Sindicância",
+   "type": "Processo",
+   "description": "procedimento apuratório preliminar",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "procedimento disciplinar de apuração",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PRECEDE",
+   "evidence": "Transação Administrativa pode ser realizado após o recebimento da notícia da infração e antes da instauração de Sindicância"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "PRECEDE",
+   "evidence": "antes da instauração de Sindicância ou de Processo Administrativo Disciplinar"
+  }
+ ]
+}

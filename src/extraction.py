@@ -10,7 +10,7 @@ Cada versão tem seu próprio cache em data/processed/extractions/<versao>/.
 """
 import re
 from typing import Literal
-from pydantic import BaseModel
+from pydantic import BaseModel, field_validator
 
 from .chunking import Chunk
 from .config import PROCESSED_DIR
@@ -48,7 +48,8 @@ GRAVIDADES = ("leve", "media", "grave", "gravissima")
 
 NodeType = Literal[tuple(NODE_TYPES)]   # vira enum no schema enviado ao Gemini
 RelType = Literal[tuple(REL_TYPES)]
-Gravidade = Literal["", "leve", "media", "grave", "gravissima"]
+# O Gemini recusa "" dentro de um enum: no schema vai "nenhuma", e aqui dentro vira "" de novo.
+Gravidade = Literal["nenhuma", "leve", "media", "grave", "gravissima"]
 
 
 class Entity(BaseModel):
@@ -57,6 +58,16 @@ class Entity(BaseModel):
     type: NodeType
     description: str   # detalhe curto (pode ser "")
     gravidade: Gravidade  # só para Infracao ("" nos demais tipos)
+
+    @field_validator("gravidade", mode="before")
+    @classmethod
+    def _vazio_para_nenhuma(cls, v):
+        return v or "nenhuma"
+
+    @field_validator("gravidade")
+    @classmethod
+    def _nenhuma_para_vazio(cls, v):
+        return "" if v == "nenhuma" else v
 
 
 class Relation(BaseModel):
@@ -79,31 +90,31 @@ EXEMPLOS (reais; siga o estilo de nomes, tipos e evidências)
 
 Exemplo 1 - Código Disciplinar, Art. 59
 Trecho: "Art. 59. Da decisão do Reitor, cabe recurso, no prazo de cinco dias úteis, ao Consepe, que decidirá pelo voto da maioria simples dos membros presentes à reunião em que for julgado o recurso. [...] § 3º Das decisões proferidas em segunda instância, não cabe recurso."
-Saída: {"entities":[{"id":"e1","name":"Recurso contra decisão do Reitor","type":"Processo","description":"recurso à segunda instância","gravidade":""},
-{"id":"e2","name":"Consepe","type":"Orgao","description":"","gravidade":""},
-{"id":"e3","name":"5 dias úteis","type":"Prazo","description":"prazo para recorrer","gravidade":""}],
+Saída: {"entities":[{"id":"e1","name":"Recurso contra decisão do Reitor","type":"Processo","description":"recurso à segunda instância","gravidade":"nenhuma"},
+{"id":"e2","name":"Consepe","type":"Orgao","description":"","gravidade":"nenhuma"},
+{"id":"e3","name":"5 dias úteis","type":"Prazo","description":"prazo para recorrer","gravidade":"nenhuma"}],
 "relations":[{"source":"e1","target":"e2","type":"DECIDIDO_POR","evidence":"cabe recurso, no prazo de cinco dias úteis, ao Consepe, que decidirá"},
 {"source":"e1","target":"e3","type":"TEM_PRAZO","evidence":"cabe recurso, no prazo de cinco dias úteis"}]}
 
 Exemplo 2 - Código Disciplinar, Art. 15 (efeito de penalidade sobre um programa)
 Trecho: "Art. 15. São efeitos da aplicação da penalidade: [...] III - no caso de infrações graves ou gravíssimas, destituição de cargos, funções e vínculos acadêmicos voluntários ou remunerados que o aluno ocupe na Instituição, incluindo, exemplificativamente, representação de classe, monitoria acadêmica, iniciação científica"
-Saída: {"entities":[{"id":"e1","name":"Penalidade por infração grave ou gravíssima","type":"Penalidade","description":"","gravidade":""},
-{"id":"e2","name":"Monitoria","type":"Processo","description":"vínculo acadêmico","gravidade":""}],
+Saída: {"entities":[{"id":"e1","name":"Penalidade por infração grave ou gravíssima","type":"Penalidade","description":"","gravidade":"nenhuma"},
+{"id":"e2","name":"Monitoria","type":"Processo","description":"vínculo acadêmico","gravidade":"nenhuma"}],
 "relations":[{"source":"e1","target":"e2","type":"AFETA","evidence":"destituição de cargos, funções e vínculos acadêmicos [...] monitoria acadêmica"}]}
 
 Exemplo 3 - Regulamento de Aproveitamento de Estudos, Art. 7
 Trecho: "Art. 7º O aproveitamento de estudos entre disciplinas pode ser concedido desde que haja similaridade de conteúdo e carga horária compatível. Em nenhuma hipótese será concedido aproveitamento de estudos quando o número de horas cursadas na disciplina de origem for inferior a 75% (setenta por cento) da carga horária da disciplina cuja dispensa é pretendida. § 3º O candidato/estudante só poderá ser dispensado de, no máximo, 70% da carga horária do curso"
-Saída: {"entities":[{"id":"e1","name":"Aproveitamento de estudos","type":"Processo","description":"","gravidade":""},
-{"id":"e2","name":"Mínimo de 75% da carga horária da disciplina de origem","type":"Regra","description":"","gravidade":""},
-{"id":"e3","name":"Máximo de 70% da carga horária do curso dispensada","type":"Regra","description":"","gravidade":""}],
+Saída: {"entities":[{"id":"e1","name":"Aproveitamento de estudos","type":"Processo","description":"","gravidade":"nenhuma"},
+{"id":"e2","name":"Mínimo de 75% da carga horária da disciplina de origem","type":"Regra","description":"","gravidade":"nenhuma"},
+{"id":"e3","name":"Máximo de 70% da carga horária do curso dispensada","type":"Regra","description":"","gravidade":"nenhuma"}],
 "relations":[{"source":"e1","target":"e2","type":"REQUER","evidence":"inferior a 75% (setenta por cento) da carga horária da disciplina cuja dispensa é pretendida"},
 {"source":"e1","target":"e3","type":"REQUER","evidence":"só poderá ser dispensado de, no máximo, 70% da carga horária do curso"}]}
 
 Exemplo 4 - Manual do Aluno, p. 24 (página com vários assuntos: extraia só o que tem relação)
 Trecho: "Monitoria [...] São requisitos para o exercício da monitoria: ser estudante da graduação; ter cursado e sido aprovado na disciplina objeto de monitoria ou equivalente; não ter sofrido qualquer sanção disciplinar e estar cumprindo, regularmente, o Contrato de Prestação de Serviços Educacionais (CPSE)."
-Saída: {"entities":[{"id":"e1","name":"Monitoria","type":"Processo","description":"","gravidade":""},
-{"id":"e2","name":"Não ter sofrido sanção disciplinar","type":"Regra","description":"requisito para ser monitor","gravidade":""},
-{"id":"e3","name":"Ter sido aprovado na disciplina objeto de monitoria","type":"Regra","description":"","gravidade":""}],
+Saída: {"entities":[{"id":"e1","name":"Monitoria","type":"Processo","description":"","gravidade":"nenhuma"},
+{"id":"e2","name":"Não ter sofrido sanção disciplinar","type":"Regra","description":"requisito para ser monitor","gravidade":"nenhuma"},
+{"id":"e3","name":"Ter sido aprovado na disciplina objeto de monitoria","type":"Regra","description":"","gravidade":"nenhuma"}],
 "relations":[{"source":"e1","target":"e2","type":"REQUER","evidence":"não ter sofrido qualquer sanção disciplinar"},
 {"source":"e1","target":"e3","type":"REQUER","evidence":"ter cursado e sido aprovado na disciplina objeto de monitoria ou equivalente"}]}
 """
@@ -112,7 +123,7 @@ BASELINE_EXAMPLE = """
 FORMATO (exemplo mínimo)
 Trecho: "Art. 18. A punibilidade das infrações disciplinares prescreve: I - em três anos, para as infrações gravíssimas;"
 Saída: {"entities":[{"id":"e1","name":"Infração gravíssima","type":"Infracao","description":"","gravidade":"gravissima"},
-{"id":"e2","name":"3 anos","type":"Prazo","description":"prescrição da punibilidade","gravidade":""}],
+{"id":"e2","name":"3 anos","type":"Prazo","description":"prescrição da punibilidade","gravidade":"nenhuma"}],
 "relations":[{"source":"e1","target":"e2","type":"TEM_PRAZO","evidence":"prescreve: I - em três anos, para as infrações gravíssimas"}]}
 """
 
@@ -141,7 +152,7 @@ REGRAS:
 5. Toda relação precisa de `evidence`: cópia LITERAL de até 25 palavras do trecho.
 6. Use só os ids locais (e1, e2...) que você mesmo criou em `entities`.
 7. Para Infracao, preencha `gravidade` (leve, media, grave ou gravissima) apenas se o trecho disser;
-   caso contrário, "". Nos demais tipos, `gravidade` é sempre "".
+   caso contrário, "nenhuma". Nos demais tipos, `gravidade` é sempre "nenhuma".
 8. Se o trecho não tiver nada aproveitável (contatos, boas-vindas, tutoriais), devolva listas vazias.
 9. Respeite a direção das relações. Se não couber em nenhum tipo permitido, não extraia.
 """

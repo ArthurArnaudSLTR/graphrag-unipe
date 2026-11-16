@@ -1,0 +1,92 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Infração trabalhista",
+   "type": "Infracao",
+   "description": "infração específica prevista na legislação trabalhista",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Advertência",
+   "type": "Penalidade",
+   "description": "penalidade disciplinar para corpo docente e técnico-administrativo",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Suspensão",
+   "type": "Penalidade",
+   "description": "penalidade disciplinar para corpo docente e técnico-administrativo",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Dispensa por justa causa",
+   "type": "Penalidade",
+   "description": "penalidade disciplinar para corpo docente e técnico-administrativo",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Apuração de infração trabalhista",
+   "type": "Processo",
+   "description": "procedimento específico de apuração de infração de natureza trabalhista",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "Recursos Humanos",
+   "type": "Orgao",
+   "description": "setor responsável pela apuração de infrações trabalhistas",
+   "gravidade": ""
+  },
+  {
+   "id": "e7",
+   "name": "Apuração de desvio ético",
+   "type": "Processo",
+   "description": "procedimento próprio de apuração de condutas que configurem desvio ético",
+   "gravidade": ""
+  },
+  {
+   "id": "e8",
+   "name": "Área de Compliance",
+   "type": "Orgao",
+   "description": "setor responsável pela apuração de desvios éticos",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PUNIVEL_COM",
+   "evidence": "penalidades disciplinares: I - advertência"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "PUNIVEL_COM",
+   "evidence": "penalidades disciplinares: I - advertência; II - suspensão"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "PUNIVEL_COM",
+   "evidence": "penalidades disciplinares: I - advertência; II - suspensão; e III - dispensa por justa causa."
+  },
+  {
+   "source": "e5",
+   "target": "e6",
+   "type": "DECIDIDO_POR",
+   "evidence": "encaminhado à área de Recursos Humanos, que aplicará procedimento específico de apuração"
+  },
+  {
+   "source": "e7",
+   "target": "e8",
+   "type": "DECIDIDO_POR",
+   "evidence": "para apuração pela área de Compliance, na forma de seus procedimentos próprios."
+  }
+ ]
+}

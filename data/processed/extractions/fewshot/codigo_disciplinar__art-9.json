@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Exclusão de sala de aula",
+   "type": "Processo",
+   "description": "medida tomada pelo professor em caso de indisciplina em sala",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Procedimento disciplinar",
+   "type": "Processo",
+   "description": "apuração de eventual infração disciplinar",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PRECEDE",
+   "evidence": "e poderá ensejar a abertura de procedimento disciplinar"
+  }
+ ]
+}

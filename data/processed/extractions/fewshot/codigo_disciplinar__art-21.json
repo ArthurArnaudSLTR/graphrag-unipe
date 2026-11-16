@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Afastamento temporário",
+   "type": "Processo",
+   "description": "Medida preventiva de afastamento do envolvido em procedimento disciplinar",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "Autoridade competente para determinar e fundamentar o afastamento temporário",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Até 30 dias",
+   "type": "Prazo",
+   "description": "Prazo inicial do afastamento temporário preventivo",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "o Reitor poderá determinar, em caráter preventivo e a qualquer tempo, o afastamento temporário"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "TEM_PRAZO",
+   "evidence": "O afastamento temporário terá prazo inicial de até trinta dias"
+  }
+ ]
+}

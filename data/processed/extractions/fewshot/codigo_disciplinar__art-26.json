@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Transação Administrativa",
+   "type": "Processo",
+   "description": "procedimento de conciliação e mediação entre as partes envolvidas",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "3 dias úteis",
+   "type": "Prazo",
+   "description": "antecedência mínima para intimação sobre a reunião de apresentação da proposta",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "TEM_PRAZO",
+   "evidence": "informando, com pelo menos três dias úteis de antecedência, a data da reunião para apresentação da proposta da Transação Administrativa"
+  }
+ ]
+}

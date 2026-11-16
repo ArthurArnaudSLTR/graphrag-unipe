@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Transação Administrativa",
+   "type": "Processo",
+   "description": "procedimento conciliatório de resolução disciplinar",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "autoridade responsável pela homologação do Termo de Compromisso",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Apuração de Infração Disciplinar",
+   "type": "Processo",
+   "description": "procedimento que prossegue caso a transação administrativa seja infrutífera",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "Termo de Compromisso assinado pelos interessados será submetido à homologação do Reitor"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "PRECEDE",
+   "evidence": "Sendo infrutífero o procedimento de Transação Administrativa [...] prosseguimento do procedimento de apuração da infração disciplinar"
+  }
+ ]
+}
