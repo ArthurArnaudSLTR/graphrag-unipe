@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Ingresso via Diplomado",
+   "type": "Processo",
+   "description": "Forma de ingresso para egressos de curso de graduação",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Diploma registrado",
+   "type": "DocumentoExigido",
+   "description": "Diploma emitido e registrado apresentado frente e verso",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Curso de origem que permita a expedição de diploma",
+   "type": "Regra",
+   "description": "Requisito para o candidato estar apto ao ingresso via diplomado",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "EXIGE",
+   "evidence": "O diploma deverá ser apresentado (frente e verso)"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "superior que não permita a expedição de diploma não está apto ao ingresso via diplomado"
+  }
+ ]
+}

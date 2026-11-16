@@ -1,0 +1,46 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Inclusão de dependências e adaptações",
+   "type": "Processo",
+   "description": "inclusão de DPs e disciplinas de adaptação na rematrícula",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Máximo de 3 disciplinas além das regulares",
+   "type": "Regra",
+   "description": "limite máximo de DPs e adaptações que podem ser inseridas por semestre",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Aprovação em componentes por resultado",
+   "type": "Processo",
+   "description": "obtenção do conceito Suficiente em disciplinas avaliadas por resultado",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Porcentagem mínima de presença",
+   "type": "Regra",
+   "description": "frequência mínima exigida para aprovação em componentes por resultado",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "podem ser inseridas no máximo 3 disciplinas, além das disciplinas regulares do semestre"
+  },
+  {
+   "source": "e3",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "critérios mínimos para a aprovação (conceito Suficiente) [...] incluem a exigência de uma porcentagem mínima de presença"
+  }
+ ]
+}

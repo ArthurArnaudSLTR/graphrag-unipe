@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Decisão de casos omissos",
+   "type": "Processo",
+   "description": "resolução de casos não contemplados no Código Disciplinar",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "Os casos omissos neste Código serão decididos pelo Reitor"
+  }
+ ]
+}

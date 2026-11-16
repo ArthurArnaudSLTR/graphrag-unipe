@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Transferência Interna",
+   "type": "Processo",
+   "description": "pedidos de mudança de curso, modalidade, campus ou polo",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Estar regularmente matriculado",
+   "type": "Regra",
+   "description": "requisito do estudante para solicitar transferência interna",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Disponibilidade de vagas",
+   "type": "Regra",
+   "description": "requisito de vaga existente no destino pretendido",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "mediante solicitação do estudante regularmente matriculado"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "desde que haja disponibilidade de vagas no curso, modalidade, campus ou polo pretendido"
+  }
+ ]
+}

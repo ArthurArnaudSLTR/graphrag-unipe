@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Aproveitamento de estudos",
+   "type": "Processo",
+   "description": "análise de disciplinas cursadas para dispensa",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Disciplina cursada há no máximo 10 anos",
+   "type": "Regra",
+   "description": "disciplinas cursadas há mais de 10 anos poderão ser desconsideradas",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "10 anos",
+   "type": "Prazo",
+   "description": "limite temporal para aproveitamento de disciplinas cursadas",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "As disciplinas cursadas há mais de 10 (dez) anos poderão ser desconsideradas para fins de aproveitamento de estudos"
+  },
+  {
+   "source": "e2",
+   "target": "e3",
+   "type": "TEM_PRAZO",
+   "evidence": "disciplinas cursadas há mais de 10 (dez) anos"
+  }
+ ]
+}

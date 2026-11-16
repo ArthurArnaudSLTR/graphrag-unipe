@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Aproveitamento de Estudos",
+   "type": "Processo",
+   "description": "Processo de análise para aproveitamento de disciplinas previamente cursadas",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "10 anos",
+   "type": "Prazo",
+   "description": "Limite de tempo para consideração de disciplinas cursadas",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "TEM_PRAZO",
+   "evidence": "disciplinas cursadas há mais de 10 (dez) anos poderão ser desconsideradas para fins de aproveitamento de estudos"
+  }
+ ]
+}

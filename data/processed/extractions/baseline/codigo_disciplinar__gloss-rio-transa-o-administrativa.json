@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Transação Administrativa",
+   "type": "Processo",
+   "description": "Procedimento alternativo à Sindicância ou Processo Administrativo Disciplinar.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Aceitação expressa de todas as partes envolvidas",
+   "type": "Regra",
+   "description": "Requisito necessário para a efetivação da Transação Administrativa.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Termo de Compromisso",
+   "type": "DocumentoExigido",
+   "description": "Documento assinado pelas partes para a efetivação da Transação Administrativa.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "Sua efetivação depende da expressa aceitação de todas as partes envolvidas"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "EXIGE",
+   "evidence": "mediante assinatura de Termo de Compromisso."
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Estágio Curricular Supervisionado Obrigatório",
+   "type": "Processo",
+   "description": "Atividade curricular obrigatória para a conclusão do curso.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Cumprimento de 100% da carga horária no prazo determinado",
+   "type": "Regra",
+   "description": "Requisito para o cumprimento do estágio obrigatório.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Monitoria",
+   "type": "Processo",
+   "description": "Programa onde estudante auxilia colegas em disciplina da graduação.",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Não ter sofrido qualquer sanção disciplinar",
+   "type": "Regra",
+   "description": "Requisito para exercício da monitoria.",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Ter sido aprovado na disciplina objeto de monitoria ou equivalente",
+   "type": "Regra",
+   "description": "Requisito acadêmico para o exercício da monitoria.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "Os estudantes regularmente matriculados devem cumprir 100% da carga horária do estágio no prazo determinado"
+  },
+  {
+   "source": "e3",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "não ter sofrido qualquer sanção disciplinar"
+  },
+  {
+   "source": "e3",
+   "target": "e5",
+   "type": "REQUER",
+   "evidence": "ter cursado e sido aprovado na disciplina objeto de monitoria ou equivalente"
+  }
+ ]
+}

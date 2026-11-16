@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Ingresso de diplomado",
+   "type": "Processo",
+   "description": "Forma de ingresso para egressos de cursos de graduação.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Diploma",
+   "type": "DocumentoExigido",
+   "description": "Diploma devidamente registrado emitido pela instituição de origem.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Certificado de conclusão de curso",
+   "type": "DocumentoExigido",
+   "description": "Documento aceito provisoriamente para o ingresso de diplomado.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "EXIGE",
+   "evidence": "O diploma deverá ser apresentado (frente e verso)"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "EXIGE",
+   "evidence": "Poderão ser aceitos provisoriamente os certificados de conclusão de curso"
+  }
+ ]
+}

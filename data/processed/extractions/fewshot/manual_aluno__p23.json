@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Validação de Atividades Complementares",
+   "type": "Processo",
+   "description": "processo de envio e validação de comprovantes de atividades complementares",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Comprovante de Atividades Complementares",
+   "type": "DocumentoExigido",
+   "description": "documento comprobatório da realização da atividade complementar",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "30 dias",
+   "type": "Prazo",
+   "description": "prazo médio para a validação do comprovante",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "EXIGE",
+   "evidence": "postar o comprovante no Sistema Eletrônico de Cadastro de Atividades Complementares na Área do Aluno"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "TEM_PRAZO",
+   "evidence": "A Instituição tem o prazo médio de 30 dias para validação do comprovante"
+  }
+ ]
+}

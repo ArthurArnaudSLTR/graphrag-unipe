@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Sindicância",
+   "type": "Processo",
+   "description": "procedimento disciplinar de apuração de infração",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "autoridade responsável por instaurar a sindicância",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Comissão composta por três membros do corpo docente ou técnico-administrativo",
+   "type": "Regra",
+   "description": "composição padrão da comissão sindicante",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "A Sindicância será instaurada pelo Reitor, mediante portaria"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "A Comissão Sindicante será composta por três membros do corpo docente ou técnico-administrativo"
+  }
+ ]
+}

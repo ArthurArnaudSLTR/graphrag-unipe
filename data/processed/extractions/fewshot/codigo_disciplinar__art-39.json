@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "Instrumento destinado a apurar responsabilidade de aluno por infração disciplinar",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "Autoridade competente para decisão no processo",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "ao Reitor e às demais autoridades competentes para decisão"
+  }
+ ]
+}

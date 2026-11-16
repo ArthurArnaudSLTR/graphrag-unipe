@@ -1,0 +1,59 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "Autoridade responsável por analisar a notícia de infração disciplinar e determinar os procedimentos cabíveis.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Transação Administrativa",
+   "type": "Processo",
+   "description": "Procedimento disciplinar que pode ser determinado pelo Reitor após análise da notícia de infração.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Sindicância",
+   "type": "Processo",
+   "description": "Procedimento de apuração que pode ser determinado pelo Reitor.",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Arquivamento da Notícia da Infração",
+   "type": "Processo",
+   "description": "Decisão de encerrar a notícia de infração por não constituir infração disciplinar ou por irrelevância da conduta.",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Fato não constituir infração disciplinar ou irrelevância da conduta",
+   "type": "Regra",
+   "description": "Condição para que ocorra o arquivamento da notícia da infração disciplinar.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e2",
+   "target": "e1",
+   "type": "DECIDIDO_POR",
+   "evidence": "o Reitor analisará o caso e poderá determinar: I - a instauração do procedimento de Transação Administrativa;"
+  },
+  {
+   "source": "e3",
+   "target": "e1",
+   "type": "DECIDIDO_POR",
+   "evidence": "o Reitor analisará o caso e poderá determinar: I - a instauração do procedimento de Transação Administrativa; II - a instauração de Sindicância;"
+  },
+  {
+   "source": "e4",
+   "target": "e5",
+   "type": "REQUER",
+   "evidence": "O arquivamento da notícia da infração ocorrerá nos casos em que o fato narrado evidentemente não constituir infração disciplinar ou pela irrelevância da conduta"
+  }
+ ]
+}

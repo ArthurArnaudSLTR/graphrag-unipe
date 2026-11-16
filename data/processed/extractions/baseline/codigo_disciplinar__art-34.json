@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Sindicância",
+   "type": "Processo",
+   "description": "Procedimento apuratório das infrações",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "45 dias úteis",
+   "type": "Prazo",
+   "description": "Prazo máximo para conclusão da Sindicância",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "TEM_PRAZO",
+   "evidence": "A Sindicância deverá ser concluída no prazo máximo de quarenta e cinco dias úteis"
+  }
+ ]
+}

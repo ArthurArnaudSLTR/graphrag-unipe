@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Instauração",
+   "type": "Processo",
+   "description": "Ato formal de nomeação de comissões e conciliadores",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Autoridade competente",
+   "type": "Orgao",
+   "description": "Autoridade que nomeia comissões e conciliadores na instauração",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "Procedimento a ser realizado pela Comissão Processante",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "Ato formal pelo qual a autoridade competente nomeia"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "PRECEDE",
+   "evidence": "Comissão Processante para realizar Processo Administrativo Disciplinar"
+  }
+ ]
+}

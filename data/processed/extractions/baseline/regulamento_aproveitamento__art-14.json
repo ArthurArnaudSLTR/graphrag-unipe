@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Solicitação de Exclusão da Dispensa",
+   "type": "Processo",
+   "description": "Solicitação feita pelo estudante para cursar disciplina da qual havia sido dispensado",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Ônus decorrente da inclusão da disciplina",
+   "type": "Regra",
+   "description": "Obrigação financeira gerada pela inclusão da disciplina",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "poderá fazê-lo mediante solicitação de exclusão da dispensa, arcando com o ônus decorrente da inclusão da disciplina."
+  }
+ ]
+}

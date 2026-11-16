@@ -1,0 +1,65 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Retorno ao Curso",
+   "type": "Processo",
+   "description": "Processo para o estudante retornar à vida acadêmica após trancamento de matrícula.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Trancamento de Matrícula",
+   "type": "Processo",
+   "description": "Suspensão temporária da matrícula pelo estudante.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Análise de reativação de vínculo",
+   "type": "Regra",
+   "description": "Requisito necessário para a efetivação do retorno ao curso.",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Adaptação ao currículo vigente",
+   "type": "Regra",
+   "description": "Requisito necessário para o retorno ao curso.",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "1 semestre",
+   "type": "Prazo",
+   "description": "Duração do trancamento de matrícula que antecede o pedido de retorno.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e2",
+   "target": "e1",
+   "type": "PRECEDE",
+   "evidence": "retornar à vida acadêmica, após o trancamento de matrícula por um semestre"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "O retorno exige análise de reativação de vínculo"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "O retorno exige análise de reativação de vínculo e adaptação ao currículo vigente."
+  },
+  {
+   "source": "e2",
+   "target": "e5",
+   "type": "TEM_PRAZO",
+   "evidence": "trancamento de matrícula por um semestre"
+  }
+ ]
+}

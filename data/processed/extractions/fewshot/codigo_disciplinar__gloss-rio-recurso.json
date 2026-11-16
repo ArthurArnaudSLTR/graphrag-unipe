@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Recurso",
+   "type": "Processo",
+   "description": "Ato formal pelo qual se reivindica novo julgamento",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Autoridade superior",
+   "type": "Orgao",
+   "description": "Instância a quem se solicita novo julgamento",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "reivindica da autoridade superior que profira novo julgamento"
+  }
+ ]
+}

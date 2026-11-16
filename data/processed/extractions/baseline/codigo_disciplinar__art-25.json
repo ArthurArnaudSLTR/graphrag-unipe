@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Transação Administrativa",
+   "type": "Processo",
+   "description": "Procedimento instaurado por portaria para conciliação disciplinar",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "Autoridade responsável por instaurar o procedimento de Transação Administrativa",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "O Reitor instaurará o procedimento de Transação Administrativa por meio de portaria"
+  }
+ ]
+}

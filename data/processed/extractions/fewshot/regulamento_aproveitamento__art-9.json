@@ -1,0 +1,59 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Transferência Externa",
+   "type": "Processo",
+   "description": "ingresso de candidato proveniente de outra instituição de ensino superior",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Compatibilidade de disciplinas e conteúdo",
+   "type": "Regra",
+   "description": "requisito para matricular o estudante de transferência externa no semestre subsequente",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Dispensa de Disciplinas",
+   "type": "Processo",
+   "description": "processo de concessão de dispensa de disciplinas cursadas anteriormente",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Mínimo de 50% de dispensas nos semestres anteriores",
+   "type": "Regra",
+   "description": "percentual mínimo de dispensas exigido para alocação do semestre",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Máximo de 6 adaptações acumuladas",
+   "type": "Regra",
+   "description": "limite de acúmulo de adaptações para definição do semestre de alocação",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "ocorrerá sempre que houver compatibilidade de disciplinas e conteúdo"
+  },
+  {
+   "source": "e3",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "dispensa de disciplinas a alocação do semestre para o candidato/estudante observará o percentual mínimo de 50% (cinquenta por cento) de dispensas"
+  },
+  {
+   "source": "e3",
+   "target": "e5",
+   "type": "REQUER",
+   "evidence": "observará o percentual mínimo de 50% (cinquenta por cento) de dispensas nos semestres anteriores e/ou o acúmulo de no máximo 6 (seis) adaptações"
+  }
+ ]
+}

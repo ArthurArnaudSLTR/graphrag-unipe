@@ -1,0 +1,79 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Itinerário Extensionista",
+   "type": "Processo",
+   "description": "disciplina obrigatória que integra ensino e pesquisa com extensão",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Mínimo de 10% da carga horária em atividades extensionistas",
+   "type": "Regra",
+   "description": "exigência de inserção de carga horária extensionista na matriz curricular",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Renovação de projetos de extensão",
+   "type": "Processo",
+   "description": "processo para vigência do projeto de extensão no semestre seguinte",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Finalização de todas as tarefas do semestre anterior",
+   "type": "Regra",
+   "description": "requisito para renovação dos projetos de extensão",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Apresentação de novos projetos",
+   "type": "Processo",
+   "description": "submissão de novos projetos de pesquisa ou extensão",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "Aval da Coordenação do Curso",
+   "type": "Regra",
+   "description": "aprovação prévia da coordenação exigida para apresentação de novos projetos",
+   "gravidade": ""
+  },
+  {
+   "id": "e7",
+   "name": "COMPEX",
+   "type": "Orgao",
+   "description": "Coordenação de Monitoria, Pesquisa e Extensão",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "exige a inserção de pelo menos 10% da carga horária em atividades extensionistas"
+  },
+  {
+   "source": "e3",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "A renovação dos projetos de extensão para vigência no semestre seguinte está condicionada à finalização de todas as tarefas do semestre anterior"
+  },
+  {
+   "source": "e5",
+   "target": "e6",
+   "type": "REQUER",
+   "evidence": "Novos projetos deverão ser apresentados à COMPEX após aval da Coordenação do Curso"
+  },
+  {
+   "source": "e5",
+   "target": "e7",
+   "type": "DECIDIDO_POR",
+   "evidence": "Novos projetos deverão ser apresentados à COMPEX após aval da Coordenação do Curso ao qual está vinculado."
+  }
+ ]
+}

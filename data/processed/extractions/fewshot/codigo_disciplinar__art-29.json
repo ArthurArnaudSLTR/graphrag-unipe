@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Extinção da punibilidade",
+   "type": "Processo",
+   "description": "declaração de extinção de punibilidade",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "autoridade responsável por declarar extinta a punibilidade",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Cumprimento integral das medidas acordadas",
+   "type": "Regra",
+   "description": "requisito para a extinção da punibilidade",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "o Reitor, que declarará extinta a punibilidade"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "Cumpridas integralmente as medidas acordadas, a Coordenadoria comunicará o Reitor, que declarará extinta a punibilidade"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Convocação da Comissão Processante",
+   "type": "Processo",
+   "description": "Convocação dos integrantes pelo Presidente da Comissão Processante",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "5 dias úteis",
+   "type": "Prazo",
+   "description": "Prazo máximo para convocação dos integrantes após a instauração",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Instauração da Comissão Processante",
+   "type": "Processo",
+   "description": "Etapa inicial do procedimento da Comissão Processante",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "TEM_PRAZO",
+   "evidence": "seu Presidente deve, no prazo máximo de cinco dias úteis, convocar os demais integrantes"
+  },
+  {
+   "source": "e3",
+   "target": "e1",
+   "type": "PRECEDE",
+   "evidence": "Instaurada a Comissão Processante, seu Presidente deve, no prazo máximo de cinco dias úteis, convocar os demais integrantes"
+  }
+ ]
+}

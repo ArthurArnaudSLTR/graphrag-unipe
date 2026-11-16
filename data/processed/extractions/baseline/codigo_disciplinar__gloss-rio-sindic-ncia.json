@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Sindicância",
+   "type": "Processo",
+   "description": "Procedimento de caráter investigatório para apuração de possível infração disciplinar e sua autoria.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Processo Disciplinar",
+   "type": "Processo",
+   "description": "Processo instaurado após a sindicância para apuração formal de infração disciplinar.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PRECEDE",
+   "evidence": "Esse procedimento precede a instauração do processo disciplinar"
+  }
+ ]
+}

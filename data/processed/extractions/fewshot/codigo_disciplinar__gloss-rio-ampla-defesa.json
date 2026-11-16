@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Recurso",
+   "type": "Processo",
+   "description": "Recurso para impugnação de decisão disciplinar em instância superior",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Instância Superior",
+   "type": "Orgao",
+   "description": "Instância responsável por apreciar o recurso",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "recurso a ser apreciado por instância superior"
+  }
+ ]
+}

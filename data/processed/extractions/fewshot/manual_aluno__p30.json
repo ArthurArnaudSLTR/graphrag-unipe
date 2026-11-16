@@ -1,0 +1,59 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Guarda Religiosa",
+   "type": "Processo",
+   "description": "solicitação por motivos religiosos para ausência em dias ou horários de guarda",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Declaração religiosa original em papel timbrado e com firma reconhecida",
+   "type": "DocumentoExigido",
+   "description": "comprovante emitido pela instituição religiosa",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Secretaria de Registros e Controles Acadêmicos",
+   "type": "Orgao",
+   "description": "setor responsável pelo deferimento legal do processo de Guarda Religiosa",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Dispensa de Disciplina",
+   "type": "Processo",
+   "description": "solicitação de aproveitamento de conteúdo de disciplinas cursadas",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Ter cursado e sido aprovado na disciplina de origem",
+   "type": "Regra",
+   "description": "requisito para solicitar a dispensa de disciplina",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "EXIGE",
+   "evidence": "anexando eletronicamente ao processo a declaração religiosa original em papel timbrado e com firma reconhecida."
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "DECIDIDO_POR",
+   "evidence": "Com o processo deferido legalmente pela Secretaria de Registros e Controles Acadêmicos"
+  },
+  {
+   "source": "e4",
+   "target": "e5",
+   "type": "REQUER",
+   "evidence": "solicitar o aproveitamento de conteúdo de disciplinas cursadas e aprovadas em outro curso e/ou outra Instituição de Ensino Superior"
+  }
+ ]
+}

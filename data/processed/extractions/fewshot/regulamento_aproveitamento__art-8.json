@@ -1,0 +1,72 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Aproveitamento de estágio curricular",
+   "type": "Processo",
+   "description": "Aproveitamento de disciplinas de estágio curricular cursadas",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Estágio relacionado ao mesmo curso",
+   "type": "Regra",
+   "description": "Requisito de que o estágio seja relacionado ao mesmo curso de destino",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Histórico escolar",
+   "type": "DocumentoExigido",
+   "description": "Histórico com aprovação em disciplinas de estágio",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Mesma carga horária e mesmo conteúdo",
+   "type": "Regra",
+   "description": "Requisito de equivalência de carga horária e conteúdo da disciplina de estágio",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Validação de atividades como Estágio Curricular Obrigatório",
+   "type": "Processo",
+   "description": "Solicitação para validar atividade profissional, projeto de extensão ou iniciação científica como estágio",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "Previsão no Projeto Pedagógico do Curso",
+   "type": "Regra",
+   "description": "Exigência de que as atividades estejam previstas no PPC",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "estágios curriculares somente poderão ser aproveitados quando relacionados ao mesmo Curso"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "EXIGE",
+   "evidence": "Para fins de aproveitamento serão aceitos os históricos que contenham aprovação em disciplinas de estágio"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "disciplinas de estágio com a mesma carga horária e mesmo conteúdo"
+  },
+  {
+   "source": "e5",
+   "target": "e6",
+   "type": "REQUER",
+   "evidence": "validação dessas atividades como Estágio Curricular Obrigatório, desde que previstas no Projeto Pedagógico do Curso"
+  }
+ ]
+}

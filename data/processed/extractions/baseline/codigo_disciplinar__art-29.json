@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Transação Administrativa",
+   "type": "Processo",
+   "description": "Procedimento disciplinar consensual relativo ao cumprimento de medidas acordadas.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Cumprimento integral das medidas acordadas",
+   "type": "Regra",
+   "description": "Condição em que todas as medidas pactuadas na transação administrativa devem ser cumpridas.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "Autoridade responsável por declarar extinta a punibilidade após comunicação do cumprimento das medidas.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "Cumpridas integralmente as medidas acordadas"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "DECIDIDO_POR",
+   "evidence": "o Reitor, que declarará extinta a punibilidade."
+  }
+ ]
+}

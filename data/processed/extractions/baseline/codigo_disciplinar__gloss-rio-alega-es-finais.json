@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Alegações Finais",
+   "type": "Processo",
+   "description": "Última oportunidade de manifestação do aluno a quem se imputa infração disciplinar",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Produção de Provas",
+   "type": "Processo",
+   "description": "Etapa probatória que antecede a manifestação final do aluno",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Elaboração do Relatório",
+   "type": "Processo",
+   "description": "Etapa de elaboração de parecer ou relatório pela Comissão Processante",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e2",
+   "target": "e1",
+   "type": "PRECEDE",
+   "evidence": "depois da produção de todas as provas"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "PRECEDE",
+   "evidence": "antes da elaboração do relatório pela Comissão Processante"
+  }
+ ]
+}

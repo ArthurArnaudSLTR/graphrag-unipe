@@ -1,0 +1,85 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Atividades de Pesquisa",
+   "type": "Processo",
+   "description": "Inserção do estudante em atividades e projetos de pesquisa e extensão",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Estar regularmente matriculado",
+   "type": "Regra",
+   "description": "Condição obrigatória para participar de atividades de pesquisa",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Não acumular 2 ou mais projetos no mesmo período letivo",
+   "type": "Regra",
+   "description": "Proibição de participar de múltiplos projetos de pesquisa ou extensão no mesmo período",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "4 semestres",
+   "type": "Prazo",
+   "description": "Período máximo de participação em projetos de pesquisa e extensão",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Renovação de Projetos de Pesquisa",
+   "type": "Processo",
+   "description": "Processo de renovação dos projetos de pesquisa para o semestre seguinte",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "Finalização de todas as tarefas do semestre anterior",
+   "type": "Regra",
+   "description": "Condição para a renovação de projetos de pesquisa",
+   "gravidade": ""
+  },
+  {
+   "id": "e7",
+   "name": "Relatório final do projeto",
+   "type": "DocumentoExigido",
+   "description": "Documento/tarefa obrigatória para encerramento ou renovação de projeto",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "atividade é exercida por estudantes regularmente matriculados"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "Não acumular participação em 2 (dois) ou mais projetos de pesquisa ou extensão no mesmo período letivo"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "TEM_PRAZO",
+   "evidence": "Não ultrapassar período máximo de 4 (quatro) semestres, consecutivos, ou não, em projetos de pesquisa e extensão."
+  },
+  {
+   "source": "e5",
+   "target": "e6",
+   "type": "REQUER",
+   "evidence": "A renovação dos projetos de pesquisa/iniciação científica para vigência no semestre seguinte está condicionada à finalização de todas as tarefas do semestre anterior"
+  },
+  {
+   "source": "e5",
+   "target": "e7",
+   "type": "EXIGE",
+   "evidence": "As tarefas são Ata e 1º Relatório, 2º Relatório e Relatório final do projeto COM ou SEM pedido de renovação."
+  }
+ ]
+}

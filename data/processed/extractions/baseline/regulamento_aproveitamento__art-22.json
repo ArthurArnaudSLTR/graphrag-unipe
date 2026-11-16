@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Dispensa de Disciplinas",
+   "type": "Processo",
+   "description": "Solicitação de dispensa de disciplinas cursadas em instituição pertencente ao grupo educacional Cruzeiro do Sul.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Informar instituição de origem, RGM, modalidade ou campus",
+   "type": "Regra",
+   "description": "Exigência simplificada para solicitar a dispensa de disciplinas cursadas no grupo educacional Cruzeiro do Sul.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "Para as solicitações de Dispensa de Disciplinas cursadas em qualquer instituição que pertença ao grupo educacional Cruzeiro do Sul, é necessário apenas informar"
+  }
+ ]
+}

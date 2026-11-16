@@ -1,0 +1,78 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Compensação de Ausências em Regime Domiciliar",
+   "type": "Processo",
+   "description": "regime domiciliar para estudantes impossibilitados de frequentar aulas por motivo de saúde ou gestação",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Atestado ou laudo médico",
+   "type": "DocumentoExigido",
+   "description": "documento emitido por profissional habilitado comprovando a condição de saúde e o período de afastamento",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Termo de guarda judicial",
+   "type": "DocumentoExigido",
+   "description": "documento judicial exigido para adotantes ou responsáveis por guarda judicial",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Duração do afastamento entre 15 e 60 dias",
+   "type": "Regra",
+   "description": "requisito de tempo mínimo e máximo de afastamento para a concessão do regime domiciliar por saúde",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "15 dias corridos",
+   "type": "Prazo",
+   "description": "prazo máximo para formalizar a solicitação a partir do primeiro dia de afastamento",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "Até 90 dias",
+   "type": "Prazo",
+   "description": "período do regime domiciliar assegurado às estudantes gestantes",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "EXIGE",
+   "evidence": "É obrigatória a apresentação de laudo ou atestado médico emitido por profissional habilitado"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "EXIGE",
+   "evidence": "mediante apresentação do respectivo termo judicial, pelo período estabelecido pela Instituição"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "com duração mínima de 15 (quinze) dias e máxima de 60 (sessenta) dias"
+  },
+  {
+   "source": "e1",
+   "target": "e5",
+   "type": "TEM_PRAZO",
+   "evidence": "no prazo máximo de 15 (quinze) dias corridos, contados a partir do primeiro dia de afastamento"
+  },
+  {
+   "source": "e1",
+   "target": "e6",
+   "type": "TEM_PRAZO",
+   "evidence": "terão direito ao Regime Domiciliar pelo período de até 90 (noventa) dias"
+  }
+ ]
+}

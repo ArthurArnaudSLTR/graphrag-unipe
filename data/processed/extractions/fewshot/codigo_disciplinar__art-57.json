@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "processo encaminhado para decisão do Reitor após conclusão do relatório",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "autoridade competente para proferir decisão fundamentada no processo disciplinar",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "encaminhará os autos ao Reitor que proferirá decisão fundamentada"
+  }
+ ]
+}

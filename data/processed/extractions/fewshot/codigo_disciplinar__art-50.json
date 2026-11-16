@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Audiência de instrução",
+   "type": "Processo",
+   "description": "etapa de instrução do processo administrativo disciplinar",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Aluno imputado ouvido por último",
+   "type": "Regra",
+   "description": "regra de ordem de inquirição na audiência de instrução",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Depoimento individual de testemunhas",
+   "type": "Regra",
+   "description": "requisito de individualidade na oitiva da vítima e testemunhas",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "sendo o aluno imputado sempre ouvido por último"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "A vítima e as testemunhas serão ouvidas individualmente"
+  }
+ ]
+}

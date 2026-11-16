@@ -1,0 +1,59 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Adiamento do depoimento",
+   "type": "Processo",
+   "description": "adiamento da tomada de depoimento na sindicância",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Justificação de ausência",
+   "type": "Regra",
+   "description": "exigência de justificar a ausência em caso de não comparecimento",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "até a véspera da data designada",
+   "type": "Prazo",
+   "description": "prazo limite para apresentar justificativa de ausência",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Sindicância",
+   "type": "Processo",
+   "description": "procedimento de apuração de fatos",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Proibição de acompanhamento de depoimento por outro sindicado",
+   "type": "Regra",
+   "description": "vedação a que um sindicado presencie o depoimento de outro",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "O depoimento poderá ser adiado se o depoente não puder comparecer, cabendo a ele justificar a ausência"
+  },
+  {
+   "source": "e2",
+   "target": "e3",
+   "type": "TEM_PRAZO",
+   "evidence": "cabendo a ele justificar a ausência até a véspera da data designada para o ato."
+  },
+  {
+   "source": "e4",
+   "target": "e5",
+   "type": "REQUER",
+   "evidence": "No caso de haver mais de um sindicado, não será permitido que um acompanhe o depoimento do outro."
+  }
+ ]
+}

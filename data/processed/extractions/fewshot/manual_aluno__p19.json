@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Avaliação Final",
+   "type": "Processo",
+   "description": "avaliação substitutiva para estudantes que obtiveram nota final inferior a 6,0 e assiduidade mínima",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Nota Final < 6,0",
+   "type": "Regra",
+   "description": "nota final inferior a 6,0 pontos",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Mínimo de 75% de frequência",
+   "type": "Regra",
+   "description": "frequência igual ou superior a 75% nas atividades acadêmicas",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "Nota Final (NF) seja inferior a 6,0 (seis) pontos, mas a frequência esteja igual ou superior a 75%, o estudante poderá realizar a Avaliação Final (AF)"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "frequência esteja igual ou superior a 75%, o estudante poderá realizar a Avaliação Final (AF)"
+  }
+ ]
+}

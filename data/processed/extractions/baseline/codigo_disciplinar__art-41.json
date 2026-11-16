@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "Processo no qual são assegurados os direitos de defesa do aluno",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Recurso",
+   "type": "Processo",
+   "description": "Recurso a ser interposto contra a decisão de primeira instância",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PRECEDE",
+   "evidence": "interpor recurso da decisão de primeira instância"
+  }
+ ]
+}

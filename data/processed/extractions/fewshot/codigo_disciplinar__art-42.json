@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "procedimento disciplinar instaurado por portaria",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "autoridade que emite a portaria de instauração",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Indícios suficientes de autoria e materialidade",
+   "type": "Regra",
+   "description": "requisito para instauração do processo disciplinar",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "instauração do Processo Administrativo Disciplinar ocorrerá por meio de Portaria emitida pelo Reitor"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "quando houver indícios suficientes de autoria e materialidade da infração disciplinar"
+  }
+ ]
+}

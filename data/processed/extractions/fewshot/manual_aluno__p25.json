@@ -1,0 +1,111 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Monitoria",
+   "type": "Processo",
+   "description": "programa de monitoria acadêmica",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Mínimo de 6 horas semanais de dedicação",
+   "type": "Regra",
+   "description": "disponibilidade mínima de tempo exigida para monitoria",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Mínimo de 75% da carga horária exigida",
+   "type": "Regra",
+   "description": "frequência/carga horária mínima para emissão de certificado de monitoria",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "2 semestres letivos",
+   "type": "Prazo",
+   "description": "duração máxima da monitoria em uma mesma unidade curricular",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Extensão",
+   "type": "Processo",
+   "description": "projetos e atividades de extensão acadêmica",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "COMPEX",
+   "type": "Orgao",
+   "description": "Coordenação de Monitoria, Pesquisa e Extensão",
+   "gravidade": ""
+  },
+  {
+   "id": "e7",
+   "name": "Coordenação de Curso",
+   "type": "Orgao",
+   "description": "coordenação do curso ao qual o projeto está vinculado",
+   "gravidade": ""
+  },
+  {
+   "id": "e8",
+   "name": "Matrícula regular",
+   "type": "Regra",
+   "description": "requisito de estar regularmente matriculado para participar de extensão",
+   "gravidade": ""
+  },
+  {
+   "id": "e9",
+   "name": "4 semestres",
+   "type": "Prazo",
+   "description": "período máximo de participação em projetos de pesquisa e extensão",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "estudante deve ter disponibilidade de no mínimo 6 horas semanais para dedicação"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "caso o alcance 75%da carga horária mínima exigida"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "TEM_PRAZO",
+   "evidence": "Duração máxima de dois semestres letivos consecutivos"
+  },
+  {
+   "source": "e5",
+   "target": "e6",
+   "type": "DECIDIDO_POR",
+   "evidence": "Novos projetos deverão ser apresentados à COMPEX"
+  },
+  {
+   "source": "e5",
+   "target": "e7",
+   "type": "DECIDIDO_POR",
+   "evidence": "após aval da Coordenação do Curso"
+  },
+  {
+   "source": "e5",
+   "target": "e8",
+   "type": "REQUER",
+   "evidence": "Estar regularmente matriculados"
+  },
+  {
+   "source": "e5",
+   "target": "e9",
+   "type": "TEM_PRAZO",
+   "evidence": "Não ultrapassar período máximo de 4 (quatro) semestres, consecutivos, ou não"
+  }
+ ]
+}

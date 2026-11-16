@@ -1,0 +1,98 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Aproveitamento de Estudos",
+   "type": "Processo",
+   "description": "Aproveitamento de disciplinas e estágios curriculares já realizados.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Histórico escolar",
+   "type": "DocumentoExigido",
+   "description": "Histórico contendo aprovação em disciplinas de estágio.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Estágio relacionado ao mesmo curso",
+   "type": "Regra",
+   "description": "Requisito de que o estágio esteja relacionado ao mesmo curso.",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Mesma carga horária e mesmo conteúdo",
+   "type": "Regra",
+   "description": "Aprovação em disciplinas com igual carga horária e conteúdo do UNIPÊ.",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Validação de Estágio Curricular Obrigatório",
+   "type": "Processo",
+   "description": "Processo de validação de atividades profissionais, extensão ou iniciação científica como estágio obrigatório.",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "Previsão no Projeto Pedagógico do Curso",
+   "type": "Regra",
+   "description": "As atividades a serem validadas devem estar previstas no PPC.",
+   "gravidade": ""
+  },
+  {
+   "id": "e7",
+   "name": "2 anos",
+   "type": "Prazo",
+   "description": "Intervalo de tempo limite para realização de atividade profissional correlata.",
+   "gravidade": ""
+  },
+  {
+   "id": "e8",
+   "name": "12 meses",
+   "type": "Prazo",
+   "description": "Intervalo de tempo limite para exerccício de atividades de extensão ou iniciação científica.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "Os estágios curriculares somente poderão ser aproveitados quando relacionados ao mesmo Curso."
+  },
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "EXIGE",
+   "evidence": "Para fins de aproveitamento serão aceitos os históricos que contenham aprovação em disciplinas de estágio"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "serão aceitos os históricos que contenham aprovação em disciplinas de estágio com a mesma carga horária e mesmo conteúdo"
+  },
+  {
+   "source": "e5",
+   "target": "e6",
+   "type": "REQUER",
+   "evidence": "poderá solicitar a validação dessas atividades como Estágio Curricular Obrigatório, desde que previstas no Projeto Pedagógico do Curso."
+  },
+  {
+   "source": "e5",
+   "target": "e7",
+   "type": "TEM_PRAZO",
+   "evidence": "realizou nos últimos dois anos, atividade profissional correlata ao seu curso"
+  },
+  {
+   "source": "e5",
+   "target": "e8",
+   "type": "TEM_PRAZO",
+   "evidence": "exerceu, nos últimos 12 meses, atividades em projeto de extensão ou iniciação científica"
+  }
+ ]
+}

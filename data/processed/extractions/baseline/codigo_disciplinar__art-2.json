@@ -1,0 +1,92 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Infração trabalhista",
+   "type": "Infracao",
+   "description": "Infração específica prevista na legislação trabalhista",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Advertência",
+   "type": "Penalidade",
+   "description": "Penalidade disciplinar aplicada ao corpo docente e técnico-administrativo",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Suspensão",
+   "type": "Penalidade",
+   "description": "Penalidade disciplinar aplicada ao corpo docente e técnico-administrativo",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Dispensa por justa causa",
+   "type": "Penalidade",
+   "description": "Penalidade disciplinar aplicada ao corpo docente e técnico-administrativo",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Procedimento específico de apuração",
+   "type": "Processo",
+   "description": "Procedimento de apuração de infrações de natureza trabalhista",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "Área de Recursos Humanos",
+   "type": "Orgao",
+   "description": "Setor responsável por aplicar o procedimento específico de apuração trabalhista",
+   "gravidade": ""
+  },
+  {
+   "id": "e7",
+   "name": "Apuração de compliance",
+   "type": "Processo",
+   "description": "Procedimento de apuração de condutas que configurem desvio ético ou violação ao Código de Ética",
+   "gravidade": ""
+  },
+  {
+   "id": "e8",
+   "name": "Área de Compliance",
+   "type": "Orgao",
+   "description": "Setor responsável por apurar condutas de desvio ético e conformidade",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PUNIVEL_COM",
+   "evidence": "As penalidades previstas no caput serão aplicadas em relação às infrações específicas previstas na legislação trabalhista."
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "PUNIVEL_COM",
+   "evidence": "As penalidades previstas no caput serão aplicadas em relação às infrações específicas previstas na legislação trabalhista."
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "PUNIVEL_COM",
+   "evidence": "As penalidades previstas no caput serão aplicadas em relação às infrações específicas previstas na legislação trabalhista."
+  },
+  {
+   "source": "e5",
+   "target": "e6",
+   "type": "DECIDIDO_POR",
+   "evidence": "o caso será encaminhado à área de Recursos Humanos, que aplicará procedimento específico de apuração"
+  },
+  {
+   "source": "e7",
+   "target": "e8",
+   "type": "DECIDIDO_POR",
+   "evidence": "para apuração pela área de Compliance, na forma de seus procedimentos próprios."
+  }
+ ]
+}

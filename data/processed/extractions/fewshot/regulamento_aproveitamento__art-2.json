@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Análise Curricular",
+   "type": "Processo",
+   "description": "avaliação para fins de aproveitamento de estudos",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Aproveitamento de Estudos",
+   "type": "Processo",
+   "description": "",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PRECEDE",
+   "evidence": "A análise curricular é realizada para fins de avaliação de possíveis aproveitamentos de estudos."
+  }
+ ]
+}

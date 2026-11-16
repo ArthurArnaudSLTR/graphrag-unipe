@@ -394,5 +394,1508 @@
   "type": "PRECEDE",
   "trecho_id": "codigo_disciplinar:art-27",
   "evidence": "Sendo infrutífero o procedimento de Transação Administrativa [...] prosseguimento do procedimento de apuração da infração disciplinar"
+ },
+ {
+  "source": "extincao_da_punibilidade",
+  "source_type": "Processo",
+  "target": "reitor",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-29",
+  "evidence": "o Reitor, que declarará extinta a punibilidade"
+ },
+ {
+  "source": "extincao_da_punibilidade",
+  "source_type": "Processo",
+  "target": "cumprimento_integral_das_medidas_acordadas",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "codigo_disciplinar:art-29",
+  "evidence": "Cumpridas integralmente as medidas acordadas, a Coordenadoria comunicará o Reitor, que declarará extinta a punibilidade"
+ },
+ {
+  "source": "sindicancia",
+  "source_type": "Processo",
+  "target": "reitor",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-32",
+  "evidence": "A Sindicância será instaurada pelo Reitor, mediante portaria"
+ },
+ {
+  "source": "sindicancia",
+  "source_type": "Processo",
+  "target": "comissao_composta_por_tres_membros_do_corpo_docente_ou_tecnico_administrativo",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "codigo_disciplinar:art-32",
+  "evidence": "A Comissão Sindicante será composta por três membros do corpo docente ou técnico-administrativo"
+ },
+ {
+  "source": "sindicancia",
+  "source_type": "Processo",
+  "target": "45_dias_uteis",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "codigo_disciplinar:art-34",
+  "evidence": "A Sindicância deverá ser concluída no prazo máximo de quarenta e cinco dias úteis"
+ },
+ {
+  "source": "adiamento_do_depoimento",
+  "source_type": "Processo",
+  "target": "justificacao_de_ausencia",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "codigo_disciplinar:art-35",
+  "evidence": "O depoimento poderá ser adiado se o depoente não puder comparecer, cabendo a ele justificar a ausência"
+ },
+ {
+  "source": "justificacao_de_ausencia",
+  "source_type": "Regra",
+  "target": "ate_a_vespera_da_data_designada",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "codigo_disciplinar:art-35",
+  "evidence": "cabendo a ele justificar a ausência até a véspera da data designada para o ato."
+ },
+ {
+  "source": "sindicancia",
+  "source_type": "Processo",
+  "target": "proibicao_de_acompanhamento_de_depoimento_por_outro_sindicado",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "codigo_disciplinar:art-35",
+  "evidence": "No caso de haver mais de um sindicado, não será permitido que um acompanhe o depoimento do outro."
+ },
+ {
+  "source": "sindicancia",
+  "source_type": "Processo",
+  "target": "processo_administrativo_disciplinar",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "codigo_disciplinar:art-37",
+  "evidence": "Comissão Sindicante elaborará relatório final, que poderá [...] recomendar a instauração de Processo Administrativo Disciplinar"
+ },
+ {
+  "source": "transacao_administrativa",
+  "source_type": "Processo",
+  "target": "processo_administrativo_disciplinar",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "codigo_disciplinar:art-37",
+  "evidence": "prévia realização do procedimento de Transação Administrativa"
+ },
+ {
+  "source": "sindicancia",
+  "source_type": "Processo",
+  "target": "reitor",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-38",
+  "evidence": "Os autos da Sindicância, contendo o relatório final, serão encaminhados para análise do Reitor, que decidirá"
+ },
+ {
+  "source": "sindicancia",
+  "source_type": "Processo",
+  "target": "processo_administrativo_disciplinar",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "codigo_disciplinar:art-38",
+  "evidence": "Os autos da Sindicância acompanharão o ato de instauração do procedimento de Transação Administrativa ou do Processo Administrativo Disciplinar"
+ },
+ {
+  "source": "sindicancia",
+  "source_type": "Processo",
+  "target": "transacao_administrativa",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "codigo_disciplinar:art-38",
+  "evidence": "Os autos da Sindicância acompanharão o ato de instauração do procedimento de Transação Administrativa"
+ },
+ {
+  "source": "processo_administrativo_disciplinar",
+  "source_type": "Processo",
+  "target": "reitor",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-39",
+  "evidence": "ao Reitor e às demais autoridades competentes para decisão"
+ },
+ {
+  "source": "sindicancia",
+  "source_type": "Processo",
+  "target": "processo_administrativo_disciplinar",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "codigo_disciplinar:art-40",
+  "evidence": "A Sindicância precederá a instauração do Processo Administrativo Disciplinar"
+ },
+ {
+  "source": "processo_administrativo_disciplinar",
+  "source_type": "Processo",
+  "target": "reitor",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-40",
+  "evidence": "Reitor poderá determinar a imediata instauração do Processo Administrativo Disciplinar"
+ },
+ {
+  "source": "processo_administrativo_disciplinar",
+  "source_type": "Processo",
+  "target": "recurso_da_decisao_de_primeira_instancia",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "codigo_disciplinar:art-41",
+  "evidence": "interpor recurso da decisão de primeira instância"
+ },
+ {
+  "source": "processo_administrativo_disciplinar",
+  "source_type": "Processo",
+  "target": "reitor",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-42",
+  "evidence": "instauração do Processo Administrativo Disciplinar ocorrerá por meio de Portaria emitida pelo Reitor"
+ },
+ {
+  "source": "processo_administrativo_disciplinar",
+  "source_type": "Processo",
+  "target": "indicios_suficientes_de_autoria_e_materialidade",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "codigo_disciplinar:art-42",
+  "evidence": "quando houver indícios suficientes de autoria e materialidade da infração disciplinar"
+ },
+ {
+  "source": "processo_administrativo_disciplinar",
+  "source_type": "Processo",
+  "target": "comissao_processante_composta_por_3_membros",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "codigo_disciplinar:art-44",
+  "evidence": "A Comissão Processante será composta por três membros"
+ },
+ {
+  "source": "processo_administrativo_disciplinar",
+  "source_type": "Processo",
+  "target": "45_dias_uteis",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "codigo_disciplinar:art-46",
+  "evidence": "O prazo para a conclusão do Processo Administrativo Disciplinar não excederá quarenta e cinco dias úteis"
+ },
+ {
+  "source": "convocacao_da_comissao_processante",
+  "source_type": "Processo",
+  "target": "5_dias_uteis",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "codigo_disciplinar:art-47",
+  "evidence": "seu Presidente deve, no prazo máximo de cinco dias úteis, convocar os demais integrantes"
+ },
+ {
+  "source": "instauracao_da_comissao_processante",
+  "source_type": "Processo",
+  "target": "convocacao_da_comissao_processante",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "codigo_disciplinar:art-47",
+  "evidence": "Instaurada a Comissão Processante, seu Presidente deve, no prazo máximo de cinco dias úteis, convocar os demais integrantes"
+ },
+ {
+  "source": "defesa_previa",
+  "source_type": "Processo",
+  "target": "10_dias_uteis",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "codigo_disciplinar:art-48",
+  "evidence": "apresentar defesa prévia, por escrito, no prazo de dez dias úteis"
+ },
+ {
+  "source": "requerimento_de_producao_de_provas",
+  "source_type": "Processo",
+  "target": "comissao_processante",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-48",
+  "evidence": "A apreciação dos requerimentos de provas é da competência da Comissão Processante"
+ },
+ {
+  "source": "audiencia_de_instrucao",
+  "source_type": "Processo",
+  "target": "aluno_imputado_ouvido_por_ultimo",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "codigo_disciplinar:art-50",
+  "evidence": "sendo o aluno imputado sempre ouvido por último"
+ },
+ {
+  "source": "audiencia_de_instrucao",
+  "source_type": "Processo",
+  "target": "depoimento_individual_de_testemunhas",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "codigo_disciplinar:art-50",
+  "evidence": "A vítima e as testemunhas serão ouvidas individualmente"
+ },
+ {
+  "source": "novas_diligencias_probatorias",
+  "source_type": "Processo",
+  "target": "comissao_processante",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-52",
+  "evidence": "poderão ser realizadas, por determinação da Comissão Processante"
+ },
+ {
+  "source": "producao_de_provas",
+  "source_type": "Processo",
+  "target": "novas_diligencias_probatorias",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "codigo_disciplinar:art-52",
+  "evidence": "Concluída a produção das provas, poderão ser realizadas [...] novas diligências probatórias"
+ },
+ {
+  "source": "apresentacao_de_alegacoes_finais",
+  "source_type": "Processo",
+  "target": "10_dias_uteis",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "codigo_disciplinar:art-53",
+  "evidence": "no prazo de dez dias úteis, apresente suas alegações finais"
+ },
+ {
+  "source": "alegacoes_finais",
+  "source_type": "Processo",
+  "target": "aprovacao_do_relatorio_final",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "codigo_disciplinar:art-55",
+  "evidence": "Apresentadas ou não as alegações finais no prazo assinalado, a Comissão Processante reunir-se-á para aprovar o relatório final"
+ },
+ {
+  "source": "aprovacao_do_relatorio_final",
+  "source_type": "Processo",
+  "target": "comissao_processante",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-55",
+  "evidence": "Comissão Processante reunir-se-á para aprovar o relatório final"
+ },
+ {
+  "source": "sindicancia",
+  "source_type": "Processo",
+  "target": "processo_administrativo_disciplinar",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "codigo_disciplinar:art-56",
+  "evidence": "autos da Sindicância, quando esta tiver sido realizada; II - cópia da Portaria que determinou a instauração do Processo Administrativo Disciplinar"
+ },
+ {
+  "source": "processo_administrativo_disciplinar",
+  "source_type": "Processo",
+  "target": "reitor",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-57",
+  "evidence": "encaminhará os autos ao Reitor que proferirá decisão fundamentada"
+ },
+ {
+  "source": "recurso_contra_decisao_do_reitor",
+  "source_type": "Processo",
+  "target": "consepe",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-59",
+  "evidence": "cabe recurso, no prazo de cinco dias úteis, ao Consepe, que decidirá"
+ },
+ {
+  "source": "recurso_contra_decisao_do_reitor",
+  "source_type": "Processo",
+  "target": "5_dias_uteis",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "codigo_disciplinar:art-59",
+  "evidence": "cabe recurso, no prazo de cinco dias úteis"
+ },
+ {
+  "source": "contagem_de_prazos",
+  "source_type": "Processo",
+  "target": "exclusao_do_primeiro_dia_e_inclusao_do_dia_do_vencimento",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "codigo_disciplinar:art-60",
+  "evidence": "A contagem dos prazos será feita excluindo-se o primeiro dia e incluindo-se o dia do vencimento."
+ },
+ {
+  "source": "contagem_de_prazos",
+  "source_type": "Processo",
+  "target": "contagem_somente_em_dias_uteis",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "codigo_disciplinar:art-60",
+  "evidence": "Na contagem de prazo em dias, computar-se-ão somente os dias úteis."
+ },
+ {
+  "source": "contagem_de_prazos",
+  "source_type": "Processo",
+  "target": "inicio_a_partir_do_recebimento_da_intimacao_ou_citacao",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "codigo_disciplinar:art-60",
+  "evidence": "Os prazos começam a correr a partir da data do recebimento da intimação ou citação."
+ },
+ {
+  "source": "intimacao",
+  "source_type": "Processo",
+  "target": "3_dias_uteis",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "codigo_disciplinar:art-61",
+  "evidence": "as intimações serão feitas com antecedência mínima de três dias úteis da data da realização do ato."
+ },
+ {
+  "source": "incidente_de_impedimento",
+  "source_type": "Processo",
+  "target": "autoridade_instauradora",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-63",
+  "evidence": "Arguido o impedimento, o incidente será apreciado pela autoridade instauradora."
+ },
+ {
+  "source": "decisao_de_casos_omissos",
+  "source_type": "Processo",
+  "target": "reitor",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:art-68",
+  "evidence": "Os casos omissos neste Código serão decididos pelo Reitor"
+ },
+ {
+  "source": "comportamento_inadequado",
+  "source_type": "Infracao",
+  "target": "admoestacao",
+  "target_type": "Penalidade",
+  "type": "PUNIVEL_COM",
+  "trecho_id": "codigo_disciplinar:gloss-rio-admoesta-o",
+  "evidence": "Admoestação. Reprimenda feita ao aluno, de modo verbal ou por escrito, em razão de comportamento inadequado."
+ },
+ {
+  "source": "producao_de_provas",
+  "source_type": "Processo",
+  "target": "alegacoes_finais",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "codigo_disciplinar:gloss-rio-alega-es-finais",
+  "evidence": "depois da produção de todas as provas"
+ },
+ {
+  "source": "alegacoes_finais",
+  "source_type": "Processo",
+  "target": "elaboracao_do_relatorio",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "codigo_disciplinar:gloss-rio-alega-es-finais",
+  "evidence": "antes da elaboração do relatório pela Comissão Processante"
+ },
+ {
+  "source": "elaboracao_do_relatorio",
+  "source_type": "Processo",
+  "target": "comissao_processante",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:gloss-rio-alega-es-finais",
+  "evidence": "elaboração do relatório pela Comissão Processante"
+ },
+ {
+  "source": "recurso",
+  "source_type": "Processo",
+  "target": "instancia_superior",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:gloss-rio-ampla-defesa",
+  "evidence": "recurso a ser apreciado por instância superior"
+ },
+ {
+  "source": "instauracao",
+  "source_type": "Processo",
+  "target": "autoridade_competente",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:gloss-rio-instaura-o",
+  "evidence": "Ato formal pelo qual a autoridade competente nomeia"
+ },
+ {
+  "source": "instauracao",
+  "source_type": "Processo",
+  "target": "processo_administrativo_disciplinar",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "codigo_disciplinar:gloss-rio-instaura-o",
+  "evidence": "Comissão Processante para realizar Processo Administrativo Disciplinar"
+ },
+ {
+  "source": "processo_administrativo_disciplinar",
+  "source_type": "Processo",
+  "target": "reitor",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:gloss-rio-penalidades-alternativas",
+  "evidence": "substituir a sanção de suspensão a critério do Reitor e mediante expressa aceitação do aluno, ao término do Processo Administrativo Disciplinar"
+ },
+ {
+  "source": "processo_administrativo_disciplinar",
+  "source_type": "Processo",
+  "target": "ampla_defesa_e_contraditorio",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "codigo_disciplinar:gloss-rio-processo-administrativo-disciplinar",
+  "evidence": "sendo sempre assegurada à pessoa a quem se imputa a autoria da infração a ampla defesa e o contraditório"
+ },
+ {
+  "source": "recurso",
+  "source_type": "Processo",
+  "target": "autoridade_superior",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "codigo_disciplinar:gloss-rio-recurso",
+  "evidence": "reivindica da autoridade superior que profira novo julgamento"
+ },
+ {
+  "source": "sindicancia",
+  "source_type": "Processo",
+  "target": "processo_disciplinar",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "codigo_disciplinar:gloss-rio-sindic-ncia",
+  "evidence": "Esse procedimento precede a instauração do processo disciplinar"
+ },
+ {
+  "source": "transacao_administrativa",
+  "source_type": "Processo",
+  "target": "expressa_aceitacao_de_todas_as_partes_envolvidas",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "codigo_disciplinar:gloss-rio-transa-o-administrativa",
+  "evidence": "Sua efetivação depende da expressa aceitação de todas as partes envolvidas"
+ },
+ {
+  "source": "transacao_administrativa",
+  "source_type": "Processo",
+  "target": "termo_de_compromisso",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "codigo_disciplinar:gloss-rio-transa-o-administrativa",
+  "evidence": "mediante assinatura de Termo de Compromisso"
+ },
+ {
+  "source": "passe_escolar",
+  "source_type": "Processo",
+  "target": "estar_regularmente_matriculado",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p9",
+  "evidence": "benefício exclusivo ao estudante regularmente matriculado"
+ },
+ {
+  "source": "violacao_dos_deveres_estudantis",
+  "source_type": "Infracao",
+  "target": "advertencia",
+  "target_type": "Penalidade",
+  "type": "PUNIVEL_COM",
+  "trecho_id": "manual_aluno:p10",
+  "evidence": "A violação dos deveres estudantis pode resultar em um processo disciplinar, com aplicação de penalidades ao estudante, seja advertência"
+ },
+ {
+  "source": "violacao_dos_deveres_estudantis",
+  "source_type": "Infracao",
+  "target": "repreensao",
+  "target_type": "Penalidade",
+  "type": "PUNIVEL_COM",
+  "trecho_id": "manual_aluno:p10",
+  "evidence": "A violação dos deveres estudantis pode resultar em um processo disciplinar, com aplicação de penalidades ao estudante, seja advertência, repreensão"
+ },
+ {
+  "source": "violacao_dos_deveres_estudantis",
+  "source_type": "Infracao",
+  "target": "suspensao",
+  "target_type": "Penalidade",
+  "type": "PUNIVEL_COM",
+  "trecho_id": "manual_aluno:p10",
+  "evidence": "A violação dos deveres estudantis pode resultar em um processo disciplinar, com aplicação de penalidades ao estudante, seja advertência, repreensão, suspensão"
+ },
+ {
+  "source": "violacao_dos_deveres_estudantis",
+  "source_type": "Infracao",
+  "target": "desligamento",
+  "target_type": "Penalidade",
+  "type": "PUNIVEL_COM",
+  "trecho_id": "manual_aluno:p10",
+  "evidence": "A violação dos deveres estudantis pode resultar em um processo disciplinar, com aplicação de penalidades ao estudante, seja advertência, repreensão, suspensão e até expulsão."
+ },
+ {
+  "source": "recurso",
+  "source_type": "Processo",
+  "target": "orgaos_executivos_e_deliberativos",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "manual_aluno:p10",
+  "evidence": "pedir nova análise das decisões dos Órgãos Executivos e Deliberativos"
+ },
+ {
+  "source": "atendimento_na_ouvidoria_do_estudante",
+  "source_type": "Processo",
+  "target": "ouvidoria_do_estudante",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "manual_aluno:p11",
+  "evidence": "A Ouvidoria do Estudante atua como a última instância de atendimento."
+ },
+ {
+  "source": "atendimento_na_ouvidoria_do_estudante",
+  "source_type": "Processo",
+  "target": "protocolo_da_caa_em_atraso_ou_concluido_insatisfatoriamente",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p11",
+  "evidence": "deve possuir um número de protocolo registrado na Central de Atendimento ao Aluno (presencial ou on-line) que esteja em atraso ou que tenha sido concluído insatisfatoriamente"
+ },
+ {
+  "source": "atendimento_na_ouvidoria_do_estudante",
+  "source_type": "Processo",
+  "target": "numero_de_protocolo_da_central_de_atendimento_ao_aluno",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "manual_aluno:p11",
+  "evidence": "devendo fornecer, obrigatoriamente, o número do protocolo da Central de Atendimento ao Aluno"
+ },
+ {
+  "source": "autorizacao_para_uso_da_logomarca",
+  "source_type": "Processo",
+  "target": "gerencia_de_comunicacao_e_marketing",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "manual_aluno:p12",
+  "evidence": "deve, obrigatoriamente, passar por avaliação, aprovação e autorização da Gerência de Comunicação e Marketing da Cruzeiro do Sul Educacional"
+ },
+ {
+  "source": "avaliacao_da_aprendizagem",
+  "source_type": "Processo",
+  "target": "minimo_de_75_de_participacao_nas_atividades",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p15",
+  "evidence": "Você deve ter, no mínimo, 75% (setenta e cinco por cento) de participação nas atividades previstas"
+ },
+ {
+  "source": "estagio_curricular_supervisionado",
+  "source_type": "Processo",
+  "target": "100_da_carga_horaria_do_estagio_curricular_supervisionado",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p15",
+  "evidence": "atingir 100% (cem por cento) da carga horária do Estágio Curricular Supervisionado"
+ },
+ {
+  "source": "revisao_de_faltas",
+  "source_type": "Processo",
+  "target": "coordenacao_de_curso",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "manual_aluno:p16",
+  "evidence": "Essa solicitação será encaminhada à coordenação do curso, que solicitará ao professor a análise e manifestação sobre o caso."
+ },
+ {
+  "source": "atividades_domiciliares",
+  "source_type": "Processo",
+  "target": "15_dias",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "manual_aluno:p16",
+  "evidence": "Situações que ultrapassem 15 dias podem ser compensadas com atividades domiciliares"
+ },
+ {
+  "source": "compensacao_de_ausencias_em_regime_domiciliar",
+  "source_type": "Processo",
+  "target": "atestado_ou_laudo_medico",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "manual_aluno:p17",
+  "evidence": "É obrigatória a apresentação de laudo ou atestado médico emitido por profissional habilitado"
+ },
+ {
+  "source": "compensacao_de_ausencias_em_regime_domiciliar",
+  "source_type": "Processo",
+  "target": "termo_de_guarda_judicial",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "manual_aluno:p17",
+  "evidence": "mediante apresentação do respectivo termo judicial, pelo período estabelecido pela Instituição"
+ },
+ {
+  "source": "compensacao_de_ausencias_em_regime_domiciliar",
+  "source_type": "Processo",
+  "target": "duracao_do_afastamento_entre_15_e_60_dias",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p17",
+  "evidence": "com duração mínima de 15 (quinze) dias e máxima de 60 (sessenta) dias"
+ },
+ {
+  "source": "compensacao_de_ausencias_em_regime_domiciliar",
+  "source_type": "Processo",
+  "target": "15_dias_corridos",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "manual_aluno:p17",
+  "evidence": "no prazo máximo de 15 (quinze) dias corridos, contados a partir do primeiro dia de afastamento"
+ },
+ {
+  "source": "compensacao_de_ausencias_em_regime_domiciliar",
+  "source_type": "Processo",
+  "target": "90_dias",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "manual_aluno:p17",
+  "evidence": "terão direito ao Regime Domiciliar pelo período de até 90 (noventa) dias"
+ },
+ {
+  "source": "regime_de_exercicios_domiciliares",
+  "source_type": "Processo",
+  "target": "vedacao_para_disciplinas_praticas_estagios_e_dols",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p18",
+  "evidence": "Disciplinas na modalidade online (DOLS) também não são elegíveis ao Regime de Exercícios Domiciliares"
+ },
+ {
+  "source": "regime_de_exercicios_domiciliares",
+  "source_type": "Processo",
+  "target": "comprovacao_oficial",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "manual_aluno:p18",
+  "evidence": "poderão solicitar Regime Domiciliar, mediante comprovação oficial"
+ },
+ {
+  "source": "regime_de_exercicios_domiciliares",
+  "source_type": "Processo",
+  "target": "20_dias_corridos",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "manual_aluno:p18",
+  "evidence": "realizar a entrega das atividades no prazo de até 20 (vinte) dias corridos, contados a partir do término do período de afastamento"
+ },
+ {
+  "source": "avaliacao_final",
+  "source_type": "Processo",
+  "target": "nota_final_6_0",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p19",
+  "evidence": "Nota Final (NF) seja inferior a 6,0 (seis) pontos, mas a frequência esteja igual ou superior a 75%, o estudante poderá realizar a Avaliação Final (AF)"
+ },
+ {
+  "source": "avaliacao_final",
+  "source_type": "Processo",
+  "target": "minimo_de_75_de_frequencia",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p19",
+  "evidence": "frequência esteja igual ou superior a 75%, o estudante poderá realizar a Avaliação Final (AF)"
+ },
+ {
+  "source": "revisao_de_avaliacao_regimental_e_avaliacao_final",
+  "source_type": "Processo",
+  "target": "5_dias_uteis",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "manual_aluno:p20",
+  "evidence": "revisão da Avaliação Regimental (A1) e/ou Avaliação Final (AF), que deverá ser requerida no prazo de até 05 (cinco) dias úteis"
+ },
+ {
+  "source": "revisao_de_avaliacao_regimental_e_avaliacao_final",
+  "source_type": "Processo",
+  "target": "prova_original",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "manual_aluno:p20",
+  "evidence": "Para a revisão é imprescindível a apresentação da prova original"
+ },
+ {
+  "source": "revisao_de_a2",
+  "source_type": "Processo",
+  "target": "professor_e_ou_tutor",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "manual_aluno:p20",
+  "evidence": "A revisão da A2 deverá ser realizada diretamente com o professor e/ou tutor"
+ },
+ {
+  "source": "segunda_chamada_de_avaliacao",
+  "source_type": "Processo",
+  "target": "atestado_de_obito",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "manual_aluno:p21",
+  "evidence": "Deverá apresentar: atestado de óbito."
+ },
+ {
+  "source": "segunda_chamada_de_avaliacao",
+  "source_type": "Processo",
+  "target": "certidao_de_casamento",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "manual_aluno:p21",
+  "evidence": "Deverá apresentar: certidão de casamento."
+ },
+ {
+  "source": "segunda_chamada_de_avaliacao",
+  "source_type": "Processo",
+  "target": "atestado_com_cid",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "manual_aluno:p21",
+  "evidence": "Deverá apresentar: .atestado com Classificação Estatística Internacional de Doença (CID)."
+ },
+ {
+  "source": "segunda_chamada_de_avaliacao",
+  "source_type": "Processo",
+  "target": "declaracao_do_empregador",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "manual_aluno:p21",
+  "evidence": "Deverá apresentar: .declaração do empregador em papel com identificação da empresa"
+ },
+ {
+  "source": "segunda_chamada_de_avaliacao",
+  "source_type": "Processo",
+  "target": "coordenador_do_curso",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "manual_aluno:p21",
+  "evidence": "informações sobre data, local e horário de realização da prova serão disponibilizadas pelo coordenador do curso no parecer de deferimento."
+ },
+ {
+  "source": "inclusao_de_dependencias_e_adaptacoes",
+  "source_type": "Processo",
+  "target": "maximo_de_3_disciplinas_alem_das_regulares",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p22",
+  "evidence": "podem ser inseridas no máximo 3 disciplinas, além das disciplinas regulares do semestre"
+ },
+ {
+  "source": "aprovacao_em_componentes_por_resultado",
+  "source_type": "Processo",
+  "target": "porcentagem_minima_de_presenca",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p22",
+  "evidence": "critérios mínimos para a aprovação (conceito Suficiente) [...] incluem a exigência de uma porcentagem mínima de presença"
+ },
+ {
+  "source": "validacao_de_atividades_complementares",
+  "source_type": "Processo",
+  "target": "comprovante_de_atividades_complementares",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "manual_aluno:p23",
+  "evidence": "postar o comprovante no Sistema Eletrônico de Cadastro de Atividades Complementares na Área do Aluno"
+ },
+ {
+  "source": "validacao_de_atividades_complementares",
+  "source_type": "Processo",
+  "target": "30_dias",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "manual_aluno:p23",
+  "evidence": "A Instituição tem o prazo médio de 30 dias para validação do comprovante"
+ },
+ {
+  "source": "estagio_curricular_supervisionado_obrigatorio",
+  "source_type": "Processo",
+  "target": "cumprimento_de_100_da_carga_horaria_no_prazo_determinado",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p24",
+  "evidence": "Os estudantes regularmente matriculados devem cumprir 100% da carga horária do estágio no prazo determinado"
+ },
+ {
+  "source": "monitoria",
+  "source_type": "Processo",
+  "target": "nao_ter_sofrido_qualquer_sancao_disciplinar",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p24",
+  "evidence": "não ter sofrido qualquer sanção disciplinar"
+ },
+ {
+  "source": "monitoria",
+  "source_type": "Processo",
+  "target": "ter_sido_aprovado_na_disciplina_objeto_de_monitoria_ou_equivalente",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p24",
+  "evidence": "ter cursado e sido aprovado na disciplina objeto de monitoria ou equivalente"
+ },
+ {
+  "source": "monitoria",
+  "source_type": "Processo",
+  "target": "minimo_de_6_horas_semanais_de_dedicacao",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p25",
+  "evidence": "estudante deve ter disponibilidade de no mínimo 6 horas semanais para dedicação"
+ },
+ {
+  "source": "monitoria",
+  "source_type": "Processo",
+  "target": "minimo_de_75_da_carga_horaria_exigida",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p25",
+  "evidence": "caso o alcance 75%da carga horária mínima exigida"
+ },
+ {
+  "source": "monitoria",
+  "source_type": "Processo",
+  "target": "2_semestres_letivos",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "manual_aluno:p25",
+  "evidence": "Duração máxima de dois semestres letivos consecutivos"
+ },
+ {
+  "source": "extensao",
+  "source_type": "Processo",
+  "target": "compex",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "manual_aluno:p25",
+  "evidence": "Novos projetos deverão ser apresentados à COMPEX"
+ },
+ {
+  "source": "extensao",
+  "source_type": "Processo",
+  "target": "coordenacao_de_curso",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "manual_aluno:p25",
+  "evidence": "após aval da Coordenação do Curso"
+ },
+ {
+  "source": "extensao",
+  "source_type": "Processo",
+  "target": "matricula_regular",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p25",
+  "evidence": "Estar regularmente matriculados"
+ },
+ {
+  "source": "extensao",
+  "source_type": "Processo",
+  "target": "4_semestres",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "manual_aluno:p25",
+  "evidence": "Não ultrapassar período máximo de 4 (quatro) semestres, consecutivos, ou não"
+ },
+ {
+  "source": "itinerario_extensionista",
+  "source_type": "Processo",
+  "target": "minimo_de_10_da_carga_horaria_em_atividades_extensionistas",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p26",
+  "evidence": "exige a inserção de pelo menos 10% da carga horária em atividades extensionistas"
+ },
+ {
+  "source": "renovacao_de_projetos_de_extensao",
+  "source_type": "Processo",
+  "target": "finalizacao_de_todas_as_tarefas_do_semestre_anterior",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p26",
+  "evidence": "A renovação dos projetos de extensão para vigência no semestre seguinte está condicionada à finalização de todas as tarefas do semestre anterior"
+ },
+ {
+  "source": "apresentacao_de_novos_projetos",
+  "source_type": "Processo",
+  "target": "aval_da_coordenacao_do_curso",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p26",
+  "evidence": "Novos projetos deverão ser apresentados à COMPEX após aval da Coordenação do Curso"
+ },
+ {
+  "source": "apresentacao_de_novos_projetos",
+  "source_type": "Processo",
+  "target": "compex",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "manual_aluno:p26",
+  "evidence": "Novos projetos deverão ser apresentados à COMPEX após aval da Coordenação do Curso ao qual está vinculado."
+ },
+ {
+  "source": "insercao_em_atividades_de_pesquisa",
+  "source_type": "Processo",
+  "target": "estar_regularmente_matriculado",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p27",
+  "evidence": "esta atividade é exercida por estudantes regularmente matriculados"
+ },
+ {
+  "source": "projetos_de_pesquisa_e_extensao",
+  "source_type": "Processo",
+  "target": "4_semestres",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "manual_aluno:p27",
+  "evidence": "Não ultrapassar período máximo de 4 (quatro) semestres, consecutivos, ou não, em projetos de pesquisa e extensão"
+ },
+ {
+  "source": "renovacao_de_projetos_de_pesquisa",
+  "source_type": "Processo",
+  "target": "finalizacao_de_todas_as_tarefas_do_semestre_anterior",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p27",
+  "evidence": "A renovação dos projetos de pesquisa/iniciação científica para vigência no semestre seguinte está condicionada à finalização de todas as tarefas do semestre anterior"
+ },
+ {
+  "source": "guarda_religiosa",
+  "source_type": "Processo",
+  "target": "declaracao_religiosa_original_em_papel_timbrado_e_com_firma_reconhecida",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "manual_aluno:p30",
+  "evidence": "anexando eletronicamente ao processo a declaração religiosa original em papel timbrado e com firma reconhecida."
+ },
+ {
+  "source": "guarda_religiosa",
+  "source_type": "Processo",
+  "target": "secretaria_de_registros_e_controles_academicos",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "manual_aluno:p30",
+  "evidence": "Com o processo deferido legalmente pela Secretaria de Registros e Controles Acadêmicos"
+ },
+ {
+  "source": "dispensa_de_disciplina",
+  "source_type": "Processo",
+  "target": "ter_cursado_e_sido_aprovado_na_disciplina_de_origem",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p30",
+  "evidence": "solicitar o aproveitamento de conteúdo de disciplinas cursadas e aprovadas em outro curso e/ou outra Instituição de Ensino Superior"
+ },
+ {
+  "source": "cancelamento_de_matricula",
+  "source_type": "Processo",
+  "target": "realizacao_de_entrevista_via_whatsapp",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p31",
+  "evidence": "A realização da entrevista é imprescindível para que o processo seja deferido."
+ },
+ {
+  "source": "trancamento_de_matricula",
+  "source_type": "Processo",
+  "target": "realizacao_de_entrevista_via_whatsapp",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p31",
+  "evidence": "A realização da entrevista é imprescindível para que o processo seja deferido."
+ },
+ {
+  "source": "trancamento_de_matricula",
+  "source_type": "Processo",
+  "target": "solicitacao_a_partir_do_2o_semestre",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p31",
+  "evidence": "podendo ser solicitado a partir do 2° semestre do curso"
+ },
+ {
+  "source": "trancamento_de_matricula",
+  "source_type": "Processo",
+  "target": "1_semestre",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "manual_aluno:p31",
+  "evidence": "pelo limite máximo de 1 (um) semestre letivo"
+ },
+ {
+  "source": "transferencia_interna",
+  "source_type": "Processo",
+  "target": "oferta_e_disponibilidade_de_vagas",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p31",
+  "evidence": "condicionado a oferta do curso, turno e turma desejados, bem como à disponibilidade de vagas"
+ },
+ {
+  "source": "retorno_ao_curso",
+  "source_type": "Processo",
+  "target": "analise_de_reativacao_de_vinculo_e_adaptacao_ao_curriculo_vigente",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p32",
+  "evidence": "O retorno exige análise de reativação de vínculo e adaptação ao currículo vigente."
+ },
+ {
+  "source": "trancamento_de_matricula",
+  "source_type": "Processo",
+  "target": "retorno_ao_curso",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "manual_aluno:p32",
+  "evidence": "retornar à vida acadêmica, após o trancamento de matrícula por um semestre."
+ },
+ {
+  "source": "colacao_de_grau_por_edital",
+  "source_type": "Processo",
+  "target": "conclusao_de_todas_as_exigencias_do_curso",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p34",
+  "evidence": "atesta que o aluno concluiu todas as exigências do curso"
+ },
+ {
+  "source": "solicitacao_de_instalacao_de_software",
+  "source_type": "Processo",
+  "target": "14_dias",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "manual_aluno:p34",
+  "evidence": "solicitação deverá ser realizada pelo .docente através do Sistema de Chamado 4biz com antecedência de 14 (quatorze) dias"
+ },
+ {
+  "source": "colacao_de_grau",
+  "source_type": "Processo",
+  "target": "emissao_de_diploma_digital",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "manual_aluno:p35",
+  "evidence": "A emissão do diploma é realizada após a colação de grau"
+ },
+ {
+  "source": "laurea_academica",
+  "source_type": "Processo",
+  "target": "reitoria",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "manual_aluno:p35",
+  "evidence": "Láurea Acadêmica pode ser oferecida para todos os cursos ou para cursos definidos pela Reitoria"
+ },
+ {
+  "source": "colacao_de_grau_especial",
+  "source_type": "Processo",
+  "target": "conclusao_de_todas_as_disciplinas_e_atividades",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p35",
+  "evidence": "O pedido somente poderá ser protocolado quando todas as disciplinas e atividades estiverem concluídas"
+ },
+ {
+  "source": "colacao_de_grau_especial",
+  "source_type": "Processo",
+  "target": "documento_comprovatorio_de_necessidade_de_antecipacao",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "manual_aluno:p35",
+  "evidence": "Para antecipação de colação, o estudante deve apresentar documento que comprove sua necessidade"
+ },
+ {
+  "source": "enade",
+  "source_type": "Processo",
+  "target": "3_anos",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "manual_aluno:p36",
+  "evidence": "A periodicidade máxima da avaliação é trienal para cada área do conhecimento"
+ },
+ {
+  "source": "enade",
+  "source_type": "Processo",
+  "target": "1_ano",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "manual_aluno:p36",
+  "evidence": "exceto para as licenciaturas, que passou a ser anual, a partir de 2024"
+ },
+ {
+  "source": "acesso_as_salas_de_aula",
+  "source_type": "Processo",
+  "target": "estar_regularmente_matriculado",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "manual_aluno:p38",
+  "evidence": "as salas de aula do UDF devem ser utilizadas apenas por estudantes regularmente matriculados."
+ },
+ {
+  "source": "presenca_de_ouvintes",
+  "source_type": "Processo",
+  "target": "coordenacao",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "manual_aluno:p38",
+  "evidence": "A presença de ouvintes só poderá ocorrer mediante autorização prévia da Coordenação."
+ },
+ {
+  "source": "aproveitamento_de_estudos",
+  "source_type": "Processo",
+  "target": "setor_nacional_de_analise_curricular",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "regulamento_aproveitamento:art-1",
+  "evidence": "A avaliação do aproveitamento de estudos por equivalência é realizada pelo Setor Nacional de Análise Curricular (SNAC)"
+ },
+ {
+  "source": "aproveitamento_de_estudos",
+  "source_type": "Processo",
+  "target": "secretaria_geral_de_ensino",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "regulamento_aproveitamento:art-1",
+  "evidence": "estará sujeita à validação da Secretaria Geral de Ensino – SEGEN"
+ },
+ {
+  "source": "analise_curricular",
+  "source_type": "Processo",
+  "target": "aproveitamento_de_estudos",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "regulamento_aproveitamento:art-2",
+  "evidence": "A análise curricular é realizada para fins de avaliação de possíveis aproveitamentos de estudos."
+ },
+ {
+  "source": "aproveitamento_de_estudos",
+  "source_type": "Processo",
+  "target": "disciplinas_cursadas_em_ies_autorizadas_ou_credenciadas_pelo_mec",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-3",
+  "evidence": "Para fins de aproveitamento serão consideradas as disciplinas cursadas em instituições de ensino superior autorizadas ou credenciadas pelo Ministério da Educação – MEC"
+ },
+ {
+  "source": "analise_curricular_para_dispensa_de_disciplinas",
+  "source_type": "Processo",
+  "target": "enquadramento_na_matriz_curricular_vigente",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-5",
+  "evidence": "Para todos os pedidos o candidato/estudante estará sujeito ao enquadramento na matriz curricular vigente."
+ },
+ {
+  "source": "transferencia_externa",
+  "source_type": "Processo",
+  "target": "existencia_de_vagas_no_curso_pretendido",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-5",
+  "evidence": "desde que haja existência de vagas no curso pretendido."
+ },
+ {
+  "source": "aproveitamento_de_estudos",
+  "source_type": "Processo",
+  "target": "disciplina_cursada_ha_no_maximo_10_anos",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-6",
+  "evidence": "As disciplinas cursadas há mais de 10 (dez) anos poderão ser desconsideradas para fins de aproveitamento de estudos"
+ },
+ {
+  "source": "disciplina_cursada_ha_no_maximo_10_anos",
+  "source_type": "Regra",
+  "target": "10_anos",
+  "target_type": "Prazo",
+  "type": "TEM_PRAZO",
+  "trecho_id": "regulamento_aproveitamento:art-6",
+  "evidence": "disciplinas cursadas há mais de 10 (dez) anos"
+ },
+ {
+  "source": "aproveitamento_de_estudos",
+  "source_type": "Processo",
+  "target": "minimo_de_75_da_carga_horaria_da_disciplina_de_origem",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-7",
+  "evidence": "inferior a 75% (setenta por cento) da carga horária da disciplina cuja dispensa é pretendida"
+ },
+ {
+  "source": "aproveitamento_de_estudos",
+  "source_type": "Processo",
+  "target": "maximo_de_70_da_carga_horaria_do_curso_dispensada",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-7",
+  "evidence": "só poderá ser dispensado de, no máximo, 70% da carga horária do curso"
+ },
+ {
+  "source": "aproveitamento_de_estudos",
+  "source_type": "Processo",
+  "target": "minimo_de_30_da_carga_horaria_do_curso_cursada_no_unipe",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-7",
+  "evidence": "obrigado a cursar no mínimo 30% da carga horária do curso no Centro Universitário de João Pessoa - UNIPÊ"
+ },
+ {
+  "source": "aproveitamento_de_estagio_curricular",
+  "source_type": "Processo",
+  "target": "estagio_relacionado_ao_mesmo_curso",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-8",
+  "evidence": "estágios curriculares somente poderão ser aproveitados quando relacionados ao mesmo Curso"
+ },
+ {
+  "source": "aproveitamento_de_estagio_curricular",
+  "source_type": "Processo",
+  "target": "historico_escolar",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "regulamento_aproveitamento:art-8",
+  "evidence": "Para fins de aproveitamento serão aceitos os históricos que contenham aprovação em disciplinas de estágio"
+ },
+ {
+  "source": "aproveitamento_de_estagio_curricular",
+  "source_type": "Processo",
+  "target": "mesma_carga_horaria_e_mesmo_conteudo",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-8",
+  "evidence": "disciplinas de estágio com a mesma carga horária e mesmo conteúdo"
+ },
+ {
+  "source": "validacao_de_atividades_como_estagio_curricular_obrigatorio",
+  "source_type": "Processo",
+  "target": "previsao_no_projeto_pedagogico_do_curso",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-8",
+  "evidence": "validação dessas atividades como Estágio Curricular Obrigatório, desde que previstas no Projeto Pedagógico do Curso"
+ },
+ {
+  "source": "transferencia_externa",
+  "source_type": "Processo",
+  "target": "compatibilidade_de_disciplinas_e_conteudo",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-9",
+  "evidence": "ocorrerá sempre que houver compatibilidade de disciplinas e conteúdo"
+ },
+ {
+  "source": "dispensa_de_disciplina",
+  "source_type": "Processo",
+  "target": "minimo_de_50_de_dispensas_nos_semestres_anteriores",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-9",
+  "evidence": "dispensa de disciplinas a alocação do semestre para o candidato/estudante observará o percentual mínimo de 50% (cinquenta por cento) de dispensas"
+ },
+ {
+  "source": "dispensa_de_disciplina",
+  "source_type": "Processo",
+  "target": "maximo_de_6_adaptacoes_acumuladas",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-9",
+  "evidence": "observará o percentual mínimo de 50% (cinquenta por cento) de dispensas nos semestres anteriores e/ou o acúmulo de no máximo 6 (seis) adaptações"
+ },
+ {
+  "source": "revisao_da_analise_curricular",
+  "source_type": "Processo",
+  "target": "apresentacao_clara_dos_pontos_divergentes",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-10",
+  "evidence": "revisão da análise curricular poderá ser realizada desde que o candidato/estudante apresente com clareza os pontos divergentes"
+ },
+ {
+  "source": "revisao_da_analise_curricular",
+  "source_type": "Processo",
+  "target": "documentos_comprobatorios_da_revisao",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "regulamento_aproveitamento:art-10",
+  "evidence": "apresente os documentos que suportem claramente esta revisão"
+ },
+ {
+  "source": "analise_curricular",
+  "source_type": "Processo",
+  "target": "validacao_de_analise_curricular",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "regulamento_aproveitamento:art-11",
+  "evidence": "Após a elaboração da análise curricular pelo SNAC, o processo passará por validação da SEGEN"
+ },
+ {
+  "source": "analise_curricular",
+  "source_type": "Processo",
+  "target": "setor_nacional_de_analise_curricular",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "regulamento_aproveitamento:art-11",
+  "evidence": "elaboração da análise curricular pelo SNAC"
+ },
+ {
+  "source": "validacao_de_analise_curricular",
+  "source_type": "Processo",
+  "target": "secretaria_geral_de_ensino",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "regulamento_aproveitamento:art-11",
+  "evidence": "o processo passará por validação da SEGEN"
+ },
+ {
+  "source": "analise_curricular",
+  "source_type": "Processo",
+  "target": "historico_escolar",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "regulamento_aproveitamento:art-12",
+  "evidence": "A análise curricular levará em consideração informações contidas no Histórico Escolar"
+ },
+ {
+  "source": "aproveitamento_de_estudos",
+  "source_type": "Processo",
+  "target": "plano_de_ensino",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "regulamento_aproveitamento:art-13",
+  "evidence": "poderão ser exigidos os Planos de Ensino para verificação dos conteúdos estudados em complementação"
+ },
+ {
+  "source": "solicitacao_de_exclusao_da_dispensa",
+  "source_type": "Processo",
+  "target": "inclusao_de_disciplina_dispensada",
+  "target_type": "Processo",
+  "type": "PRECEDE",
+  "trecho_id": "regulamento_aproveitamento:art-14",
+  "evidence": "desejar cursar a disciplina poderá fazê-lo mediante solicitação de exclusão da dispensa"
+ },
+ {
+  "source": "inclusao_de_disciplina_dispensada",
+  "source_type": "Processo",
+  "target": "arcar_com_o_onus_decorrente_da_inclusao_da_disciplina",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-14",
+  "evidence": "arcando com o ônus decorrente da inclusão da disciplina"
+ },
+ {
+  "source": "analise_curricular",
+  "source_type": "Processo",
+  "target": "historico_escolar_da_ies_de_origem",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "regulamento_aproveitamento:art-16",
+  "evidence": "será necessária a apresentação do histórico escolar da IES onde essas disciplinas foram cursadas originalmente"
+ },
+ {
+  "source": "ingresso_via_diplomado",
+  "source_type": "Processo",
+  "target": "diploma_registrado",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "regulamento_aproveitamento:art-18",
+  "evidence": "O diploma deverá ser apresentado (frente e verso)"
+ },
+ {
+  "source": "ingresso_via_diplomado",
+  "source_type": "Processo",
+  "target": "curso_de_origem_que_permita_a_expedicao_de_diploma",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-18",
+  "evidence": "superior que não permita a expedição de diploma não está apto ao ingresso via diplomado"
+ },
+ {
+  "source": "transferencia_externa",
+  "source_type": "Processo",
+  "target": "historico_escolar",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "regulamento_aproveitamento:art-19",
+  "evidence": "Não é permitida análise curricular para ingresso via Transferência Externa sem a apresentação do histórico escolar"
+ },
+ {
+  "source": "transferencia_externa",
+  "source_type": "Processo",
+  "target": "existencia_de_vagas",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-19",
+  "evidence": "UNIPÊ recebe, desde que existam vagas, transferências de alunos provenientes de Curso Superior"
+ },
+ {
+  "source": "destrancamento_de_matricula",
+  "source_type": "Processo",
+  "target": "constatacao_de_vinculo_academico_dentro_do_prazo",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-20",
+  "evidence": "desde que constatado o vínculo acadêmico conforme prazo estabelecido no Regimento Geral"
+ },
+ {
+  "source": "destrancamento_de_matricula",
+  "source_type": "Processo",
+  "target": "sujeicao_a_matriz_curricular_vigente",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-20",
+  "evidence": "ficando este sujeito à matriz curricular vigente"
+ },
+ {
+  "source": "transferencia_interna",
+  "source_type": "Processo",
+  "target": "estar_regularmente_matriculado",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-21",
+  "evidence": "mediante solicitação do estudante regularmente matriculado"
+ },
+ {
+  "source": "transferencia_interna",
+  "source_type": "Processo",
+  "target": "disponibilidade_de_vagas",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-21",
+  "evidence": "desde que haja disponibilidade de vagas no curso, modalidade, campus ou polo pretendido"
+ },
+ {
+  "source": "dispensa_de_disciplina",
+  "source_type": "Processo",
+  "target": "informar_instituicao_de_origem_rgm_modalidade_ou_campus",
+  "target_type": "Regra",
+  "type": "REQUER",
+  "trecho_id": "regulamento_aproveitamento:art-22",
+  "evidence": "é necessário apenas informar a Instituição de origem, RGM, modalidade ou campus"
+ },
+ {
+  "source": "dispensa_de_disciplina",
+  "source_type": "Processo",
+  "target": "historico_escolar_da_instituicao_de_origem",
+  "target_type": "DocumentoExigido",
+  "type": "EXIGE",
+  "trecho_id": "regulamento_aproveitamento:art-23",
+  "evidence": "Para as solicitações de Dispensa de Disciplina cursadas em outras instituições de ensino é necessário apresentar o histórico escolar da instituição de origem."
+ },
+ {
+  "source": "deliberacao_de_casos_omissos",
+  "source_type": "Processo",
+  "target": "reitoria",
+  "target_type": "Orgao",
+  "type": "DECIDIDO_POR",
+  "trecho_id": "regulamento_aproveitamento:art-24",
+  "evidence": "Em casos que este regulamento for omisso, caberá à Reitoria e demais órgãos competentes a deliberação."
  }
 ]

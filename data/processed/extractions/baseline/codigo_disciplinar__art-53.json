@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Instrução",
+   "type": "Processo",
+   "description": "Fase de instrução probatória do procedimento disciplinar.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Apresentação de alegações finais",
+   "type": "Processo",
+   "description": "Etapa em que o aluno imputado apresenta suas alegações finais após o encerramento da instrução.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "10 dias úteis",
+   "type": "Prazo",
+   "description": "Prazo concedido ao aluno para apresentar alegações finais.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PRECEDE",
+   "evidence": "encerrada a instrução, a Comissão Processante intimará o aluno imputado para que, no prazo de dez dias úteis, apresente suas alegações finais."
+  },
+  {
+   "source": "e2",
+   "target": "e3",
+   "type": "TEM_PRAZO",
+   "evidence": "no prazo de dez dias úteis, apresente suas alegações finais."
+  }
+ ]
+}

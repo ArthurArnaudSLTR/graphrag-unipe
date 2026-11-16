@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Sindicância",
+   "type": "Processo",
+   "description": "procedimento preliminar de apuração",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "processo administrativo para apuração de infração",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "autoridade competente para determinar instauração do PAD",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PRECEDE",
+   "evidence": "A Sindicância precederá a instauração do Processo Administrativo Disciplinar"
+  },
+  {
+   "source": "e2",
+   "target": "e3",
+   "type": "DECIDIDO_POR",
+   "evidence": "Reitor poderá determinar a imediata instauração do Processo Administrativo Disciplinar"
+  }
+ ]
+}

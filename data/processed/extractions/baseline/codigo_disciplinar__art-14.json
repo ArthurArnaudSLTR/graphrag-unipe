@@ -1,0 +1,91 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "Processo disciplinar em que pode ser aplicada a sanção de suspensão.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Substituição de Sanção Disciplinar",
+   "type": "Processo",
+   "description": "Substituição da pena de suspensão por penalidade alternativa de cunho educativo ou trabalhos comunitários.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "Autoridade competente para propor a substituição e declarar extinta a punibilidade.",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Termo de Compromisso",
+   "type": "DocumentoExigido",
+   "description": "Documento no qual se formaliza a concordância do aluno e as regras da penalidade alternativa.",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Concordância expressa do aluno",
+   "type": "Regra",
+   "description": "Requisito obrigatório para formalização da substituição de sanção.",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "Não ser infração disciplinar gravíssima",
+   "type": "Regra",
+   "description": "Condição de vedação da substituição da sanção disciplinar.",
+   "gravidade": ""
+  },
+  {
+   "id": "e7",
+   "name": "5 dias úteis",
+   "type": "Prazo",
+   "description": "Prazo para manifestação do aluno em caso de descumprimento da penalidade alternativa.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "DECIDIDO_POR",
+   "evidence": "Ao encerramento do Processo Administrativo Disciplinar em que for aplicada sanção de suspensão, o Reitor poderá propor"
+  },
+  {
+   "source": "e2",
+   "target": "e3",
+   "type": "DECIDIDO_POR",
+   "evidence": "o Reitor poderá propor ao aluno a substituição da sanção por penalidade alternativa"
+  },
+  {
+   "source": "e2",
+   "target": "e4",
+   "type": "EXIGE",
+   "evidence": "A substituição depende da expressa concordância do aluno, formalizada em Termo de Compromisso"
+  },
+  {
+   "source": "e2",
+   "target": "e5",
+   "type": "REQUER",
+   "evidence": "A substituição depende da expressa concordância do aluno, formalizada em Termo de Compromisso"
+  },
+  {
+   "source": "e2",
+   "target": "e6",
+   "type": "REQUER",
+   "evidence": "A substituição não se aplica às hipóteses de: I - infração disciplinar gravíssima;"
+  },
+  {
+   "source": "e2",
+   "target": "e7",
+   "type": "TEM_PRAZO",
+   "evidence": "notificará o aluno para manifestar-se no prazo de cinco dias úteis"
+  }
+ ]
+}

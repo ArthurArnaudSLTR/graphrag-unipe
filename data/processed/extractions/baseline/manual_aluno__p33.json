@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Uso dos Laboratórios de Informática",
+   "type": "Processo",
+   "description": "Utilização dos laboratórios de informática para trabalhos acadêmicos e acesso à internet.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Estar regularmente matriculado",
+   "type": "Regra",
+   "description": "Requisito para que estudantes possam utilizar os laboratórios de informática.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "Todos os estudantes regularmente matriculados na Instituição podem utilizar os laboratórios"
+  }
+ ]
+}

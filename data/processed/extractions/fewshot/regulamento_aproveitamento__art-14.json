@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Inclusão de disciplina dispensada",
+   "type": "Processo",
+   "description": "Ato de cursar disciplina que havia sido objeto de dispensa",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Solicitação de exclusão da dispensa",
+   "type": "Processo",
+   "description": "Pedido formal de cancelamento da dispensa de disciplina concedida",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Arcar com o ônus decorrente da inclusão da disciplina",
+   "type": "Regra",
+   "description": "Exigência de arcar com os custos ou implicações financeiras decorrentes da inclusão da disciplina",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e2",
+   "target": "e1",
+   "type": "PRECEDE",
+   "evidence": "desejar cursar a disciplina poderá fazê-lo mediante solicitação de exclusão da dispensa"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "arcando com o ônus decorrente da inclusão da disciplina"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Análise Curricular",
+   "type": "Processo",
+   "description": "Análise realizada com base nas informações acadêmicas do estudante para aproveitamento de estudos",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Histórico Escolar",
+   "type": "DocumentoExigido",
+   "description": "Documento oficial emitido pela instituição de origem contendo as informações acadêmicas do estudante",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Informações da Portaria Normativa nº 1.095",
+   "type": "Regra",
+   "description": "Conjunto de informações obrigatórias que devem constar no histórico escolar",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "EXIGE",
+   "evidence": "A análise curricular levará em consideração informações contidas no Histórico Escolar"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "O referido histórico deverá conter as informações descritas na Portaria Normativa nº 1.095"
+  }
+ ]
+}

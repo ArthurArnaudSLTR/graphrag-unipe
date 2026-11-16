@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Recurso contra decisão do Reitor",
+   "type": "Processo",
+   "description": "recurso interposto em segunda instância disciplinar",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Consepe",
+   "type": "Orgao",
+   "description": "órgão colegiado encarregado de julgar o recurso",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "5 dias úteis",
+   "type": "Prazo",
+   "description": "prazo para interpor recurso da decisão do Reitor",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "cabe recurso, no prazo de cinco dias úteis, ao Consepe, que decidirá"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "TEM_PRAZO",
+   "evidence": "cabe recurso, no prazo de cinco dias úteis"
+  }
+ ]
+}

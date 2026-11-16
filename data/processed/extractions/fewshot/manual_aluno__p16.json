@@ -1,0 +1,46 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Revisão de Faltas",
+   "type": "Processo",
+   "description": "solicitação de revisão do número de faltas registradas na disciplina",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Coordenação de Curso",
+   "type": "Orgao",
+   "description": "órgão que recebe a solicitação de revisão de faltas",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Atividades Domiciliares",
+   "type": "Processo",
+   "description": "compensação de faltas para situações de afastamento prolongado",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "15 dias",
+   "type": "Prazo",
+   "description": "limite de dias de afastamento para permitir compensação domiciliar",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "Essa solicitação será encaminhada à coordenação do curso, que solicitará ao professor a análise e manifestação sobre o caso."
+  },
+  {
+   "source": "e3",
+   "target": "e4",
+   "type": "TEM_PRAZO",
+   "evidence": "Situações que ultrapassem 15 dias podem ser compensadas com atividades domiciliares"
+  }
+ ]
+}

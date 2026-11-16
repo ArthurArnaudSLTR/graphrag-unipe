@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Contagem de prazos",
+   "type": "Processo",
+   "description": "procedimento de contagem dos prazos disciplinares",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Exclusão do primeiro dia e inclusão do dia do vencimento",
+   "type": "Regra",
+   "description": "",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Contagem somente em dias úteis",
+   "type": "Regra",
+   "description": "",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Início a partir do recebimento da intimação ou citação",
+   "type": "Regra",
+   "description": "",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "A contagem dos prazos será feita excluindo-se o primeiro dia e incluindo-se o dia do vencimento."
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "Na contagem de prazo em dias, computar-se-ão somente os dias úteis."
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "Os prazos começam a correr a partir da data do recebimento da intimação ou citação."
+  }
+ ]
+}

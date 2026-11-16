@@ -1,18 +1,46 @@
 {
- "mencoes_brutas": 65,
- "nos_unicos": 43,
- "reducao_pct": 33.8,
- "relacoes": 44,
+ "mencoes_brutas": 333,
+ "nos_unicos": 227,
+ "reducao_pct": 31.8,
+ "relacoes": 211,
  "por_tipo": {
-  "DocumentoExigido": 3,
-  "Infracao": 5,
-  "Orgao": 3,
-  "Penalidade": 6,
-  "Prazo": 9,
-  "Processo": 14,
-  "Regra": 3
+  "DocumentoExigido": 21,
+  "Infracao": 7,
+  "Orgao": 21,
+  "Penalidade": 7,
+  "Prazo": 20,
+  "Processo": 88,
+  "Regra": 63
  },
  "grupos_fundidos": [
+  {
+   "canonico": "Histórico escolar",
+   "tipo": "DocumentoExigido",
+   "variantes": [
+    "Histórico Escolar"
+   ]
+  },
+  {
+   "canonico": "Secretaria Geral de Ensino",
+   "tipo": "Orgao",
+   "variantes": [
+    "SEGEN"
+   ]
+  },
+  {
+   "canonico": "Setor Nacional de Análise Curricular",
+   "tipo": "Orgao",
+   "variantes": [
+    "SNAC"
+   ]
+  },
+  {
+   "canonico": "Desligamento",
+   "tipo": "Penalidade",
+   "variantes": [
+    "Expulsão"
+   ]
+  },
   {
    "canonico": "15 dias",
    "tipo": "Prazo",
@@ -28,10 +56,45 @@
    ]
   },
   {
+   "canonico": "90 dias",
+   "tipo": "Prazo",
+   "variantes": [
+    "Até 90 dias"
+   ]
+  },
+  {
+   "canonico": "Análise Curricular",
+   "tipo": "Processo",
+   "variantes": [
+    "Análise curricular"
+   ]
+  },
+  {
+   "canonico": "Aproveitamento de estudos",
+   "tipo": "Processo",
+   "variantes": [
+    "Aproveitamento de Estudos"
+   ]
+  },
+  {
    "canonico": "Apuração de Infração Disciplinar",
    "tipo": "Processo",
    "variantes": [
     "Apuração de infração disciplinar"
+   ]
+  },
+  {
+   "canonico": "Dispensa de Disciplina",
+   "tipo": "Processo",
+   "variantes": [
+    "Dispensa de Disciplinas"
+   ]
+  },
+  {
+   "canonico": "Transferência Externa",
+   "tipo": "Processo",
+   "variantes": [
+    "Transferência externa"
    ]
   }
  ],
@@ -47,8 +110,263 @@
    "variantes": [
     "Até 30 dias"
    ]
+  },
+  {
+   "nome": "90 dias",
+   "variantes": [
+    "Até 90 dias"
+   ]
   }
  ],
- "decisoes_fuzzy": [],
+ "decisoes_fuzzy": [
+  {
+   "a": "Histórico escolar",
+   "b": "Histórico escolar da IES de origem",
+   "tipo": "DocumentoExigido",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Histórico escolar",
+   "b": "Histórico escolar da instituição de origem",
+   "tipo": "DocumentoExigido",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Histórico escolar da IES de origem",
+   "b": "Histórico escolar da instituição de origem",
+   "tipo": "DocumentoExigido",
+   "score": 92,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Coordenação",
+   "b": "Coordenação de Curso",
+   "tipo": "Orgao",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Coordenação de Curso",
+   "b": "Coordenador do Curso",
+   "tipo": "Orgao",
+   "score": 88,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Alegações finais",
+   "b": "Apresentação de alegações finais",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Análise Curricular",
+   "b": "Análise curricular para dispensa de disciplinas",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Análise Curricular",
+   "b": "Revisão da análise curricular",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Análise Curricular",
+   "b": "Validação de Análise Curricular",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Análise curricular para dispensa de disciplinas",
+   "b": "Dispensa de Disciplinas",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Avaliação",
+   "b": "Avaliação da Aprendizagem",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Avaliação",
+   "b": "Avaliação Final",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "manter",
+   "juiz_llm": null
+  },
+  {
+   "a": "Avaliação",
+   "b": "Revisão de Avaliação Regimental e Avaliação Final",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "manter",
+   "juiz_llm": null
+  },
+  {
+   "a": "Avaliação",
+   "b": "Segunda Chamada de Avaliação",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "manter",
+   "juiz_llm": null
+  },
+  {
+   "a": "Avaliação Final",
+   "b": "Revisão de Avaliação Regimental e Avaliação Final",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Cancelamento de Matrícula",
+   "b": "Trancamento de Matrícula",
+   "tipo": "Processo",
+   "score": 88,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Colação de Grau",
+   "b": "Colação de Grau Especial",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Colação de Grau",
+   "b": "Colação de Grau por Edital",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Destrancamento de Matrícula",
+   "b": "Trancamento de Matrícula",
+   "tipo": "Processo",
+   "score": 93,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Dispensa de Disciplina",
+   "b": "Dispensa de Disciplinas",
+   "tipo": "Processo",
+   "score": 97,
+   "decisao": "fundir",
+   "juiz_llm": null
+  },
+  {
+   "a": "Estágio Curricular Supervisionado",
+   "b": "Estágio Curricular Supervisionado Obrigatório",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "manter",
+   "juiz_llm": null
+  },
+  {
+   "a": "Extensão",
+   "b": "Projetos de pesquisa e extensão",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Extensão",
+   "b": "Renovação de projetos de extensão",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Instauração",
+   "b": "Instauração da Comissão Processante",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Processo Administrativo Disciplinar",
+   "b": "Processo Disciplinar",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Produção de provas",
+   "b": "Requerimento de produção de provas",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Recurso",
+   "b": "Recurso contra decisão do Reitor",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Recurso",
+   "b": "Recurso da decisão de primeira instância",
+   "tipo": "Processo",
+   "score": 100,
+   "decisao": "manter",
+   "juiz_llm": null
+  },
+  {
+   "a": "Transferência Externa",
+   "b": "Transferência Interna",
+   "tipo": "Processo",
+   "score": 90,
+   "decisao": "manter",
+   "juiz_llm": null
+  },
+  {
+   "a": "Disponibilidade de vagas",
+   "b": "Oferta e disponibilidade de vagas",
+   "tipo": "Regra",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  },
+  {
+   "a": "Existência de vagas",
+   "b": "Existência de vagas no curso pretendido",
+   "tipo": "Regra",
+   "score": 100,
+   "decisao": "revisar",
+   "juiz_llm": null
+  }
+ ],
  "conflitos_gravidade": []
 }

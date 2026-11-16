@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Comportamento inadequado",
+   "type": "Infracao",
+   "description": "Conduta inadequada do aluno que enseja admoestação",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Admoestação",
+   "type": "Penalidade",
+   "description": "Reprimenda feita ao aluno, de modo verbal ou por escrito",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PUNIVEL_COM",
+   "evidence": "Admoestação. Reprimenda feita ao aluno, de modo verbal ou por escrito, em razão de comportamento inadequado."
+  }
+ ]
+}

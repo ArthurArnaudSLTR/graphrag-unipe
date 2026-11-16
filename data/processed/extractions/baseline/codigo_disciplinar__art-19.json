@@ -1,0 +1,65 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Apuração de infração disciplinar",
+   "type": "Processo",
+   "description": "Procedimento instaurado para averiguar a ocorrência de infrações disciplinares.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Requerimento por escrito",
+   "type": "DocumentoExigido",
+   "description": "Documento por escrito apresentado pelo ofendido ou seu representante para iniciar o procedimento.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Relatório",
+   "type": "DocumentoExigido",
+   "description": "Documento elaborado por órgão da Instituição para recomendar a apuração disciplinar.",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Narração do fato com todas as circunstâncias",
+   "type": "Regra",
+   "description": "Requisito obrigatório do requerimento de instauração do procedimento disciplinar.",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "Autoridade máxima que pode iniciar de ofício o procedimento de apuração.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "EXIGE",
+   "evidence": "O requerimento de que trata o inciso II deverá ser apresentado por escrito"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "EXIGE",
+   "evidence": "A recomendação de que trata o inciso III será feita mediante relatório"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "contendo necessariamente a narração do fato, com todas as suas circunstâncias"
+  },
+  {
+   "source": "e1",
+   "target": "e5",
+   "type": "DECIDIDO_POR",
+   "evidence": "procedimentos para apuração das infrações disciplinares poderão ser iniciados: I - pelo Reitor, de ofício"
+  }
+ ]
+}

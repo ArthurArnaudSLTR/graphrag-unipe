@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Sindicância",
+   "type": "Processo",
+   "description": "Procedimento de investigação para coleta de provas e elucidação de fatos.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Vedação de acompanhamento de depoimento entre sindicados",
+   "type": "Regra",
+   "description": "Regra que proíbe um sindicado de acompanhar o depoimento de outro sindicado.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Justificação de ausência em depoimento",
+   "type": "Regra",
+   "description": "Condição para adiamento do depoimento em caso de não comparecimento do depoente.",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Véspera da data designada",
+   "type": "Prazo",
+   "description": "Prazo limite para a justificativa da ausência do depoente.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "No caso de haver mais de um sindicado, não será permitido que um acompanhe o depoimento do outro."
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "O depoimento poderá ser adiado se o depoente não puder comparecer, cabendo a ele justificar a ausência"
+  },
+  {
+   "source": "e3",
+   "target": "e4",
+   "type": "TEM_PRAZO",
+   "evidence": "cabendo a ele justificar a ausência até a véspera da data designada para o ato."
+  }
+ ]
+}

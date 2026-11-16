@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Decisão de casos omissos",
+   "type": "Processo",
+   "description": "Resolução de situações omissas no Código Disciplinar",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "Autoridade competente para decidir casos omissos",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Consu",
+   "type": "Orgao",
+   "description": "Conselho Universitário responsável por referendar as decisões",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "casos omissos neste Código serão decididos pelo Reitor"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "DECIDIDO_POR",
+   "evidence": "serão decididos pelo Reitor ad referendum do Consu"
+  }
+ ]
+}

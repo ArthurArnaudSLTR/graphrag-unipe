@@ -1,0 +1,150 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Monitoria",
+   "type": "Processo",
+   "description": "Atividade acadêmica de monitoria para estudantes.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Disponibilidade de no mínimo 6 horas semanais",
+   "type": "Regra",
+   "description": "Exigência de tempo para dedicação à monitoria.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "2 semestres letivos consecutivos",
+   "type": "Prazo",
+   "description": "Duração máxima de monitoria em uma mesma unidade curricular.",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Relatórios",
+   "type": "DocumentoExigido",
+   "description": "Relatórios a serem enviados pelos monitores mensalmente.",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Dia 15 de cada mês",
+   "type": "Prazo",
+   "description": "Prazo limite mensal para o envio dos relatórios de monitoria.",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "Mínimo de 75% da carga horária exigida",
+   "type": "Regra",
+   "description": "Frequência mínima para obtenção do certificado de monitoria.",
+   "gravidade": ""
+  },
+  {
+   "id": "e7",
+   "name": "Extensão",
+   "type": "Processo",
+   "description": "Processo educativo, cultural e científico que articula ensino e pesquisa.",
+   "gravidade": ""
+  },
+  {
+   "id": "e8",
+   "name": "COMPEX",
+   "type": "Orgao",
+   "description": "Coordenação de Monitoria, Pesquisa e Extensão.",
+   "gravidade": ""
+  },
+  {
+   "id": "e9",
+   "name": "Estar regularmente matriculado",
+   "type": "Regra",
+   "description": "Requisito de matrícula para participar das atividades de extensão.",
+   "gravidade": ""
+  },
+  {
+   "id": "e10",
+   "name": "Não acumular participação em 2 ou mais projetos de pesquisa ou extensão",
+   "type": "Regra",
+   "description": "Restrição de acúmulo de projetos no mesmo período letivo.",
+   "gravidade": ""
+  },
+  {
+   "id": "e11",
+   "name": "Não acumular mais de 1 incentivo estudantil da mesma natureza",
+   "type": "Regra",
+   "description": "Proibição de cumulação de incentivo entre programas.",
+   "gravidade": ""
+  },
+  {
+   "id": "e12",
+   "name": "Máximo de 4 semestres",
+   "type": "Prazo",
+   "description": "Período limite para permanência em projetos de pesquisa e extensão.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "O estudante deve ter disponibilidade de no mínimo 6 horas semanais para dedicação;"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "TEM_PRAZO",
+   "evidence": "Duração máxima de dois semestres letivos consecutivos (esta regra pode ser flexibilizada emsituações excepcionais), em uma mesma unidade curricular;"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "EXIGE",
+   "evidence": "Os monitores devem enviar os relatórios até o dia 15 de cada mês."
+  },
+  {
+   "source": "e1",
+   "target": "e5",
+   "type": "TEM_PRAZO",
+   "evidence": "Os monitores devem enviar os relatórios até o dia 15 de cada mês."
+  },
+  {
+   "source": "e1",
+   "target": "e6",
+   "type": "REQUER",
+   "evidence": "Ao final do exercício da monitoria o estudante receberá um certificado, caso o alcance 75%da carga horária mínima exigida."
+  },
+  {
+   "source": "e7",
+   "target": "e8",
+   "type": "DECIDIDO_POR",
+   "evidence": "Novos projetos deverão ser apresentados à COMPEX após aval da Coordenação do Curso ao qual está vinculado."
+  },
+  {
+   "source": "e7",
+   "target": "e9",
+   "type": "REQUER",
+   "evidence": "Estar regularmente matriculados;"
+  },
+  {
+   "source": "e7",
+   "target": "e10",
+   "type": "REQUER",
+   "evidence": "Não acumular participação em 2 (dois) ou mais projetos de pesquisa ou extensão no mesmo período .letivo;"
+  },
+  {
+   "source": "e7",
+   "target": "e11",
+   "type": "REQUER",
+   "evidence": "Não acumular mais de 1 (um) incentivo estudantil da mesma natureza."
+  },
+  {
+   "source": "e7",
+   "target": "e12",
+   "type": "TEM_PRAZO",
+   "evidence": "Não ultrapassar período máximo de 4 (quatro) semestres, consecutivos, ou não, em projetos de pesquisa e extensão;"
+  }
+ ]
+}

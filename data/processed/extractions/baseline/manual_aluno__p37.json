@@ -1,0 +1,65 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Taxa de serviço não reembolsável",
+   "type": "Regra",
+   "description": "Cobrança de taxa de serviço cujo valor não é devolvido em caso de deferimento, indeferimento ou cancelamento.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Segunda Chamada",
+   "type": "Processo",
+   "description": "Solicitação de segunda chamada de prova.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Extraordinário Aproveitamento de Estudos",
+   "type": "Processo",
+   "description": "Solicitação em atendimento a LDBEN 9394/96, Artigo 47, P. 2º.",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Revisão de Notas",
+   "type": "Processo",
+   "description": "Solicitação de revisão de notas.",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Recurso sobre Faltas",
+   "type": "Processo",
+   "description": "Solicitação de recurso ou revisão de faltas.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e2",
+   "target": "e1",
+   "type": "REQUER",
+   "evidence": "os serviços listados abaixo possuem uma taxa de serviço não reembolsável."
+  },
+  {
+   "source": "e3",
+   "target": "e1",
+   "type": "REQUER",
+   "evidence": "os serviços listados abaixo possuem uma taxa de serviço não reembolsável."
+  },
+  {
+   "source": "e4",
+   "target": "e1",
+   "type": "REQUER",
+   "evidence": "os serviços listados abaixo possuem uma taxa de serviço não reembolsável."
+  },
+  {
+   "source": "e5",
+   "target": "e1",
+   "type": "REQUER",
+   "evidence": "os serviços listados abaixo possuem uma taxa de serviço não reembolsável."
+  }
+ ]
+}

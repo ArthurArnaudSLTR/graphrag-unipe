@@ -1,0 +1,46 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Acesso às salas de aula",
+   "type": "Processo",
+   "description": "utilização das salas de aula durante as atividades acadêmicas",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Estar regularmente matriculado",
+   "type": "Regra",
+   "description": "requisito para utilização das salas de aula",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Presença de ouvintes",
+   "type": "Processo",
+   "description": "permanência de estudantes não matriculados como ouvintes em sala de aula",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Coordenação",
+   "type": "Orgao",
+   "description": "órgão responsável por conceder autorização prévia",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "as salas de aula do UDF devem ser utilizadas apenas por estudantes regularmente matriculados."
+  },
+  {
+   "source": "e3",
+   "target": "e4",
+   "type": "DECIDIDO_POR",
+   "evidence": "A presença de ouvintes só poderá ocorrer mediante autorização prévia da Coordenação."
+  }
+ ]
+}

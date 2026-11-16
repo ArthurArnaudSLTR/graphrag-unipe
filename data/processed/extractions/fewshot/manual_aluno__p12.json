@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Autorização para uso da logomarca",
+   "type": "Processo",
+   "description": "solicitação para utilização do logotipo da Instituição em materiais",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Gerência de Comunicação e Marketing",
+   "type": "Orgao",
+   "description": "setor responsável por avaliar, aprovar e autorizar a utilização do logotipo",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "deve, obrigatoriamente, passar por avaliação, aprovação e autorização da Gerência de Comunicação e Marketing da Cruzeiro do Sul Educacional"
+  }
+ ]
+}

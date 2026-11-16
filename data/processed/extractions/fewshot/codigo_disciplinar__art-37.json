@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Sindicância",
+   "type": "Processo",
+   "description": "procedimento de apuração de infração disciplinar",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "processo disciplinar para apuração de conduta discente",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Transação Administrativa",
+   "type": "Processo",
+   "description": "procedimento prévio à instauração de processo disciplinar",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PRECEDE",
+   "evidence": "Comissão Sindicante elaborará relatório final, que poderá [...] recomendar a instauração de Processo Administrativo Disciplinar"
+  },
+  {
+   "source": "e3",
+   "target": "e2",
+   "type": "PRECEDE",
+   "evidence": "prévia realização do procedimento de Transação Administrativa"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Aproveitamento de estudos",
+   "type": "Processo",
+   "description": "Análise curricular para o aproveitamento de estudos por equivalência",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Setor Nacional de Análise Curricular",
+   "type": "Orgao",
+   "description": "Realiza a avaliação do aproveitamento de estudos por equivalência",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Secretaria Geral de Ensino",
+   "type": "Orgao",
+   "description": "Valida o aproveitamento de estudos por equivalência",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "A avaliação do aproveitamento de estudos por equivalência é realizada pelo Setor Nacional de Análise Curricular (SNAC)"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "DECIDIDO_POR",
+   "evidence": "estará sujeita à validação da Secretaria Geral de Ensino – SEGEN"
+  }
+ ]
+}

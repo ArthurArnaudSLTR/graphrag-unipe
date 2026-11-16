@@ -1,0 +1,46 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Análise Curricular",
+   "type": "Processo",
+   "description": "Análise curricular para dispensa de disciplinas por equivalência de estudos.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Transferência Externa",
+   "type": "Processo",
+   "description": "Processo de transferência externa para ingresso na Instituição.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Existência de vagas no curso pretendido",
+   "type": "Regra",
+   "description": "Exigência de haver vaga no curso pretendido para fins de ingresso por transferência externa.",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Enquadramento na matriz curricular vigente",
+   "type": "Regra",
+   "description": "Sujeição obrigatória ao enquadramento na matriz curricular vigente para os pedidos.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e2",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "desde que haja existência de vagas no curso pretendido"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "Para todos os pedidos o candidato/estudante estará sujeito ao enquadramento na matriz curricular vigente"
+  }
+ ]
+}

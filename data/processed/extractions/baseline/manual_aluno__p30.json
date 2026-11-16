@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Guarda Religiosa",
+   "type": "Processo",
+   "description": "Solicitação para ausência em dias ou horários por motivos de crença religiosa",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Declaração religiosa original",
+   "type": "DocumentoExigido",
+   "description": "Declaração religiosa em papel timbrado e com firma reconhecida",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Secretaria de Registros e Controles Acadêmicos",
+   "type": "Orgao",
+   "description": "Órgão responsável pelo deferimento legal do processo de guarda religiosa",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "EXIGE",
+   "evidence": "anexando eletronicamente ao processo a declaração religiosa original em papel timbrado e com firma reconhecida."
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "DECIDIDO_POR",
+   "evidence": "Com o processo deferido legalmente pela Secretaria de Registros e Controles Acadêmicos"
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Estágio Curricular Supervisionado Obrigatório",
+   "type": "Processo",
+   "description": "Atividade curricular obrigatória para a conclusão do curso",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Coordenação de Curso",
+   "type": "Orgao",
+   "description": "Responsável pela elaboração dos regulamentos do estágio",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Cumprimento de 100% da carga horária",
+   "type": "Regra",
+   "description": "Obrigatoriedade de cumprir integralmente a carga horária do estágio no prazo determinado",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Monitoria",
+   "type": "Processo",
+   "description": "Programa acadêmico onde o estudante auxilia colegas em uma disciplina",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Ser estudante de graduação",
+   "type": "Regra",
+   "description": "Requisito para o exercício da monitoria",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "Aprovação na disciplina objeto de monitoria",
+   "type": "Regra",
+   "description": "Requisito de ter cursado e sido aprovado na disciplina ou equivalente",
+   "gravidade": ""
+  },
+  {
+   "id": "e7",
+   "name": "Não ter sofrido qualquer sanção disciplinar",
+   "type": "Regra",
+   "description": "Requisito disciplinar para exercer monitoria",
+   "gravidade": ""
+  },
+  {
+   "id": "e8",
+   "name": "Cumprimento regular do CPSE",
+   "type": "Regra",
+   "description": "Requisito de estar cumprindo regularmente o Contrato de Prestação de Serviços Educacionais",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "Estágio Curricular Supervisionado está sob a responsabilidade dos coordenadores de cursos"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "Os estudantes regularmente matriculados devem cumprir 100% da carga horária do estágio no prazo determinado"
+  },
+  {
+   "source": "e4",
+   "target": "e5",
+   "type": "REQUER",
+   "evidence": "São requisitos para o exercício da monitoria: ser estudante da graduação"
+  },
+  {
+   "source": "e4",
+   "target": "e6",
+   "type": "REQUER",
+   "evidence": "ter cursado e sido aprovado na disciplina objeto de monitoria ou equivalente"
+  },
+  {
+   "source": "e4",
+   "target": "e7",
+   "type": "REQUER",
+   "evidence": "não ter sofrido qualquer sanção disciplinar"
+  },
+  {
+   "source": "e4",
+   "target": "e8",
+   "type": "REQUER",
+   "evidence": "estar cumprindo, regularmente, o Contrato de Prestação de Serviços Educacionais (CPSE)"
+  }
+ ]
+}

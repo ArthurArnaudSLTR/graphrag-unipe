@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "procedimento para apuração de infrações disciplinares",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Comissão Processante composta por 3 membros",
+   "type": "Regra",
+   "description": "requisito de composição da comissão processante",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "A Comissão Processante será composta por três membros"
+  }
+ ]
+}

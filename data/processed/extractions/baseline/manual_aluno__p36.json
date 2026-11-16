@@ -1,0 +1,59 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "ENADE",
+   "type": "Processo",
+   "description": "Exame Nacional de Desempenho dos Estudantes, componente curricular obrigatório.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "INEP",
+   "type": "Orgao",
+   "description": "Órgão responsável pela definição do cronograma de aplicação e liberação dos questionários do ENADE.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "3 anos",
+   "type": "Prazo",
+   "description": "Periodicidade máxima da avaliação do ENADE para cada área do conhecimento.",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Avaliação Institucional",
+   "type": "Processo",
+   "description": "Processo que visa a melhoria dos serviços prestados pela instituição.",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Comissão Própria de Avaliação",
+   "type": "Orgao",
+   "description": "Equipe responsável por coordenar e implementar o processo de Avaliação Institucional.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "O cronograma de aplicação da avaliação e liberação dos questionários são definidas e divulgados pelo INEP"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "TEM_PRAZO",
+   "evidence": "A periodicidade máxima da avaliação é trienal para cada área do conhecimento"
+  },
+  {
+   "source": "e4",
+   "target": "e5",
+   "type": "DECIDIDO_POR",
+   "evidence": "É a equipe responsável por coordenar e implementar o processo de Avaliação Institucional."
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Passe Escolar",
+   "type": "Processo",
+   "description": "Solicitação de benefício de transporte escolar",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Estar regularmente matriculado",
+   "type": "Regra",
+   "description": "Requisito para solicitação de passe escolar",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "benefício exclusivo ao estudante regularmente matriculado"
+  }
+ ]
+}

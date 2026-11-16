@@ -1,0 +1,79 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Colação de Grau",
+   "type": "Processo",
+   "description": "ato solene de conclusão do curso",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Emissão de Diploma Digital",
+   "type": "Processo",
+   "description": "expedição automática do diploma após a colação de grau",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Láurea Acadêmica",
+   "type": "Processo",
+   "description": "reconhecimento por mérito acadêmico",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Reitoria",
+   "type": "Orgao",
+   "description": "órgão responsável por definir cursos elegíveis à láurea",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Colação de Grau Especial",
+   "type": "Processo",
+   "description": "requerimento de colação em momento distinto da colação oficial",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "Conclusão de todas as disciplinas e atividades",
+   "type": "Regra",
+   "description": "requisito de ter todas as disciplinas e atividades concluídas e cadastradas",
+   "gravidade": ""
+  },
+  {
+   "id": "e7",
+   "name": "Documento comprovatório de necessidade de antecipação",
+   "type": "DocumentoExigido",
+   "description": "comprovante de necessidade para antecipar a colação",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PRECEDE",
+   "evidence": "A emissão do diploma é realizada após a colação de grau"
+  },
+  {
+   "source": "e3",
+   "target": "e4",
+   "type": "DECIDIDO_POR",
+   "evidence": "Láurea Acadêmica pode ser oferecida para todos os cursos ou para cursos definidos pela Reitoria"
+  },
+  {
+   "source": "e5",
+   "target": "e6",
+   "type": "REQUER",
+   "evidence": "O pedido somente poderá ser protocolado quando todas as disciplinas e atividades estiverem concluídas"
+  },
+  {
+   "source": "e5",
+   "target": "e7",
+   "type": "EXIGE",
+   "evidence": "Para antecipação de colação, o estudante deve apresentar documento que comprove sua necessidade"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Infração leve",
+   "type": "Infracao",
+   "description": "Infração disciplinar classificada como leve.",
+   "gravidade": "leve"
+  },
+  {
+   "id": "e2",
+   "name": "Infração média",
+   "type": "Infracao",
+   "description": "Infração disciplinar classificada como média.",
+   "gravidade": "media"
+  },
+  {
+   "id": "e3",
+   "name": "Infração grave",
+   "type": "Infracao",
+   "description": "Infração disciplinar classificada como grave.",
+   "gravidade": "grave"
+  },
+  {
+   "id": "e4",
+   "name": "Infração gravíssima",
+   "type": "Infracao",
+   "description": "Infração disciplinar classificada como gravíssima.",
+   "gravidade": "gravissima"
+  },
+  {
+   "id": "e5",
+   "name": "Advertência",
+   "type": "Penalidade",
+   "description": "Penalidade disciplinar de advertência.",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "Repreensão",
+   "type": "Penalidade",
+   "description": "Penalidade disciplinar de repreensão.",
+   "gravidade": ""
+  },
+  {
+   "id": "e7",
+   "name": "Suspensão",
+   "type": "Penalidade",
+   "description": "Penalidade disciplinar de suspensão.",
+   "gravidade": ""
+  },
+  {
+   "id": "e8",
+   "name": "Desligamento",
+   "type": "Penalidade",
+   "description": "Penalidade disciplinar de desligamento.",
+   "gravidade": ""
+  },
+  {
+   "id": "e9",
+   "name": "Até 15 dias",
+   "type": "Prazo",
+   "description": "Prazo limite de suspensão para infração grave.",
+   "gravidade": ""
+  },
+  {
+   "id": "e10",
+   "name": "16 a 30 dias",
+   "type": "Prazo",
+   "description": "Prazo de suspensão para infração gravíssima.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e5",
+   "type": "PUNIVEL_COM",
+   "evidence": "leves, passíveis de advertência;"
+  },
+  {
+   "source": "e2",
+   "target": "e5",
+   "type": "PUNIVEL_COM",
+   "evidence": "médias, passíveis de advertência ou repreensão;"
+  },
+  {
+   "source": "e2",
+   "target": "e6",
+   "type": "PUNIVEL_COM",
+   "evidence": "médias, passíveis de advertência ou repreensão;"
+  },
+  {
+   "source": "e3",
+   "target": "e6",
+   "type": "PUNIVEL_COM",
+   "evidence": "graves, passíveis de repreensão ou suspensão por até quinze dias;"
+  },
+  {
+   "source": "e3",
+   "target": "e7",
+   "type": "PUNIVEL_COM",
+   "evidence": "graves, passíveis de repreensão ou suspensão por até quinze dias;"
+  },
+  {
+   "source": "e7",
+   "target": "e9",
+   "type": "TEM_PRAZO",
+   "evidence": "suspensão por até quinze dias"
+  },
+  {
+   "source": "e4",
+   "target": "e7",
+   "type": "PUNIVEL_COM",
+   "evidence": "gravíssimas, passíveis de suspensão de dezesseis a trinta dias ou de desligamento."
+  },
+  {
+   "source": "e7",
+   "target": "e10",
+   "type": "TEM_PRAZO",
+   "evidence": "suspensão de dezesseis a trinta dias"
+  },
+  {
+   "source": "e4",
+   "target": "e8",
+   "type": "PUNIVEL_COM",
+   "evidence": "gravíssimas, passíveis de suspensão de dezesseis a trinta dias ou de desligamento."
+  }
+ ]
+}

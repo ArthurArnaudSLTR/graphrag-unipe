@@ -1,0 +1,59 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Revisão de Nota de A1 e AF",
+   "type": "Processo",
+   "description": "Solicitação de revisão da nota da Avaliação Regimental (A1) e/ou Avaliação Final (AF).",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "5 dias úteis",
+   "type": "Prazo",
+   "description": "Prazo para requerer a revisão de nota de A1 e/ou AF a contar da divulgação da nota.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "prova original",
+   "type": "DocumentoExigido",
+   "description": "Documento indispensável para solicitação de revisão de nota.",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Revisão de Nota de A2",
+   "type": "Processo",
+   "description": "Solicitação de revisão de nota da Avaliação A2.",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Professor",
+   "type": "Orgao",
+   "description": "Docente com quem é realizada a revisão da nota de A2.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "TEM_PRAZO",
+   "evidence": "deverá ser requerida no prazo de até 05 (cinco) dias úteis a contar da data de divulgação da nota no sistema."
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "EXIGE",
+   "evidence": "Para a revisão é imprescindível a apresentação da prova original"
+  },
+  {
+   "source": "e4",
+   "target": "e5",
+   "type": "DECIDIDO_POR",
+   "evidence": "A revisão da A2 deverá ser realizada diretamente com o professor"
+  }
+ ]
+}

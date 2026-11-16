@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Sindicância",
+   "type": "Processo",
+   "description": "Procedimento prévio para apuração de infrações",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "Processo disciplinar de apuração e aplicação de penalidades",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "Autoridade responsável por determinar a instauração de processo disciplinar",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PRECEDE",
+   "evidence": "A Sindicância precederá a instauração do Processo Administrativo Disciplinar"
+  },
+  {
+   "source": "e2",
+   "target": "e3",
+   "type": "DECIDIDO_POR",
+   "evidence": "Reitor poderá determinar a imediata instauração do Processo Administrativo Disciplinar"
+  }
+ ]
+}

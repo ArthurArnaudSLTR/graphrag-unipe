@@ -1,0 +1,65 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Aproveitamento de Estudos",
+   "type": "Processo",
+   "description": "Concessão de dispensa de disciplinas com base em estudos anteriores.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Similaridade de conteúdo e carga horária compatível",
+   "type": "Regra",
+   "description": "Exigência de conteúdo similar e compatibilidade da carga horária entre disciplinas.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Mínimo de 75% da carga horária cursada na disciplina de origem",
+   "type": "Regra",
+   "description": "Exigência de que a disciplina cursada na origem possua no mínimo 75% da carga horária da disciplina pretendida.",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Máximo de 70% da carga horária do curso dispensada",
+   "type": "Regra",
+   "description": "Limite máximo de dispensa da carga horária total do curso.",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Mínimo de 30% da carga horária do curso cursada no UNIPÊ",
+   "type": "Regra",
+   "description": "Obrigatoriedade de cursar no mínimo 30% da carga horária do curso na instituição.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "O aproveitamento de estudos entre disciplinas pode ser concedido desde que haja similaridade de conteúdo e carga horária compatível."
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "Em nenhuma hipótese será concedido aproveitamento de estudos quando o número de horas cursadas na disciplina de origem for inferior a 75%"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "O candidato/estudante só poderá ser dispensado de, no máximo, 70% da carga horária do curso"
+  },
+  {
+   "source": "e1",
+   "target": "e5",
+   "type": "REQUER",
+   "evidence": "sendo obrigado a cursar no mínimo 30% da carga horária do curso no Centro Universitário de João Pessoa - UNIPÊ."
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Avaliação Final",
+   "type": "Processo",
+   "description": "Avaliação com valor máximo de 5,0 pontos aplicada ao estudante com NF inferior a 6,0 e frequência mínima exigida.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Mínimo de 75% de frequência",
+   "type": "Regra",
+   "description": "Frequência igual ou superior a 75% nas atividades acadêmicas.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Nota Final < 6,0",
+   "type": "Regra",
+   "description": "Nota Final inferior a 6,0 pontos.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "frequência esteja igual ou superior a 75%, o estudante poderá realizar a Avaliação Final"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "Nota Final (NF) seja inferior a 6,0 (seis) pontos, mas a frequência esteja igual ou superior a 75%, o estudante poderá realizar a Avaliação Final"
+  }
+ ]
+}

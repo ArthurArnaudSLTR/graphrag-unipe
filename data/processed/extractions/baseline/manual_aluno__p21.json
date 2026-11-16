@@ -1,0 +1,117 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Segunda Chamada",
+   "type": "Processo",
+   "description": "Segunda chamada da Prova Regimental (A1) e da Avaliação Final (AF)",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Declaração oficial de convocação",
+   "type": "DocumentoExigido",
+   "description": "Declaração oficial do órgão competente e autoridade que fez a convocação",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Comprovante de comparecimento",
+   "type": "DocumentoExigido",
+   "description": "Comprovante de comparecimento a convocação ou ato judicial/eleitoral/militar",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Declaração do empregador",
+   "type": "DocumentoExigido",
+   "description": "Declaração do empregador em papel com identificação da empresa e firma reconhecida",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Atestado de óbito",
+   "type": "DocumentoExigido",
+   "description": "Atestado de óbito em caso de falecimento de familiar",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "Certidão de casamento",
+   "type": "DocumentoExigido",
+   "description": "Certidão de casamento",
+   "gravidade": ""
+  },
+  {
+   "id": "e7",
+   "name": "Atestado com CID",
+   "type": "DocumentoExigido",
+   "description": "Atestado com Classificação Estatística Internacional de Doença (CID)",
+   "gravidade": ""
+  },
+  {
+   "id": "e8",
+   "name": "Pagamento de taxa por disciplina",
+   "type": "Regra",
+   "description": "Pagamento da taxa relativa a cada disciplina objeto de segunda chamada",
+   "gravidade": ""
+  },
+  {
+   "id": "e9",
+   "name": "Coordenador do curso",
+   "type": "Orgao",
+   "description": "Autoridade responsável pelo parecer de deferimento e disponibilização de informações sobre a prova",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "EXIGE",
+   "evidence": "Deverá apresentar: declaração oficial do órgão competente e autoridade que fez a .convocação"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "EXIGE",
+   "evidence": "Deverá apresentar: declaração oficial do órgão competente e autoridade que fez a .convocação e comprovante de comparecimento."
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "EXIGE",
+   "evidence": "Deverá apresentar: .declaração do empregador em papel com identificação da empresa, com firma reconhecida"
+  },
+  {
+   "source": "e1",
+   "target": "e5",
+   "type": "EXIGE",
+   "evidence": "Deverá apresentar: atestado de óbito."
+  },
+  {
+   "source": "e1",
+   "target": "e6",
+   "type": "EXIGE",
+   "evidence": "Deverá apresentar: certidão de casamento."
+  },
+  {
+   "source": "e1",
+   "target": "e7",
+   "type": "EXIGE",
+   "evidence": "Deverá apresentar: .atestado com Classificação Estatística Internacional de Doença (CID)."
+  },
+  {
+   "source": "e1",
+   "target": "e8",
+   "type": "REQUER",
+   "evidence": "pagando a taxa relativa a cada disciplina objeto de segunda chamada no ato da solicitação."
+  },
+  {
+   "source": "e1",
+   "target": "e9",
+   "type": "DECIDIDO_POR",
+   "evidence": "as informações sobre data, local e horário de realização da prova serão disponibilizadas pelo coordenador do curso"
+  }
+ ]
+}

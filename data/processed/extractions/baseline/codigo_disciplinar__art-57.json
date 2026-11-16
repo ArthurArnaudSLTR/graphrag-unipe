@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "Procedimento disciplinar apurado pela Comissão e submetido à decisão do Reitor.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "Autoridade responsável por proferir a decisão no processo disciplinar.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "encaminhará os autos ao Reitor que proferirá decisão fundamentada, impondo ou não sanção disciplinar."
+  }
+ ]
+}

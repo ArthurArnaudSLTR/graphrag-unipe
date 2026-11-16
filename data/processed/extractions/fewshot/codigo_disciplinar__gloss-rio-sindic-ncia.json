@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Sindicância",
+   "type": "Processo",
+   "description": "Procedimento investigatório de infração disciplinar",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Processo Disciplinar",
+   "type": "Processo",
+   "description": "Processo instaurado após a investigação",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PRECEDE",
+   "evidence": "Esse procedimento precede a instauração do processo disciplinar"
+  }
+ ]
+}

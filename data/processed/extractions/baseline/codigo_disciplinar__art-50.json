@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Audiência de instrução",
+   "type": "Processo",
+   "description": "Procedimento de inquirição de testemunhas, vítima e aluno imputado no processo disciplinar.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Aluno imputado ouvido por último",
+   "type": "Regra",
+   "description": "Requisito de ordem de oitiva na audiência de instrução.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Oitiva individual de testemunhas",
+   "type": "Regra",
+   "description": "Requisito de que a vítima e testemunhas deponham sem acompanhar o depoimento das outras.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "sendo o aluno imputado sempre ouvido por último."
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "A vítima e as testemunhas serão ouvidas individualmente, de forma que umas não acompanhem o depoimento das outras"
+  }
+ ]
+}

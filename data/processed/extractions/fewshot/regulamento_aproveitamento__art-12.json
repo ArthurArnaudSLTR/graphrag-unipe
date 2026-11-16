@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Análise curricular",
+   "type": "Processo",
+   "description": "Análise das disciplinas e informações cursadas pelo estudante",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Histórico Escolar",
+   "type": "DocumentoExigido",
+   "description": "Documento oficial emitido pela instituição de origem contendo as informações acadêmicas do estudante",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "EXIGE",
+   "evidence": "A análise curricular levará em consideração informações contidas no Histórico Escolar"
+  }
+ ]
+}

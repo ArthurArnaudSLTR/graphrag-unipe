@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Aproveitamento de estudos",
+   "type": "Processo",
+   "description": "Análise de equivalência entre disciplinas cursadas na instituição de origem e disciplinas a serem cursadas.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Disciplinas cursadas em IES autorizadas ou credenciadas pelo MEC",
+   "type": "Regra",
+   "description": "Requisito de ser disciplina cursada em IES credenciada pelo MEC, no mesmo nível de ensino ou superior.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "Para fins de aproveitamento serão consideradas as disciplinas cursadas em instituições de ensino superior autorizadas ou credenciadas pelo Ministério da Educação – MEC"
+  }
+ ]
+}

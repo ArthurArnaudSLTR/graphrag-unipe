@@ -1,0 +1,59 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Defesa Prévia",
+   "type": "Processo",
+   "description": "Defesa por escrito apresentada pelo aluno após citação em processo disciplinar",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "10 dias úteis",
+   "type": "Prazo",
+   "description": "Prazo para apresentação de defesa prévia a partir da citação",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Comissão Processante",
+   "type": "Orgao",
+   "description": "Órgão competente para ouvir testemunhas e apreciar requerimentos de provas",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Requerimento de Provas",
+   "type": "Processo",
+   "description": "Solicitação de produção de provas pelo aluno",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Máximo de 3 testemunhas",
+   "type": "Regra",
+   "description": "Limite de testemunhas que podem ser arroladas pelo aluno na defesa prévia",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "TEM_PRAZO",
+   "evidence": "facultado apresentar defesa prévia, por escrito, no prazo de dez dias úteis da citação."
+  },
+  {
+   "source": "e1",
+   "target": "e5",
+   "type": "REQUER",
+   "evidence": "No prazo para a apresentação da defesa prévia, o aluno poderá juntar aos autos documentos, arrolar até três testemunhas"
+  },
+  {
+   "source": "e4",
+   "target": "e3",
+   "type": "DECIDIDO_POR",
+   "evidence": "A apreciação dos requerimentos de provas é da competência da Comissão Processante"
+  }
+ ]
+}

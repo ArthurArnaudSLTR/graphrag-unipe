@@ -1,0 +1,78 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Transferência Externa",
+   "type": "Processo",
+   "description": "Processo de transferência de estudante proveniente de outra IES",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Compatibilidade de disciplinas e conteúdo",
+   "type": "Regra",
+   "description": "Exigência de compatibilidade disciplinar e de conteúdo para matrícula via transferência externa",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Ingresso de Diplomado",
+   "type": "Processo",
+   "description": "Processo de ingresso para portadores de diploma de curso superior",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Dispensa de Disciplinas",
+   "type": "Processo",
+   "description": "Processo de aproveitamento e dispensa de disciplinas cursadas anteriormente",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Mínimo de 50% de dispensas nos semestres anteriores",
+   "type": "Regra",
+   "description": "Percentual mínimo necessário de dispensas nos semestres anteriores para alocação do semestre",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "Máximo de 6 adaptações",
+   "type": "Regra",
+   "description": "Limite máximo de acúmulo de adaptações de disciplinas",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "O disposto no caput ocorrerá sempre que houver compatibilidade de disciplinas e conteúdo"
+  },
+  {
+   "source": "e3",
+   "target": "e5",
+   "type": "REQUER",
+   "evidence": "ingresso de diplomado e/ou dispensa de disciplinas a alocação do semestre para o candidato/estudante observará o percentual mínimo de 50% (cinquenta por cento) de dispensas"
+  },
+  {
+   "source": "e3",
+   "target": "e6",
+   "type": "REQUER",
+   "evidence": "candidato/estudante observará o percentual mínimo de 50% (cinquenta por cento) de dispensas nos semestres anteriores e/ou o acúmulo de no máximo 6 (seis) adaptações"
+  },
+  {
+   "source": "e4",
+   "target": "e5",
+   "type": "REQUER",
+   "evidence": "ingresso de diplomado e/ou dispensa de disciplinas a alocação do semestre para o candidato/estudante observará o percentual mínimo de 50% (cinquenta por cento) de dispensas"
+  },
+  {
+   "source": "e4",
+   "target": "e6",
+   "type": "REQUER",
+   "evidence": "candidato/estudante observará o percentual mínimo de 50% (cinquenta por cento) de dispensas nos semestres anteriores e/ou o acúmulo de no máximo 6 (seis) adaptações"
+  }
+ ]
+}

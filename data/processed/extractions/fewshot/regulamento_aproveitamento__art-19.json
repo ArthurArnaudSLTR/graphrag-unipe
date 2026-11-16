@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Transferência Externa",
+   "type": "Processo",
+   "description": "processo de ingresso para candidatos que iniciaram estudos em outra instituição",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Histórico escolar",
+   "type": "DocumentoExigido",
+   "description": "documento exigido para a realização da análise curricular",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Existência de vagas",
+   "type": "Regra",
+   "description": "requisito de disponibilidade de vagas para aceitação da transferência",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "EXIGE",
+   "evidence": "Não é permitida análise curricular para ingresso via Transferência Externa sem a apresentação do histórico escolar"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "UNIPÊ recebe, desde que existam vagas, transferências de alunos provenientes de Curso Superior"
+  }
+ ]
+}

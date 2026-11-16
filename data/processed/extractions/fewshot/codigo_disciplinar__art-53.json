@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Apresentação de alegações finais",
+   "type": "Processo",
+   "description": "Etapa do processo disciplinar em que o aluno intimado apresenta sua defesa final",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "10 dias úteis",
+   "type": "Prazo",
+   "description": "Prazo para a apresentação de alegações finais pelo aluno",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "TEM_PRAZO",
+   "evidence": "no prazo de dez dias úteis, apresente suas alegações finais"
+  }
+ ]
+}

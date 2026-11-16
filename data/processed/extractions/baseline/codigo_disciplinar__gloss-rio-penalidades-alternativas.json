@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "Processo disciplinar ao término do qual podem ser concedidas penalidades alternativas.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "Autoridade a cujo critério se definem penalidades alternativas ao término do PAD.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Expressa aceitação do aluno",
+   "type": "Regra",
+   "description": "Condição necessária para a concessão de penalidades alternativas.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "a critério do Reitor e mediante expressa aceitação do aluno, ao término do Processo Administrativo Disciplinar"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "mediante expressa aceitação do aluno, ao término do Processo Administrativo Disciplinar"
+  }
+ ]
+}

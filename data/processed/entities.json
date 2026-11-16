@@ -1,6 +1,197 @@
 [
  {
   "type": "DocumentoExigido",
+  "nome": "Atestado com CID",
+  "aliases": [],
+  "descricao": "atestado com Classificação Estatística Internacional de Doença",
+  "trecho_ids": [
+   "manual_aluno:p21"
+  ],
+  "chave": "atestado com cid",
+  "id": "atestado_com_cid"
+ },
+ {
+  "type": "DocumentoExigido",
+  "nome": "Atestado de óbito",
+  "aliases": [],
+  "descricao": "comprovante de óbito de familiar, cônjuge ou companheiro",
+  "trecho_ids": [
+   "manual_aluno:p21"
+  ],
+  "chave": "atestado obito",
+  "id": "atestado_de_obito"
+ },
+ {
+  "type": "DocumentoExigido",
+  "nome": "Atestado ou laudo médico",
+  "aliases": [],
+  "descricao": "documento emitido por profissional habilitado comprovando a condição de saúde e o período de afastamento",
+  "trecho_ids": [
+   "manual_aluno:p17"
+  ],
+  "chave": "atestado ou laudo medico",
+  "id": "atestado_ou_laudo_medico"
+ },
+ {
+  "type": "DocumentoExigido",
+  "nome": "Certidão de casamento",
+  "aliases": [],
+  "descricao": "comprovante em caso de casamento",
+  "trecho_ids": [
+   "manual_aluno:p21"
+  ],
+  "chave": "certidao casamento",
+  "id": "certidao_de_casamento"
+ },
+ {
+  "type": "DocumentoExigido",
+  "nome": "Comprovação oficial",
+  "aliases": [],
+  "descricao": "documento oficial para convocações militares, representação esportiva ou órgãos institucionais",
+  "trecho_ids": [
+   "manual_aluno:p18"
+  ],
+  "chave": "comprovacao oficial",
+  "id": "comprovacao_oficial"
+ },
+ {
+  "type": "DocumentoExigido",
+  "nome": "Comprovante de Atividades Complementares",
+  "aliases": [],
+  "descricao": "documento comprobatório da realização da atividade complementar",
+  "trecho_ids": [
+   "manual_aluno:p23"
+  ],
+  "chave": "comprovante atividades complementares",
+  "id": "comprovante_de_atividades_complementares"
+ },
+ {
+  "type": "DocumentoExigido",
+  "nome": "Declaração do empregador",
+  "aliases": [],
+  "descricao": "comprovação de trabalho de caráter crítico e emergencial",
+  "trecho_ids": [
+   "manual_aluno:p21"
+  ],
+  "chave": "declaracao empregador",
+  "id": "declaracao_do_empregador"
+ },
+ {
+  "type": "DocumentoExigido",
+  "nome": "Declaração religiosa original em papel timbrado e com firma reconhecida",
+  "aliases": [],
+  "descricao": "comprovante emitido pela instituição religiosa",
+  "trecho_ids": [
+   "manual_aluno:p30"
+  ],
+  "chave": "declaracao religiosa original em papel timbrado e com firma reconhecida",
+  "id": "declaracao_religiosa_original_em_papel_timbrado_e_com_firma_reconhecida"
+ },
+ {
+  "type": "DocumentoExigido",
+  "nome": "Diploma registrado",
+  "aliases": [],
+  "descricao": "Diploma emitido e registrado apresentado frente e verso",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-18"
+  ],
+  "chave": "diploma registrado",
+  "id": "diploma_registrado"
+ },
+ {
+  "type": "DocumentoExigido",
+  "nome": "Documento comprovatório de necessidade de antecipação",
+  "aliases": [],
+  "descricao": "comprovante de necessidade para antecipar a colação",
+  "trecho_ids": [
+   "manual_aluno:p35"
+  ],
+  "chave": "documento comprovatorio necessidade antecipacao",
+  "id": "documento_comprovatorio_de_necessidade_de_antecipacao"
+ },
+ {
+  "type": "DocumentoExigido",
+  "nome": "Documentos comprobatórios da revisão",
+  "aliases": [],
+  "descricao": "Documentos que suportam a revisão da análise curricular",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-10"
+  ],
+  "chave": "documentos comprobatorios revisao",
+  "id": "documentos_comprobatorios_da_revisao"
+ },
+ {
+  "type": "DocumentoExigido",
+  "nome": "Histórico escolar",
+  "aliases": [
+   "Histórico Escolar"
+  ],
+  "descricao": "Histórico com aprovação em disciplinas de estágio",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-12",
+   "regulamento_aproveitamento:art-19",
+   "regulamento_aproveitamento:art-8"
+  ],
+  "chave": "historico escolar",
+  "id": "historico_escolar"
+ },
+ {
+  "type": "DocumentoExigido",
+  "nome": "Histórico escolar da IES de origem",
+  "aliases": [],
+  "descricao": "Histórico escolar da instituição de ensino onde as disciplinas foram cursadas originalmente",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-16"
+  ],
+  "chave": "historico escolar ies origem",
+  "id": "historico_escolar_da_ies_de_origem"
+ },
+ {
+  "type": "DocumentoExigido",
+  "nome": "Histórico escolar da instituição de origem",
+  "aliases": [],
+  "descricao": "documento que comprova as disciplinas cursadas na instituição de origem",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-23"
+  ],
+  "chave": "historico escolar instituicao origem",
+  "id": "historico_escolar_da_instituicao_de_origem"
+ },
+ {
+  "type": "DocumentoExigido",
+  "nome": "Número de protocolo da Central de Atendimento ao Aluno",
+  "aliases": [],
+  "descricao": "Número do protocolo anterior da CAA obrigatório para abertura de demanda",
+  "trecho_ids": [
+   "manual_aluno:p11"
+  ],
+  "chave": "numero protocolo central atendimento ao aluno",
+  "id": "numero_de_protocolo_da_central_de_atendimento_ao_aluno"
+ },
+ {
+  "type": "DocumentoExigido",
+  "nome": "Plano de Ensino",
+  "aliases": [],
+  "descricao": "Documento exigido para verificação dos conteúdos estudados.",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-13"
+  ],
+  "chave": "plano ensino",
+  "id": "plano_de_ensino"
+ },
+ {
+  "type": "DocumentoExigido",
+  "nome": "Prova original",
+  "aliases": [],
+  "descricao": "Documento impresso/físico necessário para dar entrada no pedido de revisão de nota",
+  "trecho_ids": [
+   "manual_aluno:p20"
+  ],
+  "chave": "prova original",
+  "id": "prova_original"
+ },
+ {
+  "type": "DocumentoExigido",
   "nome": "Relatório de recomendação",
   "aliases": [],
   "descricao": "relatório mencionando os fatos e indicando os envolvidos",
@@ -27,10 +218,35 @@
   "aliases": [],
   "descricao": "documento de formalização da concordância",
   "trecho_ids": [
-   "codigo_disciplinar:art-14"
+   "codigo_disciplinar:art-14",
+   "codigo_disciplinar:gloss-rio-transa-o-administrativa"
   ],
   "chave": "termo compromisso",
   "id": "termo_de_compromisso"
+ },
+ {
+  "type": "DocumentoExigido",
+  "nome": "Termo de guarda judicial",
+  "aliases": [],
+  "descricao": "documento judicial exigido para adotantes ou responsáveis por guarda judicial",
+  "trecho_ids": [
+   "manual_aluno:p17"
+  ],
+  "chave": "termo guarda judicial",
+  "id": "termo_de_guarda_judicial"
+ },
+ {
+  "type": "Infracao",
+  "nome": "Comportamento inadequado",
+  "aliases": [],
+  "descricao": "Conduta que motiva a aplicação de reprimenda",
+  "trecho_ids": [
+   "codigo_disciplinar:gloss-rio-admoesta-o"
+  ],
+  "chave": "comportamento inadequado",
+  "gravidade": "",
+  "gravidade_conflito": false,
+  "id": "comportamento_inadequado"
  },
  {
   "type": "Infracao",
@@ -102,6 +318,19 @@
   "id": "infracao_trabalhista"
  },
  {
+  "type": "Infracao",
+  "nome": "Violação dos deveres estudantis",
+  "aliases": [],
+  "descricao": "descumprimento das obrigações dos estudantes",
+  "trecho_ids": [
+   "manual_aluno:p10"
+  ],
+  "chave": "violacao deveres estudantis",
+  "gravidade": "",
+  "gravidade_conflito": false,
+  "id": "violacao_dos_deveres_estudantis"
+ },
+ {
   "type": "Orgao",
   "nome": "Área de Compliance",
   "aliases": [],
@@ -111,6 +340,165 @@
   ],
   "chave": "area compliance",
   "id": "area_de_compliance"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Autoridade competente",
+  "aliases": [],
+  "descricao": "Autoridade que nomeia comissões e conciliadores na instauração",
+  "trecho_ids": [
+   "codigo_disciplinar:gloss-rio-instaura-o"
+  ],
+  "chave": "autoridade competente",
+  "id": "autoridade_competente"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Autoridade instauradora",
+  "aliases": [],
+  "descricao": "Autoridade responsável por apreciar o incidente de impedimento",
+  "trecho_ids": [
+   "codigo_disciplinar:art-63"
+  ],
+  "chave": "autoridade instauradora",
+  "id": "autoridade_instauradora"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Autoridade superior",
+  "aliases": [],
+  "descricao": "Instância a quem se solicita novo julgamento",
+  "trecho_ids": [
+   "codigo_disciplinar:gloss-rio-recurso"
+  ],
+  "chave": "autoridade superior",
+  "id": "autoridade_superior"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Comissão Processante",
+  "aliases": [],
+  "descricao": "órgão competente para apreciar requerimentos de provas",
+  "trecho_ids": [
+   "codigo_disciplinar:art-48",
+   "codigo_disciplinar:art-52",
+   "codigo_disciplinar:art-55",
+   "codigo_disciplinar:gloss-rio-alega-es-finais"
+  ],
+  "chave": "comissao processante",
+  "id": "comissao_processante"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Consepe",
+  "aliases": [],
+  "descricao": "órgão colegiado encarregado de julgar o recurso",
+  "trecho_ids": [
+   "codigo_disciplinar:art-59"
+  ],
+  "chave": "conselho ensino pesquisa extensao",
+  "id": "consepe"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Coordenação",
+  "aliases": [],
+  "descricao": "órgão responsável por conceder autorização prévia",
+  "trecho_ids": [
+   "manual_aluno:p38"
+  ],
+  "chave": "coordenacao",
+  "id": "coordenacao"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Coordenação de Curso",
+  "aliases": [],
+  "descricao": "órgão que recebe a solicitação de revisão de faltas",
+  "trecho_ids": [
+   "manual_aluno:p16",
+   "manual_aluno:p25"
+  ],
+  "chave": "coordenacao curso",
+  "id": "coordenacao_de_curso"
+ },
+ {
+  "type": "Orgao",
+  "nome": "COMPEX",
+  "aliases": [],
+  "descricao": "Coordenação de Monitoria, Pesquisa e Extensão",
+  "trecho_ids": [
+   "manual_aluno:p25",
+   "manual_aluno:p26"
+  ],
+  "chave": "coordenacao monitoria pesquisa extensao",
+  "id": "compex"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Coordenador do Curso",
+  "aliases": [],
+  "descricao": "órgão responsável por emitir parecer de deferimento",
+  "trecho_ids": [
+   "manual_aluno:p21"
+  ],
+  "chave": "coordenador curso",
+  "id": "coordenador_do_curso"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Gerência de Comunicação e Marketing",
+  "aliases": [],
+  "descricao": "setor responsável por avaliar, aprovar e autorizar a utilização do logotipo",
+  "trecho_ids": [
+   "manual_aluno:p12"
+  ],
+  "chave": "gerencia comunicacao e marketing",
+  "id": "gerencia_de_comunicacao_e_marketing"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Instância Superior",
+  "aliases": [],
+  "descricao": "Instância responsável por apreciar o recurso",
+  "trecho_ids": [
+   "codigo_disciplinar:gloss-rio-ampla-defesa"
+  ],
+  "chave": "instancia superior",
+  "id": "instancia_superior"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Órgãos Executivos e Deliberativos",
+  "aliases": [],
+  "descricao": "",
+  "trecho_ids": [
+   "manual_aluno:p10"
+  ],
+  "chave": "orgaos executivos e deliberativos",
+  "id": "orgaos_executivos_e_deliberativos"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Ouvidoria do Estudante",
+  "aliases": [],
+  "descricao": "Última instância de atendimento para demandas acadêmicas ou administrativas",
+  "trecho_ids": [
+   "manual_aluno:p11"
+  ],
+  "chave": "ouvidoria estudante",
+  "id": "ouvidoria_do_estudante"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Professor e/ou tutor",
+  "aliases": [],
+  "descricao": "Responsável por realizar a revisão da Avaliação A2",
+  "trecho_ids": [
+   "manual_aluno:p20"
+  ],
+  "chave": "professor e ou tutor",
+  "id": "professor_e_ou_tutor"
  },
  {
   "type": "Orgao",
@@ -134,10 +522,81 @@
    "codigo_disciplinar:art-20",
    "codigo_disciplinar:art-21",
    "codigo_disciplinar:art-23",
-   "codigo_disciplinar:art-27"
+   "codigo_disciplinar:art-27",
+   "codigo_disciplinar:art-29",
+   "codigo_disciplinar:art-32",
+   "codigo_disciplinar:art-38",
+   "codigo_disciplinar:art-39",
+   "codigo_disciplinar:art-40",
+   "codigo_disciplinar:art-42",
+   "codigo_disciplinar:art-57",
+   "codigo_disciplinar:art-68",
+   "codigo_disciplinar:gloss-rio-penalidades-alternativas"
   ],
   "chave": "reitor",
   "id": "reitor"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Reitoria",
+  "aliases": [],
+  "descricao": "órgão responsável por definir cursos elegíveis à láurea",
+  "trecho_ids": [
+   "manual_aluno:p35",
+   "regulamento_aproveitamento:art-24"
+  ],
+  "chave": "reitoria",
+  "id": "reitoria"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Secretaria Geral de Ensino",
+  "aliases": [
+   "SEGEN"
+  ],
+  "descricao": "Valida o aproveitamento de estudos por equivalência",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-1",
+   "regulamento_aproveitamento:art-11"
+  ],
+  "chave": "secretaria geral ensino",
+  "id": "secretaria_geral_de_ensino"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Secretaria de Registros e Controles Acadêmicos",
+  "aliases": [],
+  "descricao": "setor responsável pelo deferimento legal do processo de Guarda Religiosa",
+  "trecho_ids": [
+   "manual_aluno:p30"
+  ],
+  "chave": "secretaria registros e controles academicos",
+  "id": "secretaria_de_registros_e_controles_academicos"
+ },
+ {
+  "type": "Orgao",
+  "nome": "Setor Nacional de Análise Curricular",
+  "aliases": [
+   "SNAC"
+  ],
+  "descricao": "Realiza a avaliação do aproveitamento de estudos por equivalência",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-1",
+   "regulamento_aproveitamento:art-11"
+  ],
+  "chave": "setor nacional analise curricular",
+  "id": "setor_nacional_de_analise_curricular"
+ },
+ {
+  "type": "Penalidade",
+  "nome": "Admoestação",
+  "aliases": [],
+  "descricao": "Reprimenda feita ao aluno de modo verbal ou por escrito",
+  "trecho_ids": [
+   "codigo_disciplinar:gloss-rio-admoesta-o"
+  ],
+  "chave": "admoestacao",
+  "id": "admoestacao"
  },
  {
   "type": "Penalidade",
@@ -146,7 +605,8 @@
   "descricao": "penalidade disciplinar para corpo docente e técnico-administrativo",
   "trecho_ids": [
    "codigo_disciplinar:art-2",
-   "codigo_disciplinar:art-4"
+   "codigo_disciplinar:art-4",
+   "manual_aluno:p10"
   ],
   "chave": "advertencia",
   "id": "advertencia"
@@ -154,10 +614,13 @@
  {
   "type": "Penalidade",
   "nome": "Desligamento",
-  "aliases": [],
+  "aliases": [
+   "Expulsão"
+  ],
   "descricao": "penalidade disciplinar máxima",
   "trecho_ids": [
-   "codigo_disciplinar:art-4"
+   "codigo_disciplinar:art-4",
+   "manual_aluno:p10"
   ],
   "chave": "desligamento",
   "id": "desligamento"
@@ -190,7 +653,8 @@
   "aliases": [],
   "descricao": "penalidade disciplinar",
   "trecho_ids": [
-   "codigo_disciplinar:art-4"
+   "codigo_disciplinar:art-4",
+   "manual_aluno:p10"
   ],
   "chave": "repreensao",
   "id": "repreensao"
@@ -203,7 +667,8 @@
   "trecho_ids": [
    "codigo_disciplinar:art-13",
    "codigo_disciplinar:art-2",
-   "codigo_disciplinar:art-4"
+   "codigo_disciplinar:art-4",
+   "manual_aluno:p10"
   ],
   "chave": "suspensao",
   "id": "suspensao"
@@ -214,7 +679,8 @@
   "aliases": [],
   "descricao": "Prazo prescricional da punibilidade",
   "trecho_ids": [
-   "codigo_disciplinar:art-18"
+   "codigo_disciplinar:art-18",
+   "manual_aluno:p36"
   ],
   "chave": "1 anos",
   "valor": 1,
@@ -224,19 +690,91 @@
  },
  {
   "type": "Prazo",
+  "nome": "1 semestre",
+  "aliases": [],
+  "descricao": "Limite máximo de tempo para trancamento de matrícula",
+  "trecho_ids": [
+   "manual_aluno:p31"
+  ],
+  "chave": "1 semestres",
+  "valor": 1,
+  "unidade": "semestres",
+  "tipo_dia": null,
+  "id": "1_semestre"
+ },
+ {
+  "type": "Prazo",
+  "nome": "10 anos",
+  "aliases": [],
+  "descricao": "limite temporal para aproveitamento de disciplinas cursadas",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-6"
+  ],
+  "chave": "10 anos",
+  "valor": 10,
+  "unidade": "anos",
+  "tipo_dia": null,
+  "id": "10_anos"
+ },
+ {
+  "type": "Prazo",
+  "nome": "10 dias úteis",
+  "aliases": [],
+  "descricao": "prazo para apresentar defesa prévia",
+  "trecho_ids": [
+   "codigo_disciplinar:art-48",
+   "codigo_disciplinar:art-53"
+  ],
+  "chave": "10 dias uteis",
+  "valor": 10,
+  "unidade": "dias",
+  "tipo_dia": "uteis",
+  "id": "10_dias_uteis"
+ },
+ {
+  "type": "Prazo",
+  "nome": "14 dias",
+  "aliases": [],
+  "descricao": "Prazo de antecedência para solicitação de instalação de software",
+  "trecho_ids": [
+   "manual_aluno:p34"
+  ],
+  "chave": "14 dias",
+  "valor": 14,
+  "unidade": "dias",
+  "tipo_dia": null,
+  "id": "14_dias"
+ },
+ {
+  "type": "Prazo",
   "nome": "15 dias",
   "aliases": [
    "Até 15 dias"
   ],
   "descricao": "prazo máximo de suspensão para infração grave",
   "trecho_ids": [
-   "codigo_disciplinar:art-4"
+   "codigo_disciplinar:art-4",
+   "manual_aluno:p16"
   ],
   "chave": "15 dias",
   "valor": 15,
   "unidade": "dias",
   "tipo_dia": null,
   "id": "15_dias"
+ },
+ {
+  "type": "Prazo",
+  "nome": "15 dias corridos",
+  "aliases": [],
+  "descricao": "prazo máximo para formalizar a solicitação a partir do primeiro dia de afastamento",
+  "trecho_ids": [
+   "manual_aluno:p17"
+  ],
+  "chave": "15 dias corridos",
+  "valor": 15,
+  "unidade": "dias",
+  "tipo_dia": "corridos",
+  "id": "15_dias_corridos"
  },
  {
   "type": "Prazo",
@@ -269,11 +807,40 @@
  },
  {
   "type": "Prazo",
+  "nome": "2 semestres letivos",
+  "aliases": [],
+  "descricao": "duração máxima da monitoria em uma mesma unidade curricular",
+  "trecho_ids": [
+   "manual_aluno:p25"
+  ],
+  "chave": "2 semestres letivos",
+  "valor": null,
+  "unidade": null,
+  "tipo_dia": null,
+  "id": "2_semestres_letivos"
+ },
+ {
+  "type": "Prazo",
+  "nome": "20 dias corridos",
+  "aliases": [],
+  "descricao": "prazo para entrega das atividades após o término do afastamento",
+  "trecho_ids": [
+   "manual_aluno:p18"
+  ],
+  "chave": "20 dias corridos",
+  "valor": 20,
+  "unidade": "dias",
+  "tipo_dia": "corridos",
+  "id": "20_dias_corridos"
+ },
+ {
+  "type": "Prazo",
   "nome": "3 anos",
   "aliases": [],
   "descricao": "Prazo prescricional da punibilidade",
   "trecho_ids": [
-   "codigo_disciplinar:art-18"
+   "codigo_disciplinar:art-18",
+   "manual_aluno:p36"
   ],
   "chave": "3 anos",
   "valor": 3,
@@ -287,7 +854,8 @@
   "aliases": [],
   "descricao": "antecedência mínima para intimação sobre a reunião de apresentação da proposta",
   "trecho_ids": [
-   "codigo_disciplinar:art-26"
+   "codigo_disciplinar:art-26",
+   "codigo_disciplinar:art-61"
   ],
   "chave": "3 dias uteis",
   "valor": 3,
@@ -303,7 +871,8 @@
   ],
   "descricao": "Prazo inicial do afastamento temporário preventivo",
   "trecho_ids": [
-   "codigo_disciplinar:art-21"
+   "codigo_disciplinar:art-21",
+   "manual_aluno:p23"
   ],
   "chave": "30 dias",
   "valor": 30,
@@ -313,11 +882,44 @@
  },
  {
   "type": "Prazo",
+  "nome": "4 semestres",
+  "aliases": [],
+  "descricao": "período máximo de participação em projetos de pesquisa e extensão",
+  "trecho_ids": [
+   "manual_aluno:p25",
+   "manual_aluno:p27"
+  ],
+  "chave": "4 semestres",
+  "valor": 4,
+  "unidade": "semestres",
+  "tipo_dia": null,
+  "id": "4_semestres"
+ },
+ {
+  "type": "Prazo",
+  "nome": "45 dias úteis",
+  "aliases": [],
+  "descricao": "prazo máximo para conclusão da sindicância",
+  "trecho_ids": [
+   "codigo_disciplinar:art-34",
+   "codigo_disciplinar:art-46"
+  ],
+  "chave": "45 dias uteis",
+  "valor": 45,
+  "unidade": "dias",
+  "tipo_dia": "uteis",
+  "id": "45_dias_uteis"
+ },
+ {
+  "type": "Prazo",
   "nome": "5 dias úteis",
   "aliases": [],
   "descricao": "prazo de manifestação do aluno",
   "trecho_ids": [
-   "codigo_disciplinar:art-14"
+   "codigo_disciplinar:art-14",
+   "codigo_disciplinar:art-47",
+   "codigo_disciplinar:art-59",
+   "manual_aluno:p20"
   ],
   "chave": "5 dias uteis",
   "valor": 5,
@@ -340,6 +942,58 @@
   "id": "6_meses"
  },
  {
+  "type": "Prazo",
+  "nome": "90 dias",
+  "aliases": [
+   "Até 90 dias"
+  ],
+  "descricao": "período do regime domiciliar assegurado às estudantes gestantes",
+  "trecho_ids": [
+   "manual_aluno:p17"
+  ],
+  "chave": "90 dias",
+  "valor": 90,
+  "unidade": "dias",
+  "tipo_dia": null,
+  "id": "90_dias"
+ },
+ {
+  "type": "Prazo",
+  "nome": "até a véspera da data designada",
+  "aliases": [],
+  "descricao": "prazo limite para apresentar justificativa de ausência",
+  "trecho_ids": [
+   "codigo_disciplinar:art-35"
+  ],
+  "chave": "ate vespera data designada",
+  "valor": null,
+  "unidade": null,
+  "tipo_dia": null,
+  "id": "ate_a_vespera_da_data_designada"
+ },
+ {
+  "type": "Processo",
+  "nome": "Acesso às salas de aula",
+  "aliases": [],
+  "descricao": "utilização das salas de aula durante as atividades acadêmicas",
+  "trecho_ids": [
+   "manual_aluno:p38"
+  ],
+  "chave": "acesso salas aula",
+  "id": "acesso_as_salas_de_aula"
+ },
+ {
+  "type": "Processo",
+  "nome": "Adiamento do depoimento",
+  "aliases": [],
+  "descricao": "adiamento da tomada de depoimento na sindicância",
+  "trecho_ids": [
+   "codigo_disciplinar:art-35"
+  ],
+  "chave": "adiamento depoimento",
+  "id": "adiamento_do_depoimento"
+ },
+ {
   "type": "Processo",
   "nome": "Afastamento temporário",
   "aliases": [],
@@ -349,6 +1003,118 @@
   ],
   "chave": "afastamento temporario",
   "id": "afastamento_temporario"
+ },
+ {
+  "type": "Processo",
+  "nome": "Alegações finais",
+  "aliases": [],
+  "descricao": "etapa de manifestação no procedimento disciplinar",
+  "trecho_ids": [
+   "codigo_disciplinar:art-55",
+   "codigo_disciplinar:gloss-rio-alega-es-finais"
+  ],
+  "chave": "alegacoes finais",
+  "id": "alegacoes_finais"
+ },
+ {
+  "type": "Processo",
+  "nome": "Análise Curricular",
+  "aliases": [
+   "Análise curricular"
+  ],
+  "descricao": "avaliação para fins de aproveitamento de estudos",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-11",
+   "regulamento_aproveitamento:art-12",
+   "regulamento_aproveitamento:art-16",
+   "regulamento_aproveitamento:art-2"
+  ],
+  "chave": "analise curricular",
+  "id": "analise_curricular"
+ },
+ {
+  "type": "Processo",
+  "nome": "Análise curricular para dispensa de disciplinas",
+  "aliases": [],
+  "descricao": "Procedimento de análise curricular para dispensa de disciplinas por equivalência de estudos",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-5"
+  ],
+  "chave": "analise curricular para dispensa disciplinas",
+  "id": "analise_curricular_para_dispensa_de_disciplinas"
+ },
+ {
+  "type": "Processo",
+  "nome": "Apresentação de alegações finais",
+  "aliases": [],
+  "descricao": "Etapa do processo disciplinar em que o aluno intimado apresenta sua defesa final",
+  "trecho_ids": [
+   "codigo_disciplinar:art-53"
+  ],
+  "chave": "apresentacao alegacoes finais",
+  "id": "apresentacao_de_alegacoes_finais"
+ },
+ {
+  "type": "Processo",
+  "nome": "Apresentação de novos projetos",
+  "aliases": [],
+  "descricao": "submissão de novos projetos de pesquisa ou extensão",
+  "trecho_ids": [
+   "manual_aluno:p26"
+  ],
+  "chave": "apresentacao novos projetos",
+  "id": "apresentacao_de_novos_projetos"
+ },
+ {
+  "type": "Processo",
+  "nome": "Aprovação em componentes por resultado",
+  "aliases": [],
+  "descricao": "obtenção do conceito Suficiente em disciplinas avaliadas por resultado",
+  "trecho_ids": [
+   "manual_aluno:p22"
+  ],
+  "chave": "aprovacao em componentes por resultado",
+  "id": "aprovacao_em_componentes_por_resultado"
+ },
+ {
+  "type": "Processo",
+  "nome": "Aprovação do relatório final",
+  "aliases": [],
+  "descricao": "etapa de elaboração e deliberação sobre o relatório final do processo",
+  "trecho_ids": [
+   "codigo_disciplinar:art-55"
+  ],
+  "chave": "aprovacao relatorio final",
+  "id": "aprovacao_do_relatorio_final"
+ },
+ {
+  "type": "Processo",
+  "nome": "Aproveitamento de estágio curricular",
+  "aliases": [],
+  "descricao": "Aproveitamento de disciplinas de estágio curricular cursadas",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-8"
+  ],
+  "chave": "aproveitamento estagio curricular",
+  "id": "aproveitamento_de_estagio_curricular"
+ },
+ {
+  "type": "Processo",
+  "nome": "Aproveitamento de estudos",
+  "aliases": [
+   "Aproveitamento de Estudos"
+  ],
+  "descricao": "Análise curricular para o aproveitamento de estudos por equivalência",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-1",
+   "regulamento_aproveitamento:art-13",
+   "regulamento_aproveitamento:art-2",
+   "regulamento_aproveitamento:art-3",
+   "regulamento_aproveitamento:art-6",
+   "regulamento_aproveitamento:art-7"
+  ],
+  "chave": "aproveitamento estudos",
+  "id": "aproveitamento_de_estudos"
  },
  {
   "type": "Processo",
@@ -399,6 +1165,50 @@
  },
  {
   "type": "Processo",
+  "nome": "Atendimento na Ouvidoria do Estudante",
+  "aliases": [],
+  "descricao": "Serviço de atendimento para demandas registradas em atraso ou concluídas insatisfatoriamente",
+  "trecho_ids": [
+   "manual_aluno:p11"
+  ],
+  "chave": "atendimento na ouvidoria estudante",
+  "id": "atendimento_na_ouvidoria_do_estudante"
+ },
+ {
+  "type": "Processo",
+  "nome": "Atividades Domiciliares",
+  "aliases": [],
+  "descricao": "compensação de faltas para situações de afastamento prolongado",
+  "trecho_ids": [
+   "manual_aluno:p16"
+  ],
+  "chave": "atividades domiciliares",
+  "id": "atividades_domiciliares"
+ },
+ {
+  "type": "Processo",
+  "nome": "Audiência de instrução",
+  "aliases": [],
+  "descricao": "etapa de instrução do processo administrativo disciplinar",
+  "trecho_ids": [
+   "codigo_disciplinar:art-50"
+  ],
+  "chave": "audiencia instrucao",
+  "id": "audiencia_de_instrucao"
+ },
+ {
+  "type": "Processo",
+  "nome": "Autorização para uso da logomarca",
+  "aliases": [],
+  "descricao": "solicitação para utilização do logotipo da Instituição em materiais",
+  "trecho_ids": [
+   "manual_aluno:p12"
+  ],
+  "chave": "autorizacao para uso logomarca",
+  "id": "autorizacao_para_uso_da_logomarca"
+ },
+ {
+  "type": "Processo",
   "nome": "Avaliação",
   "aliases": [],
   "descricao": "Atividades de avaliação acadêmica",
@@ -410,6 +1220,220 @@
  },
  {
   "type": "Processo",
+  "nome": "Avaliação da Aprendizagem",
+  "aliases": [],
+  "descricao": "processo de avaliação de aprendizagem no curso",
+  "trecho_ids": [
+   "manual_aluno:p15"
+  ],
+  "chave": "avaliacao aprendizagem",
+  "id": "avaliacao_da_aprendizagem"
+ },
+ {
+  "type": "Processo",
+  "nome": "Avaliação Final",
+  "aliases": [],
+  "descricao": "avaliação substitutiva para estudantes que obtiveram nota final inferior a 6,0 e assiduidade mínima",
+  "trecho_ids": [
+   "manual_aluno:p19"
+  ],
+  "chave": "avaliacao final",
+  "id": "avaliacao_final"
+ },
+ {
+  "type": "Processo",
+  "nome": "Cancelamento de Matrícula",
+  "aliases": [],
+  "descricao": "Interrupção permanente da matrícula",
+  "trecho_ids": [
+   "manual_aluno:p31"
+  ],
+  "chave": "cancelamento matricula",
+  "id": "cancelamento_de_matricula"
+ },
+ {
+  "type": "Processo",
+  "nome": "Colação de Grau",
+  "aliases": [],
+  "descricao": "ato solene de conclusão do curso",
+  "trecho_ids": [
+   "manual_aluno:p35"
+  ],
+  "chave": "colacao grau",
+  "id": "colacao_de_grau"
+ },
+ {
+  "type": "Processo",
+  "nome": "Colação de Grau Especial",
+  "aliases": [],
+  "descricao": "requerimento de colação em momento distinto da colação oficial",
+  "trecho_ids": [
+   "manual_aluno:p35"
+  ],
+  "chave": "colacao grau especial",
+  "id": "colacao_de_grau_especial"
+ },
+ {
+  "type": "Processo",
+  "nome": "Colação de Grau por Edital",
+  "aliases": [],
+  "descricao": "Ato oficial virtual que atesta a conclusão do curso",
+  "trecho_ids": [
+   "manual_aluno:p34"
+  ],
+  "chave": "colacao grau por edital",
+  "id": "colacao_de_grau_por_edital"
+ },
+ {
+  "type": "Processo",
+  "nome": "Compensação de Ausências em Regime Domiciliar",
+  "aliases": [],
+  "descricao": "regime domiciliar para estudantes impossibilitados de frequentar aulas por motivo de saúde ou gestação",
+  "trecho_ids": [
+   "manual_aluno:p17"
+  ],
+  "chave": "compensacao ausencias em regime domiciliar",
+  "id": "compensacao_de_ausencias_em_regime_domiciliar"
+ },
+ {
+  "type": "Processo",
+  "nome": "Contagem de prazos",
+  "aliases": [],
+  "descricao": "procedimento de contagem dos prazos disciplinares",
+  "trecho_ids": [
+   "codigo_disciplinar:art-60"
+  ],
+  "chave": "contagem prazos",
+  "id": "contagem_de_prazos"
+ },
+ {
+  "type": "Processo",
+  "nome": "Convocação da Comissão Processante",
+  "aliases": [],
+  "descricao": "Convocação dos integrantes pelo Presidente da Comissão Processante",
+  "trecho_ids": [
+   "codigo_disciplinar:art-47"
+  ],
+  "chave": "convocacao comissao processante",
+  "id": "convocacao_da_comissao_processante"
+ },
+ {
+  "type": "Processo",
+  "nome": "Decisão de casos omissos",
+  "aliases": [],
+  "descricao": "resolução de casos não contemplados no Código Disciplinar",
+  "trecho_ids": [
+   "codigo_disciplinar:art-68"
+  ],
+  "chave": "decisao casos omissos",
+  "id": "decisao_de_casos_omissos"
+ },
+ {
+  "type": "Processo",
+  "nome": "Defesa prévia",
+  "aliases": [],
+  "descricao": "defesa por escrito apresentada pelo aluno após citação",
+  "trecho_ids": [
+   "codigo_disciplinar:art-48"
+  ],
+  "chave": "defesa previa",
+  "id": "defesa_previa"
+ },
+ {
+  "type": "Processo",
+  "nome": "Deliberação de casos omissos",
+  "aliases": [],
+  "descricao": "deliberação sobre situações não previstas no regulamento",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-24"
+  ],
+  "chave": "deliberacao casos omissos",
+  "id": "deliberacao_de_casos_omissos"
+ },
+ {
+  "type": "Processo",
+  "nome": "Destrancamento de Matrícula",
+  "aliases": [],
+  "descricao": "retorno aos estudos em cursos da instituição",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-20"
+  ],
+  "chave": "destrancamento matricula",
+  "id": "destrancamento_de_matricula"
+ },
+ {
+  "type": "Processo",
+  "nome": "Dispensa de Disciplina",
+  "aliases": [
+   "Dispensa de Disciplinas"
+  ],
+  "descricao": "solicitação de aproveitamento de conteúdo de disciplinas cursadas",
+  "trecho_ids": [
+   "manual_aluno:p30",
+   "regulamento_aproveitamento:art-22",
+   "regulamento_aproveitamento:art-23",
+   "regulamento_aproveitamento:art-9"
+  ],
+  "chave": "dispensa disciplina",
+  "id": "dispensa_de_disciplina"
+ },
+ {
+  "type": "Processo",
+  "nome": "Elaboração do relatório",
+  "aliases": [],
+  "descricao": "fase final conduzida pela comissão processante",
+  "trecho_ids": [
+   "codigo_disciplinar:gloss-rio-alega-es-finais"
+  ],
+  "chave": "elaboracao relatorio",
+  "id": "elaboracao_do_relatorio"
+ },
+ {
+  "type": "Processo",
+  "nome": "Emissão de Diploma Digital",
+  "aliases": [],
+  "descricao": "expedição automática do diploma após a colação de grau",
+  "trecho_ids": [
+   "manual_aluno:p35"
+  ],
+  "chave": "emissao diploma digital",
+  "id": "emissao_de_diploma_digital"
+ },
+ {
+  "type": "Processo",
+  "nome": "ENADE",
+  "aliases": [],
+  "descricao": "Exame Nacional de Desempenho dos Estudantes",
+  "trecho_ids": [
+   "manual_aluno:p36"
+  ],
+  "chave": "enade",
+  "id": "enade"
+ },
+ {
+  "type": "Processo",
+  "nome": "Estágio Curricular Supervisionado",
+  "aliases": [],
+  "descricao": "estágio supervisionado previsto na matriz curricular",
+  "trecho_ids": [
+   "manual_aluno:p15"
+  ],
+  "chave": "estagio curricular supervisionado",
+  "id": "estagio_curricular_supervisionado"
+ },
+ {
+  "type": "Processo",
+  "nome": "Estágio Curricular Supervisionado Obrigatório",
+  "aliases": [],
+  "descricao": "Atividade curricular obrigatória para a conclusão do curso.",
+  "trecho_ids": [
+   "manual_aluno:p24"
+  ],
+  "chave": "estagio curricular supervisionado obrigatorio",
+  "id": "estagio_curricular_supervisionado_obrigatorio"
+ },
+ {
+  "type": "Processo",
   "nome": "Exclusão de sala de aula",
   "aliases": [],
   "descricao": "medida tomada pelo professor em caso de indisciplina em sala",
@@ -418,6 +1442,149 @@
   ],
   "chave": "exclusao sala aula",
   "id": "exclusao_de_sala_de_aula"
+ },
+ {
+  "type": "Processo",
+  "nome": "Extensão",
+  "aliases": [],
+  "descricao": "projetos e atividades de extensão acadêmica",
+  "trecho_ids": [
+   "manual_aluno:p25"
+  ],
+  "chave": "extensao",
+  "id": "extensao"
+ },
+ {
+  "type": "Processo",
+  "nome": "Extinção da punibilidade",
+  "aliases": [],
+  "descricao": "declaração de extinção de punibilidade",
+  "trecho_ids": [
+   "codigo_disciplinar:art-29"
+  ],
+  "chave": "extincao punibilidade",
+  "id": "extincao_da_punibilidade"
+ },
+ {
+  "type": "Processo",
+  "nome": "Guarda Religiosa",
+  "aliases": [],
+  "descricao": "solicitação por motivos religiosos para ausência em dias ou horários de guarda",
+  "trecho_ids": [
+   "manual_aluno:p30"
+  ],
+  "chave": "guarda religiosa",
+  "id": "guarda_religiosa"
+ },
+ {
+  "type": "Processo",
+  "nome": "Incidente de impedimento",
+  "aliases": [],
+  "descricao": "Procedimento de arguição de impedimento de atuar como conciliador ou membro de comissão",
+  "trecho_ids": [
+   "codigo_disciplinar:art-63"
+  ],
+  "chave": "incidente impedimento",
+  "id": "incidente_de_impedimento"
+ },
+ {
+  "type": "Processo",
+  "nome": "Inclusão de dependências e adaptações",
+  "aliases": [],
+  "descricao": "inclusão de DPs e disciplinas de adaptação na rematrícula",
+  "trecho_ids": [
+   "manual_aluno:p22"
+  ],
+  "chave": "inclusao dependencias e adaptacoes",
+  "id": "inclusao_de_dependencias_e_adaptacoes"
+ },
+ {
+  "type": "Processo",
+  "nome": "Inclusão de disciplina dispensada",
+  "aliases": [],
+  "descricao": "Ato de cursar disciplina que havia sido objeto de dispensa",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-14"
+  ],
+  "chave": "inclusao disciplina dispensada",
+  "id": "inclusao_de_disciplina_dispensada"
+ },
+ {
+  "type": "Processo",
+  "nome": "Ingresso via Diplomado",
+  "aliases": [],
+  "descricao": "Forma de ingresso para egressos de curso de graduação",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-18"
+  ],
+  "chave": "ingresso via diplomado",
+  "id": "ingresso_via_diplomado"
+ },
+ {
+  "type": "Processo",
+  "nome": "Inserção em atividades de pesquisa",
+  "aliases": [],
+  "descricao": "participação do estudante em atividades de pesquisa",
+  "trecho_ids": [
+   "manual_aluno:p27"
+  ],
+  "chave": "insercao em atividades pesquisa",
+  "id": "insercao_em_atividades_de_pesquisa"
+ },
+ {
+  "type": "Processo",
+  "nome": "Instauração",
+  "aliases": [],
+  "descricao": "Ato formal de nomeação de comissões e conciliadores",
+  "trecho_ids": [
+   "codigo_disciplinar:gloss-rio-instaura-o"
+  ],
+  "chave": "instauracao",
+  "id": "instauracao"
+ },
+ {
+  "type": "Processo",
+  "nome": "Instauração da Comissão Processante",
+  "aliases": [],
+  "descricao": "Etapa inicial do procedimento da Comissão Processante",
+  "trecho_ids": [
+   "codigo_disciplinar:art-47"
+  ],
+  "chave": "instauracao comissao processante",
+  "id": "instauracao_da_comissao_processante"
+ },
+ {
+  "type": "Processo",
+  "nome": "Intimação",
+  "aliases": [],
+  "descricao": "comunicação aos interessados sobre atos processuais",
+  "trecho_ids": [
+   "codigo_disciplinar:art-61"
+  ],
+  "chave": "intimacao",
+  "id": "intimacao"
+ },
+ {
+  "type": "Processo",
+  "nome": "Itinerário Extensionista",
+  "aliases": [],
+  "descricao": "disciplina obrigatória que integra ensino e pesquisa com extensão",
+  "trecho_ids": [
+   "manual_aluno:p26"
+  ],
+  "chave": "itinerario extensionista",
+  "id": "itinerario_extensionista"
+ },
+ {
+  "type": "Processo",
+  "nome": "Láurea Acadêmica",
+  "aliases": [],
+  "descricao": "reconhecimento por mérito acadêmico",
+  "trecho_ids": [
+   "manual_aluno:p35"
+  ],
+  "chave": "laurea academica",
+  "id": "laurea_academica"
  },
  {
   "type": "Processo",
@@ -436,10 +1603,45 @@
   "aliases": [],
   "descricao": "vínculo acadêmico",
   "trecho_ids": [
-   "codigo_disciplinar:art-15"
+   "codigo_disciplinar:art-15",
+   "manual_aluno:p24",
+   "manual_aluno:p25"
   ],
   "chave": "monitoria",
   "id": "monitoria"
+ },
+ {
+  "type": "Processo",
+  "nome": "Novas diligências probatórias",
+  "aliases": [],
+  "descricao": "Diligências adicionais realizadas durante a fase probatória",
+  "trecho_ids": [
+   "codigo_disciplinar:art-52"
+  ],
+  "chave": "novas diligencias probatorias",
+  "id": "novas_diligencias_probatorias"
+ },
+ {
+  "type": "Processo",
+  "nome": "Passe Escolar",
+  "aliases": [],
+  "descricao": "Solicitação de benefício de transporte escolar",
+  "trecho_ids": [
+   "manual_aluno:p9"
+  ],
+  "chave": "passe escolar",
+  "id": "passe_escolar"
+ },
+ {
+  "type": "Processo",
+  "nome": "Presença de ouvintes",
+  "aliases": [],
+  "descricao": "permanência de estudantes não matriculados como ouvintes em sala de aula",
+  "trecho_ids": [
+   "manual_aluno:p38"
+  ],
+  "chave": "presenca ouvintes",
+  "id": "presenca_de_ouvintes"
  },
  {
   "type": "Processo",
@@ -460,22 +1662,244 @@
   "trecho_ids": [
    "codigo_disciplinar:art-14",
    "codigo_disciplinar:art-20",
-   "codigo_disciplinar:art-24"
+   "codigo_disciplinar:art-24",
+   "codigo_disciplinar:art-37",
+   "codigo_disciplinar:art-38",
+   "codigo_disciplinar:art-39",
+   "codigo_disciplinar:art-40",
+   "codigo_disciplinar:art-41",
+   "codigo_disciplinar:art-42",
+   "codigo_disciplinar:art-44",
+   "codigo_disciplinar:art-46",
+   "codigo_disciplinar:art-56",
+   "codigo_disciplinar:art-57",
+   "codigo_disciplinar:gloss-rio-instaura-o",
+   "codigo_disciplinar:gloss-rio-penalidades-alternativas",
+   "codigo_disciplinar:gloss-rio-processo-administrativo-disciplinar"
   ],
   "chave": "processo administrativo disciplinar",
   "id": "processo_administrativo_disciplinar"
  },
  {
   "type": "Processo",
+  "nome": "Processo Disciplinar",
+  "aliases": [],
+  "descricao": "Processo instaurado após a investigação",
+  "trecho_ids": [
+   "codigo_disciplinar:gloss-rio-sindic-ncia"
+  ],
+  "chave": "processo disciplinar",
+  "id": "processo_disciplinar"
+ },
+ {
+  "type": "Processo",
+  "nome": "Produção de provas",
+  "aliases": [],
+  "descricao": "Etapa inicial de instrução probatória",
+  "trecho_ids": [
+   "codigo_disciplinar:art-52",
+   "codigo_disciplinar:gloss-rio-alega-es-finais"
+  ],
+  "chave": "producao provas",
+  "id": "producao_de_provas"
+ },
+ {
+  "type": "Processo",
+  "nome": "Projetos de pesquisa e extensão",
+  "aliases": [],
+  "descricao": "participação em projetos de pesquisa ou extensão",
+  "trecho_ids": [
+   "manual_aluno:p27"
+  ],
+  "chave": "projetos pesquisa e extensao",
+  "id": "projetos_de_pesquisa_e_extensao"
+ },
+ {
+  "type": "Processo",
+  "nome": "Recurso",
+  "aliases": [],
+  "descricao": "Recurso para impugnação de decisão disciplinar em instância superior",
+  "trecho_ids": [
+   "codigo_disciplinar:gloss-rio-ampla-defesa",
+   "codigo_disciplinar:gloss-rio-recurso",
+   "manual_aluno:p10"
+  ],
+  "chave": "recurso",
+  "id": "recurso"
+ },
+ {
+  "type": "Processo",
+  "nome": "Recurso contra decisão do Reitor",
+  "aliases": [],
+  "descricao": "recurso interposto em segunda instância disciplinar",
+  "trecho_ids": [
+   "codigo_disciplinar:art-59"
+  ],
+  "chave": "recurso contra decisao reitor",
+  "id": "recurso_contra_decisao_do_reitor"
+ },
+ {
+  "type": "Processo",
+  "nome": "Recurso da decisão de primeira instância",
+  "aliases": [],
+  "descricao": "recurso interposto contra decisão proferida em primeira instância",
+  "trecho_ids": [
+   "codigo_disciplinar:art-41"
+  ],
+  "chave": "recurso decisao primeira instancia",
+  "id": "recurso_da_decisao_de_primeira_instancia"
+ },
+ {
+  "type": "Processo",
+  "nome": "Regime de Exercícios Domiciliares",
+  "aliases": [],
+  "descricao": "regime especial de acompanhamento de estudos para aluna ou aluno afastado",
+  "trecho_ids": [
+   "manual_aluno:p18"
+  ],
+  "chave": "regime exercicios domiciliares",
+  "id": "regime_de_exercicios_domiciliares"
+ },
+ {
+  "type": "Processo",
+  "nome": "Renovação de projetos de extensão",
+  "aliases": [],
+  "descricao": "processo para vigência do projeto de extensão no semestre seguinte",
+  "trecho_ids": [
+   "manual_aluno:p26"
+  ],
+  "chave": "renovacao projetos extensao",
+  "id": "renovacao_de_projetos_de_extensao"
+ },
+ {
+  "type": "Processo",
+  "nome": "Renovação de projetos de pesquisa",
+  "aliases": [],
+  "descricao": "renovação de projetos de pesquisa ou iniciação científica para o semestre seguinte",
+  "trecho_ids": [
+   "manual_aluno:p27"
+  ],
+  "chave": "renovacao projetos pesquisa",
+  "id": "renovacao_de_projetos_de_pesquisa"
+ },
+ {
+  "type": "Processo",
+  "nome": "Requerimento de produção de provas",
+  "aliases": [],
+  "descricao": "pedido de juntada de documentos, testemunhas ou outras provas",
+  "trecho_ids": [
+   "codigo_disciplinar:art-48"
+  ],
+  "chave": "requerimento producao provas",
+  "id": "requerimento_de_producao_de_provas"
+ },
+ {
+  "type": "Processo",
+  "nome": "Retorno ao Curso",
+  "aliases": [],
+  "descricao": "procedimento para retornar aos estudos após trancamento",
+  "trecho_ids": [
+   "manual_aluno:p32"
+  ],
+  "chave": "retorno ao curso",
+  "id": "retorno_ao_curso"
+ },
+ {
+  "type": "Processo",
+  "nome": "Revisão de A2",
+  "aliases": [],
+  "descricao": "Solicitação de revisão de nota da Avaliação A2 realizada ao longo do semestre",
+  "trecho_ids": [
+   "manual_aluno:p20"
+  ],
+  "chave": "revisao a2",
+  "id": "revisao_de_a2"
+ },
+ {
+  "type": "Processo",
+  "nome": "Revisão da análise curricular",
+  "aliases": [],
+  "descricao": "Revisão do processo de análise curricular do candidato ou estudante",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-10"
+  ],
+  "chave": "revisao analise curricular",
+  "id": "revisao_da_analise_curricular"
+ },
+ {
+  "type": "Processo",
+  "nome": "Revisão de Avaliação Regimental e Avaliação Final",
+  "aliases": [],
+  "descricao": "Solicitação de revisão das notas referentes às avaliações A1 e AF",
+  "trecho_ids": [
+   "manual_aluno:p20"
+  ],
+  "chave": "revisao avaliacao regimental e avaliacao final",
+  "id": "revisao_de_avaliacao_regimental_e_avaliacao_final"
+ },
+ {
+  "type": "Processo",
+  "nome": "Revisão de Faltas",
+  "aliases": [],
+  "descricao": "solicitação de revisão do número de faltas registradas na disciplina",
+  "trecho_ids": [
+   "manual_aluno:p16"
+  ],
+  "chave": "revisao faltas",
+  "id": "revisao_de_faltas"
+ },
+ {
+  "type": "Processo",
+  "nome": "Segunda Chamada de Avaliação",
+  "aliases": [],
+  "descricao": "solicitação de segunda chamada para prova regimental e avaliação final",
+  "trecho_ids": [
+   "manual_aluno:p21"
+  ],
+  "chave": "segunda chamada avaliacao",
+  "id": "segunda_chamada_de_avaliacao"
+ },
+ {
+  "type": "Processo",
   "nome": "Sindicância",
   "aliases": [],
-  "descricao": "procedimento instaurado a partir da notícia de infração",
+  "descricao": "procedimento de apuração de infração disciplinar",
   "trecho_ids": [
    "codigo_disciplinar:art-20",
-   "codigo_disciplinar:art-24"
+   "codigo_disciplinar:art-24",
+   "codigo_disciplinar:art-32",
+   "codigo_disciplinar:art-34",
+   "codigo_disciplinar:art-35",
+   "codigo_disciplinar:art-37",
+   "codigo_disciplinar:art-38",
+   "codigo_disciplinar:art-40",
+   "codigo_disciplinar:art-56",
+   "codigo_disciplinar:gloss-rio-sindic-ncia"
   ],
   "chave": "sindicancia",
   "id": "sindicancia"
+ },
+ {
+  "type": "Processo",
+  "nome": "Solicitação de exclusão da dispensa",
+  "aliases": [],
+  "descricao": "Pedido formal de cancelamento da dispensa de disciplina concedida",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-14"
+  ],
+  "chave": "solicitacao exclusao dispensa",
+  "id": "solicitacao_de_exclusao_da_dispensa"
+ },
+ {
+  "type": "Processo",
+  "nome": "Solicitação de instalação de software",
+  "aliases": [],
+  "descricao": "Solicitação feita por docente para instalação de software nos laboratórios",
+  "trecho_ids": [
+   "manual_aluno:p34"
+  ],
+  "chave": "solicitacao instalacao software",
+  "id": "solicitacao_de_instalacao_de_software"
  },
  {
   "type": "Processo",
@@ -490,6 +1914,18 @@
  },
  {
   "type": "Processo",
+  "nome": "Trancamento de Matrícula",
+  "aliases": [],
+  "descricao": "Interrupção temporária dos estudos",
+  "trecho_ids": [
+   "manual_aluno:p31",
+   "manual_aluno:p32"
+  ],
+  "chave": "trancamento matricula",
+  "id": "trancamento_de_matricula"
+ },
+ {
+  "type": "Processo",
   "nome": "Transação Administrativa",
   "aliases": [],
   "descricao": "procedimento instaurado a partir da notícia de infração",
@@ -499,10 +1935,407 @@
    "codigo_disciplinar:art-24",
    "codigo_disciplinar:art-25",
    "codigo_disciplinar:art-26",
-   "codigo_disciplinar:art-27"
+   "codigo_disciplinar:art-27",
+   "codigo_disciplinar:art-37",
+   "codigo_disciplinar:art-38",
+   "codigo_disciplinar:gloss-rio-transa-o-administrativa"
   ],
   "chave": "transacao administrativa",
   "id": "transacao_administrativa"
+ },
+ {
+  "type": "Processo",
+  "nome": "Transferência Externa",
+  "aliases": [
+   "Transferência externa"
+  ],
+  "descricao": "Processo de transferência de estudante vindo de outra instituição de ensino",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-19",
+   "regulamento_aproveitamento:art-5",
+   "regulamento_aproveitamento:art-9"
+  ],
+  "chave": "transferencia externa",
+  "id": "transferencia_externa"
+ },
+ {
+  "type": "Processo",
+  "nome": "Transferência Interna",
+  "aliases": [],
+  "descricao": "Transferência de curso, turno ou turma",
+  "trecho_ids": [
+   "manual_aluno:p31",
+   "regulamento_aproveitamento:art-21"
+  ],
+  "chave": "transferencia interna",
+  "id": "transferencia_interna"
+ },
+ {
+  "type": "Processo",
+  "nome": "Validação de Análise Curricular",
+  "aliases": [],
+  "descricao": "validação do processo de análise curricular",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-11"
+  ],
+  "chave": "validacao analise curricular",
+  "id": "validacao_de_analise_curricular"
+ },
+ {
+  "type": "Processo",
+  "nome": "Validação de atividades como Estágio Curricular Obrigatório",
+  "aliases": [],
+  "descricao": "Solicitação para validar atividade profissional, projeto de extensão ou iniciação científica como estágio",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-8"
+  ],
+  "chave": "validacao atividades como estagio curricular obrigatorio",
+  "id": "validacao_de_atividades_como_estagio_curricular_obrigatorio"
+ },
+ {
+  "type": "Processo",
+  "nome": "Validação de Atividades Complementares",
+  "aliases": [],
+  "descricao": "processo de envio e validação de comprovantes de atividades complementares",
+  "trecho_ids": [
+   "manual_aluno:p23"
+  ],
+  "chave": "validacao atividades complementares",
+  "id": "validacao_de_atividades_complementares"
+ },
+ {
+  "type": "Regra",
+  "nome": "100% da carga horária do Estágio Curricular Supervisionado",
+  "aliases": [],
+  "descricao": "requisito de cumprir integralmente a carga horária de estágio",
+  "trecho_ids": [
+   "manual_aluno:p15"
+  ],
+  "chave": "100% carga horaria estagio curricular supervisionado",
+  "id": "100_da_carga_horaria_do_estagio_curricular_supervisionado"
+ },
+ {
+  "type": "Regra",
+  "nome": "Aluno imputado ouvido por último",
+  "aliases": [],
+  "descricao": "regra de ordem de inquirição na audiência de instrução",
+  "trecho_ids": [
+   "codigo_disciplinar:art-50"
+  ],
+  "chave": "aluno imputado ouvido por ultimo",
+  "id": "aluno_imputado_ouvido_por_ultimo"
+ },
+ {
+  "type": "Regra",
+  "nome": "Ampla defesa e contraditório",
+  "aliases": [],
+  "descricao": "Garantia assegurada à pessoa a quem se imputa autoria de infração",
+  "trecho_ids": [
+   "codigo_disciplinar:gloss-rio-processo-administrativo-disciplinar"
+  ],
+  "chave": "ampla defesa e contraditorio",
+  "id": "ampla_defesa_e_contraditorio"
+ },
+ {
+  "type": "Regra",
+  "nome": "Análise de reativação de vínculo e adaptação ao currículo vigente",
+  "aliases": [],
+  "descricao": "exigência para o retorno ao curso",
+  "trecho_ids": [
+   "manual_aluno:p32"
+  ],
+  "chave": "analise reativacao vinculo e adaptacao ao curriculo vigente",
+  "id": "analise_de_reativacao_de_vinculo_e_adaptacao_ao_curriculo_vigente"
+ },
+ {
+  "type": "Regra",
+  "nome": "Apresentação clara dos pontos divergentes",
+  "aliases": [],
+  "descricao": "Requisito de clareza na apresentação dos pontos divergentes pelo candidato ou estudante",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-10"
+  ],
+  "chave": "apresentacao clara pontos divergentes",
+  "id": "apresentacao_clara_dos_pontos_divergentes"
+ },
+ {
+  "type": "Regra",
+  "nome": "Arcar com o ônus decorrente da inclusão da disciplina",
+  "aliases": [],
+  "descricao": "Exigência de arcar com os custos ou implicações financeiras decorrentes da inclusão da disciplina",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-14"
+  ],
+  "chave": "arcar com onus decorrente inclusao disciplina",
+  "id": "arcar_com_o_onus_decorrente_da_inclusao_da_disciplina"
+ },
+ {
+  "type": "Regra",
+  "nome": "Aval da Coordenação do Curso",
+  "aliases": [],
+  "descricao": "aprovação prévia da coordenação exigida para apresentação de novos projetos",
+  "trecho_ids": [
+   "manual_aluno:p26"
+  ],
+  "chave": "aval coordenacao curso",
+  "id": "aval_da_coordenacao_do_curso"
+ },
+ {
+  "type": "Regra",
+  "nome": "Comissão composta por três membros do corpo docente ou técnico-administrativo",
+  "aliases": [],
+  "descricao": "composição padrão da comissão sindicante",
+  "trecho_ids": [
+   "codigo_disciplinar:art-32"
+  ],
+  "chave": "comissao composta por tres membros corpo docente ou tecnico administrativo",
+  "id": "comissao_composta_por_tres_membros_do_corpo_docente_ou_tecnico_administrativo"
+ },
+ {
+  "type": "Regra",
+  "nome": "Comissão Processante composta por 3 membros",
+  "aliases": [],
+  "descricao": "requisito de composição da comissão processante",
+  "trecho_ids": [
+   "codigo_disciplinar:art-44"
+  ],
+  "chave": "comissao processante composta por 3 membros",
+  "id": "comissao_processante_composta_por_3_membros"
+ },
+ {
+  "type": "Regra",
+  "nome": "Compatibilidade de disciplinas e conteúdo",
+  "aliases": [],
+  "descricao": "requisito para matricular o estudante de transferência externa no semestre subsequente",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-9"
+  ],
+  "chave": "compatibilidade disciplinas e conteudo",
+  "id": "compatibilidade_de_disciplinas_e_conteudo"
+ },
+ {
+  "type": "Regra",
+  "nome": "Conclusão de todas as disciplinas e atividades",
+  "aliases": [],
+  "descricao": "requisito de ter todas as disciplinas e atividades concluídas e cadastradas",
+  "trecho_ids": [
+   "manual_aluno:p35"
+  ],
+  "chave": "conclusao todas disciplinas e atividades",
+  "id": "conclusao_de_todas_as_disciplinas_e_atividades"
+ },
+ {
+  "type": "Regra",
+  "nome": "Conclusão de todas as exigências do curso",
+  "aliases": [],
+  "descricao": "Requisito para a colação de grau",
+  "trecho_ids": [
+   "manual_aluno:p34"
+  ],
+  "chave": "conclusao todas exigencias curso",
+  "id": "conclusao_de_todas_as_exigencias_do_curso"
+ },
+ {
+  "type": "Regra",
+  "nome": "Constatação de vínculo acadêmico dentro do prazo",
+  "aliases": [],
+  "descricao": "exigência de constatação de vínculo conforme prazo do Regimento Geral",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-20"
+  ],
+  "chave": "constatacao vinculo academico dentro prazo",
+  "id": "constatacao_de_vinculo_academico_dentro_do_prazo"
+ },
+ {
+  "type": "Regra",
+  "nome": "Contagem somente em dias úteis",
+  "aliases": [],
+  "descricao": "",
+  "trecho_ids": [
+   "codigo_disciplinar:art-60"
+  ],
+  "chave": "contagem somente em dias uteis",
+  "id": "contagem_somente_em_dias_uteis"
+ },
+ {
+  "type": "Regra",
+  "nome": "Cumprimento de 100% da carga horária no prazo determinado",
+  "aliases": [],
+  "descricao": "Requisito para o cumprimento do estágio obrigatório.",
+  "trecho_ids": [
+   "manual_aluno:p24"
+  ],
+  "chave": "cumprimento 100% carga horaria no prazo determinado",
+  "id": "cumprimento_de_100_da_carga_horaria_no_prazo_determinado"
+ },
+ {
+  "type": "Regra",
+  "nome": "Cumprimento integral das medidas acordadas",
+  "aliases": [],
+  "descricao": "requisito para a extinção da punibilidade",
+  "trecho_ids": [
+   "codigo_disciplinar:art-29"
+  ],
+  "chave": "cumprimento integral medidas acordadas",
+  "id": "cumprimento_integral_das_medidas_acordadas"
+ },
+ {
+  "type": "Regra",
+  "nome": "Curso de origem que permita a expedição de diploma",
+  "aliases": [],
+  "descricao": "Requisito para o candidato estar apto ao ingresso via diplomado",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-18"
+  ],
+  "chave": "curso origem que permita expedicao diploma",
+  "id": "curso_de_origem_que_permita_a_expedicao_de_diploma"
+ },
+ {
+  "type": "Regra",
+  "nome": "Depoimento individual de testemunhas",
+  "aliases": [],
+  "descricao": "requisito de individualidade na oitiva da vítima e testemunhas",
+  "trecho_ids": [
+   "codigo_disciplinar:art-50"
+  ],
+  "chave": "depoimento individual testemunhas",
+  "id": "depoimento_individual_de_testemunhas"
+ },
+ {
+  "type": "Regra",
+  "nome": "Disciplina cursada há no máximo 10 anos",
+  "aliases": [],
+  "descricao": "disciplinas cursadas há mais de 10 anos poderão ser desconsideradas",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-6"
+  ],
+  "chave": "disciplina cursada ha no maximo 10 anos",
+  "id": "disciplina_cursada_ha_no_maximo_10_anos"
+ },
+ {
+  "type": "Regra",
+  "nome": "Disciplinas cursadas em IES autorizadas ou credenciadas pelo MEC",
+  "aliases": [],
+  "descricao": "Requisito de ser disciplina cursada em IES credenciada pelo MEC, no mesmo nível de ensino ou superior.",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-3"
+  ],
+  "chave": "disciplinas cursadas em ies autorizadas ou credenciadas pelo mec",
+  "id": "disciplinas_cursadas_em_ies_autorizadas_ou_credenciadas_pelo_mec"
+ },
+ {
+  "type": "Regra",
+  "nome": "Disponibilidade de vagas",
+  "aliases": [],
+  "descricao": "requisito de vaga existente no destino pretendido",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-21"
+  ],
+  "chave": "disponibilidade vagas",
+  "id": "disponibilidade_de_vagas"
+ },
+ {
+  "type": "Regra",
+  "nome": "Duração do afastamento entre 15 e 60 dias",
+  "aliases": [],
+  "descricao": "requisito de tempo mínimo e máximo de afastamento para a concessão do regime domiciliar por saúde",
+  "trecho_ids": [
+   "manual_aluno:p17"
+  ],
+  "chave": "duracao afastamento entre 15 e 60 dias",
+  "id": "duracao_do_afastamento_entre_15_e_60_dias"
+ },
+ {
+  "type": "Regra",
+  "nome": "Enquadramento na matriz curricular vigente",
+  "aliases": [],
+  "descricao": "Requisito ao qual todos os pedidos de análise curricular estão sujeitos",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-5"
+  ],
+  "chave": "enquadramento na matriz curricular vigente",
+  "id": "enquadramento_na_matriz_curricular_vigente"
+ },
+ {
+  "type": "Regra",
+  "nome": "Estágio relacionado ao mesmo curso",
+  "aliases": [],
+  "descricao": "Requisito de que o estágio seja relacionado ao mesmo curso de destino",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-8"
+  ],
+  "chave": "estagio relacionado ao mesmo curso",
+  "id": "estagio_relacionado_ao_mesmo_curso"
+ },
+ {
+  "type": "Regra",
+  "nome": "Estar regularmente matriculado",
+  "aliases": [],
+  "descricao": "Requisito para solicitação de passe escolar",
+  "trecho_ids": [
+   "manual_aluno:p27",
+   "manual_aluno:p38",
+   "manual_aluno:p9",
+   "regulamento_aproveitamento:art-21"
+  ],
+  "chave": "estar regularmente matriculado",
+  "id": "estar_regularmente_matriculado"
+ },
+ {
+  "type": "Regra",
+  "nome": "Exclusão do primeiro dia e inclusão do dia do vencimento",
+  "aliases": [],
+  "descricao": "",
+  "trecho_ids": [
+   "codigo_disciplinar:art-60"
+  ],
+  "chave": "exclusao primeiro dia e inclusao dia vencimento",
+  "id": "exclusao_do_primeiro_dia_e_inclusao_do_dia_do_vencimento"
+ },
+ {
+  "type": "Regra",
+  "nome": "Existência de vagas",
+  "aliases": [],
+  "descricao": "requisito de disponibilidade de vagas para aceitação da transferência",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-19"
+  ],
+  "chave": "existencia vagas",
+  "id": "existencia_de_vagas"
+ },
+ {
+  "type": "Regra",
+  "nome": "Existência de vagas no curso pretendido",
+  "aliases": [],
+  "descricao": "Requisito de existência de vagas para a seleção de ingresso por transferência externa",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-5"
+  ],
+  "chave": "existencia vagas no curso pretendido",
+  "id": "existencia_de_vagas_no_curso_pretendido"
+ },
+ {
+  "type": "Regra",
+  "nome": "Expressa aceitação de todas as partes envolvidas",
+  "aliases": [],
+  "descricao": "requisito para a efetivação da transação administrativa",
+  "trecho_ids": [
+   "codigo_disciplinar:gloss-rio-transa-o-administrativa"
+  ],
+  "chave": "expressa aceitacao todas partes envolvidas",
+  "id": "expressa_aceitacao_de_todas_as_partes_envolvidas"
+ },
+ {
+  "type": "Regra",
+  "nome": "Finalização de todas as tarefas do semestre anterior",
+  "aliases": [],
+  "descricao": "requisito para renovação dos projetos de extensão",
+  "trecho_ids": [
+   "manual_aluno:p26",
+   "manual_aluno:p27"
+  ],
+  "chave": "finalizacao todas tarefas semestre anterior",
+  "id": "finalizacao_de_todas_as_tarefas_do_semestre_anterior"
  },
  {
   "type": "Regra",
@@ -514,6 +2347,193 @@
   ],
   "chave": "indicacao dois membros conciliadores",
   "id": "indicacao_de_dois_membros_conciliadores"
+ },
+ {
+  "type": "Regra",
+  "nome": "Indícios suficientes de autoria e materialidade",
+  "aliases": [],
+  "descricao": "requisito para instauração do processo disciplinar",
+  "trecho_ids": [
+   "codigo_disciplinar:art-42"
+  ],
+  "chave": "indicios suficientes autoria e materialidade",
+  "id": "indicios_suficientes_de_autoria_e_materialidade"
+ },
+ {
+  "type": "Regra",
+  "nome": "Informar Instituição de origem, RGM, modalidade ou campus",
+  "aliases": [],
+  "descricao": "requisito para solicitação de dispensa de disciplinas de instituição do mesmo grupo educacional",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-22"
+  ],
+  "chave": "informar instituicao origem rgm modalidade ou campus",
+  "id": "informar_instituicao_de_origem_rgm_modalidade_ou_campus"
+ },
+ {
+  "type": "Regra",
+  "nome": "Início a partir do recebimento da intimação ou citação",
+  "aliases": [],
+  "descricao": "",
+  "trecho_ids": [
+   "codigo_disciplinar:art-60"
+  ],
+  "chave": "inicio partir recebimento intimacao ou citacao",
+  "id": "inicio_a_partir_do_recebimento_da_intimacao_ou_citacao"
+ },
+ {
+  "type": "Regra",
+  "nome": "Justificação de ausência",
+  "aliases": [],
+  "descricao": "exigência de justificar a ausência em caso de não comparecimento",
+  "trecho_ids": [
+   "codigo_disciplinar:art-35"
+  ],
+  "chave": "justificacao ausencia",
+  "id": "justificacao_de_ausencia"
+ },
+ {
+  "type": "Regra",
+  "nome": "Matrícula regular",
+  "aliases": [],
+  "descricao": "requisito de estar regularmente matriculado para participar de extensão",
+  "trecho_ids": [
+   "manual_aluno:p25"
+  ],
+  "chave": "matricula regular",
+  "id": "matricula_regular"
+ },
+ {
+  "type": "Regra",
+  "nome": "Máximo de 3 disciplinas além das regulares",
+  "aliases": [],
+  "descricao": "limite máximo de DPs e adaptações que podem ser inseridas por semestre",
+  "trecho_ids": [
+   "manual_aluno:p22"
+  ],
+  "chave": "maximo 3 disciplinas alem regulares",
+  "id": "maximo_de_3_disciplinas_alem_das_regulares"
+ },
+ {
+  "type": "Regra",
+  "nome": "Máximo de 6 adaptações acumuladas",
+  "aliases": [],
+  "descricao": "limite de acúmulo de adaptações para definição do semestre de alocação",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-9"
+  ],
+  "chave": "maximo 6 adaptacoes acumuladas",
+  "id": "maximo_de_6_adaptacoes_acumuladas"
+ },
+ {
+  "type": "Regra",
+  "nome": "Máximo de 70% da carga horária do curso dispensada",
+  "aliases": [],
+  "descricao": "",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-7"
+  ],
+  "chave": "maximo 70% carga horaria curso dispensada",
+  "id": "maximo_de_70_da_carga_horaria_do_curso_dispensada"
+ },
+ {
+  "type": "Regra",
+  "nome": "Mesma carga horária e mesmo conteúdo",
+  "aliases": [],
+  "descricao": "Requisito de equivalência de carga horária e conteúdo da disciplina de estágio",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-8"
+  ],
+  "chave": "mesma carga horaria e mesmo conteudo",
+  "id": "mesma_carga_horaria_e_mesmo_conteudo"
+ },
+ {
+  "type": "Regra",
+  "nome": "Mínimo de 10% da carga horária em atividades extensionistas",
+  "aliases": [],
+  "descricao": "exigência de inserção de carga horária extensionista na matriz curricular",
+  "trecho_ids": [
+   "manual_aluno:p26"
+  ],
+  "chave": "minimo 10% carga horaria em atividades extensionistas",
+  "id": "minimo_de_10_da_carga_horaria_em_atividades_extensionistas"
+ },
+ {
+  "type": "Regra",
+  "nome": "Mínimo de 30% da carga horária do curso cursada no UNIPÊ",
+  "aliases": [],
+  "descricao": "",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-7"
+  ],
+  "chave": "minimo 30% carga horaria curso cursada no unipe",
+  "id": "minimo_de_30_da_carga_horaria_do_curso_cursada_no_unipe"
+ },
+ {
+  "type": "Regra",
+  "nome": "Mínimo de 50% de dispensas nos semestres anteriores",
+  "aliases": [],
+  "descricao": "percentual mínimo de dispensas exigido para alocação do semestre",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-9"
+  ],
+  "chave": "minimo 50% dispensas nos semestres anteriores",
+  "id": "minimo_de_50_de_dispensas_nos_semestres_anteriores"
+ },
+ {
+  "type": "Regra",
+  "nome": "Mínimo de 6 horas semanais de dedicação",
+  "aliases": [],
+  "descricao": "disponibilidade mínima de tempo exigida para monitoria",
+  "trecho_ids": [
+   "manual_aluno:p25"
+  ],
+  "chave": "minimo 6 horas semanais dedicacao",
+  "id": "minimo_de_6_horas_semanais_de_dedicacao"
+ },
+ {
+  "type": "Regra",
+  "nome": "Mínimo de 75% da carga horária da disciplina de origem",
+  "aliases": [],
+  "descricao": "",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-7"
+  ],
+  "chave": "minimo 75% carga horaria disciplina origem",
+  "id": "minimo_de_75_da_carga_horaria_da_disciplina_de_origem"
+ },
+ {
+  "type": "Regra",
+  "nome": "Mínimo de 75% da carga horária exigida",
+  "aliases": [],
+  "descricao": "frequência/carga horária mínima para emissão de certificado de monitoria",
+  "trecho_ids": [
+   "manual_aluno:p25"
+  ],
+  "chave": "minimo 75% carga horaria exigida",
+  "id": "minimo_de_75_da_carga_horaria_exigida"
+ },
+ {
+  "type": "Regra",
+  "nome": "Mínimo de 75% de frequência",
+  "aliases": [],
+  "descricao": "frequência igual ou superior a 75% nas atividades acadêmicas",
+  "trecho_ids": [
+   "manual_aluno:p19"
+  ],
+  "chave": "minimo 75% frequencia",
+  "id": "minimo_de_75_de_frequencia"
+ },
+ {
+  "type": "Regra",
+  "nome": "Mínimo de 75% de participação nas atividades",
+  "aliases": [],
+  "descricao": "frequência ou participação mínima de 75% nas atividades previstas",
+  "trecho_ids": [
+   "manual_aluno:p15"
+  ],
+  "chave": "minimo 75% participacao nas atividades",
+  "id": "minimo_de_75_de_participacao_nas_atividades"
  },
  {
   "type": "Regra",
@@ -536,5 +2556,148 @@
   ],
   "chave": "nao ter realizado transacao administrativa anteriormente",
   "id": "nao_ter_realizado_transacao_administrativa_anteriormente"
+ },
+ {
+  "type": "Regra",
+  "nome": "Não ter sofrido qualquer sanção disciplinar",
+  "aliases": [],
+  "descricao": "Requisito para exercício da monitoria.",
+  "trecho_ids": [
+   "manual_aluno:p24"
+  ],
+  "chave": "nao ter sofrido qualquer sancao disciplinar",
+  "id": "nao_ter_sofrido_qualquer_sancao_disciplinar"
+ },
+ {
+  "type": "Regra",
+  "nome": "Nota Final < 6,0",
+  "aliases": [],
+  "descricao": "nota final inferior a 6,0 pontos",
+  "trecho_ids": [
+   "manual_aluno:p19"
+  ],
+  "chave": "nota final 6 0",
+  "id": "nota_final_6_0"
+ },
+ {
+  "type": "Regra",
+  "nome": "Oferta e disponibilidade de vagas",
+  "aliases": [],
+  "descricao": "Condição necessária para efetuar transferência interna",
+  "trecho_ids": [
+   "manual_aluno:p31"
+  ],
+  "chave": "oferta e disponibilidade vagas",
+  "id": "oferta_e_disponibilidade_de_vagas"
+ },
+ {
+  "type": "Regra",
+  "nome": "Porcentagem mínima de presença",
+  "aliases": [],
+  "descricao": "frequência mínima exigida para aprovação em componentes por resultado",
+  "trecho_ids": [
+   "manual_aluno:p22"
+  ],
+  "chave": "porcentagem minima presenca",
+  "id": "porcentagem_minima_de_presenca"
+ },
+ {
+  "type": "Regra",
+  "nome": "Previsão no Projeto Pedagógico do Curso",
+  "aliases": [],
+  "descricao": "Exigência de que as atividades estejam previstas no PPC",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-8"
+  ],
+  "chave": "previsao no projeto pedagogico curso",
+  "id": "previsao_no_projeto_pedagogico_do_curso"
+ },
+ {
+  "type": "Regra",
+  "nome": "Proibição de acompanhamento de depoimento por outro sindicado",
+  "aliases": [],
+  "descricao": "vedação a que um sindicado presencie o depoimento de outro",
+  "trecho_ids": [
+   "codigo_disciplinar:art-35"
+  ],
+  "chave": "proibicao acompanhamento depoimento por outro sindicado",
+  "id": "proibicao_de_acompanhamento_de_depoimento_por_outro_sindicado"
+ },
+ {
+  "type": "Regra",
+  "nome": "Protocolo da CAA em atraso ou concluído insatisfatoriamente",
+  "aliases": [],
+  "descricao": "Requisito de ter protocolo anterior em atraso ou concluído insatisfatoriamente",
+  "trecho_ids": [
+   "manual_aluno:p11"
+  ],
+  "chave": "protocolo caa em atraso ou concluido insatisfatoriamente",
+  "id": "protocolo_da_caa_em_atraso_ou_concluido_insatisfatoriamente"
+ },
+ {
+  "type": "Regra",
+  "nome": "Realização de entrevista via WhatsApp",
+  "aliases": [],
+  "descricao": "Requisito imprescindível para deferimento do processo",
+  "trecho_ids": [
+   "manual_aluno:p31"
+  ],
+  "chave": "realizacao entrevista via whatsapp",
+  "id": "realizacao_de_entrevista_via_whatsapp"
+ },
+ {
+  "type": "Regra",
+  "nome": "Solicitação a partir do 2º semestre",
+  "aliases": [],
+  "descricao": "Requisito para solicitar trancamento de matrícula",
+  "trecho_ids": [
+   "manual_aluno:p31"
+  ],
+  "chave": "solicitacao partir 2o semestre",
+  "id": "solicitacao_a_partir_do_2o_semestre"
+ },
+ {
+  "type": "Regra",
+  "nome": "Sujeição à matriz curricular vigente",
+  "aliases": [],
+  "descricao": "obrigação de ficar sujeito à matriz curricular vigente",
+  "trecho_ids": [
+   "regulamento_aproveitamento:art-20"
+  ],
+  "chave": "sujeicao matriz curricular vigente",
+  "id": "sujeicao_a_matriz_curricular_vigente"
+ },
+ {
+  "type": "Regra",
+  "nome": "Ter cursado e sido aprovado na disciplina de origem",
+  "aliases": [],
+  "descricao": "requisito para solicitar a dispensa de disciplina",
+  "trecho_ids": [
+   "manual_aluno:p30"
+  ],
+  "chave": "ter cursado e sido aprovado na disciplina origem",
+  "id": "ter_cursado_e_sido_aprovado_na_disciplina_de_origem"
+ },
+ {
+  "type": "Regra",
+  "nome": "Ter sido aprovado na disciplina objeto de monitoria ou equivalente",
+  "aliases": [],
+  "descricao": "Requisito acadêmico para o exercício da monitoria.",
+  "trecho_ids": [
+   "manual_aluno:p24"
+  ],
+  "chave": "ter sido aprovado na disciplina objeto monitoria ou equivalente",
+  "id": "ter_sido_aprovado_na_disciplina_objeto_de_monitoria_ou_equivalente"
+ },
+ {
+  "type": "Regra",
+  "nome": "Vedação para disciplinas práticas, estágios e DOLS",
+  "aliases": [],
+  "descricao": "disciplinas práticas, de estágio e DOLS não são elegíveis ao regime domiciliar",
+  "trecho_ids": [
+   "manual_aluno:p18"
+  ],
+  "chave": "vedacao para disciplinas praticas estagios e dols",
+  "id": "vedacao_para_disciplinas_praticas_estagios_e_dols"
  }
 ]

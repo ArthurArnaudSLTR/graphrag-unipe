@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "Conjunto de atos ordenados para verificar a existência de infração disciplinar e aplicar sanção.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Ampla defesa e contraditório",
+   "type": "Regra",
+   "description": "Garantia assegurada à pessoa a quem se imputa a autoria de infração disciplinar.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "sendo sempre assegurada à pessoa a quem se imputa a autoria da infração a ampla defesa e o contraditório"
+  }
+ ]
+}

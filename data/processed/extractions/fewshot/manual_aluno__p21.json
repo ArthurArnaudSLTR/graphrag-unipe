@@ -1,0 +1,78 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Segunda Chamada de Avaliação",
+   "type": "Processo",
+   "description": "solicitação de segunda chamada para prova regimental e avaliação final",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Atestado de óbito",
+   "type": "DocumentoExigido",
+   "description": "comprovante de óbito de familiar, cônjuge ou companheiro",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Certidão de casamento",
+   "type": "DocumentoExigido",
+   "description": "comprovante em caso de casamento",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Atestado com CID",
+   "type": "DocumentoExigido",
+   "description": "atestado com Classificação Estatística Internacional de Doença",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Declaração do empregador",
+   "type": "DocumentoExigido",
+   "description": "comprovação de trabalho de caráter crítico e emergencial",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "Coordenador do Curso",
+   "type": "Orgao",
+   "description": "órgão responsável por emitir parecer de deferimento",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "EXIGE",
+   "evidence": "Deverá apresentar: atestado de óbito."
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "EXIGE",
+   "evidence": "Deverá apresentar: certidão de casamento."
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "EXIGE",
+   "evidence": "Deverá apresentar: .atestado com Classificação Estatística Internacional de Doença (CID)."
+  },
+  {
+   "source": "e1",
+   "target": "e5",
+   "type": "EXIGE",
+   "evidence": "Deverá apresentar: .declaração do empregador em papel com identificação da empresa"
+  },
+  {
+   "source": "e1",
+   "target": "e6",
+   "type": "DECIDIDO_POR",
+   "evidence": "informações sobre data, local e horário de realização da prova serão disponibilizadas pelo coordenador do curso no parecer de deferimento."
+  }
+ ]
+}

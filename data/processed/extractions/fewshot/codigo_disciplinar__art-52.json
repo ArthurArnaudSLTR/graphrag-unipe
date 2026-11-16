@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Novas diligências probatórias",
+   "type": "Processo",
+   "description": "Diligências adicionais realizadas durante a fase probatória",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Comissão Processante",
+   "type": "Orgao",
+   "description": "Órgão responsável pela condução e determinações no processo disciplinar",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Produção de provas",
+   "type": "Processo",
+   "description": "Etapa inicial de instrução probatória",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "poderão ser realizadas, por determinação da Comissão Processante"
+  },
+  {
+   "source": "e3",
+   "target": "e1",
+   "type": "PRECEDE",
+   "evidence": "Concluída a produção das provas, poderão ser realizadas [...] novas diligências probatórias"
+  }
+ ]
+}

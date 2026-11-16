@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "ENADE",
+   "type": "Processo",
+   "description": "Exame Nacional de Desempenho dos Estudantes",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "3 anos",
+   "type": "Prazo",
+   "description": "periodicidade máxima da avaliação por área do conhecimento",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "1 ano",
+   "type": "Prazo",
+   "description": "periodicidade da avaliação para os cursos de licenciatura",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "TEM_PRAZO",
+   "evidence": "A periodicidade máxima da avaliação é trienal para cada área do conhecimento"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "TEM_PRAZO",
+   "evidence": "exceto para as licenciaturas, que passou a ser anual, a partir de 2024"
+  }
+ ]
+}

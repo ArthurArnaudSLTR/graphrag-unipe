@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Penalidade disciplinar",
+   "type": "Penalidade",
+   "description": "Sanção disciplinar cujos efeitos incluem a destituição de funções e vínculos acadêmicos.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Monitoria acadêmica",
+   "type": "Processo",
+   "description": "Vínculo acadêmico afetado pela aplicação de penalidade disciplinar.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "2 anos",
+   "type": "Prazo",
+   "description": "Prazo para cancelamento automático dos efeitos da aplicação da penalidade após o trânsito em julgado.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "AFETA",
+   "evidence": "destituição de cargos, funções e vínculos acadêmicos voluntários ou remunerados que o aluno ocupe na Instituição, incluindo, exemplificativamente, representação de classe, monitoria acadêmica"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "TEM_PRAZO",
+   "evidence": "Os efeitos da aplicação da penalidade ficam automaticamente cancelados após dois anos do trânsito em julgado da decisão"
+  }
+ ]
+}

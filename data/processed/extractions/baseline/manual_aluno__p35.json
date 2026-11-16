@@ -1,0 +1,59 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Colação de Grau Especial",
+   "type": "Processo",
+   "description": "Processo de colação de grau para estudantes que integralizarem os componentes curriculares em momento distinto ou fora do calendário oficial.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Conclusão e cadastro de todas as disciplinas e atividades",
+   "type": "Regra",
+   "description": "Requisito onde todas as disciplinas e atividades devem estar concluídas e registradas no sistema para solicitar o protocolo.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Comprovante de necessidade de antecipação",
+   "type": "DocumentoExigido",
+   "description": "Documento que comprova necessidade para antecipação de colação, como posse em concurso, seleção para emprego ou aprovação em pós-graduação.",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Láurea Acadêmica",
+   "type": "Processo",
+   "description": "Concessão de reconhecimento por mérito acadêmico ao estudante com excelente desempenho.",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Reitoria",
+   "type": "Orgao",
+   "description": "Órgão responsável por definir os cursos contemplados pela Láurea Acadêmica.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "O pedido somente poderá ser protocolado quando todas as disciplinas e atividades estiverem concluídas e devidamente cadastradas em sistema."
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "EXIGE",
+   "evidence": "Para antecipação de colação, o estudante deve apresentar documento que comprove sua necessidade."
+  },
+  {
+   "source": "e4",
+   "target": "e5",
+   "type": "DECIDIDO_POR",
+   "evidence": "A Láurea Acadêmica pode ser oferecida para todos os cursos ou para cursos definidos pela Reitoria."
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Transação Administrativa",
+   "type": "Processo",
+   "description": "Procedimento prévio à instauração de Processo Administrativo Disciplinar",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "Processo disciplinar instaurado após apuração ou procedimento prévio",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PRECEDE",
+   "evidence": "prévia realização do procedimento de Transação Administrativa"
+  }
+ ]
+}

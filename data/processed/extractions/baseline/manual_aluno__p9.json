@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Passe Escolar",
+   "type": "Processo",
+   "description": "Benefício para estudantes regulados conforme regras de transporte",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Estudante regularmente matriculado",
+   "type": "Regra",
+   "description": "Requisito de ter vínculo acadêmico regular",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "É um benefício exclusivo ao estudante regularmente matriculado."
+  }
+ ]
+}

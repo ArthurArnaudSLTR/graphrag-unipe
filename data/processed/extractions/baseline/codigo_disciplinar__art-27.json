@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Transação Administrativa",
+   "type": "Processo",
+   "description": "Procedimento para solução consensual de infrações disciplinares",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Termo de Compromisso",
+   "type": "DocumentoExigido",
+   "description": "Documento assinado pelos interessados em caso de acordo na transação administrativa",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "Autoridade responsável pela homologação do Termo de Compromisso",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "EXIGE",
+   "evidence": "Estando de acordo com a Transação Administrativa, os interessados assinarão Termo de Compromisso"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "DECIDIDO_POR",
+   "evidence": "O Termo de Compromisso assinado pelos interessados será submetido à homologação do Reitor"
+  }
+ ]
+}

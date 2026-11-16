@@ -1,0 +1,46 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "Processo realizado pela Comissão Processante para apuração de infrações disciplinares",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Comissão Processante",
+   "type": "Orgao",
+   "description": "Comissão nomeada para realizar o Processo Administrativo Disciplinar",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Transação Administrativa",
+   "type": "Processo",
+   "description": "Procedimento para conciliação disciplinar",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Conciliadores",
+   "type": "Orgao",
+   "description": "Agentes nomeados para aplicação do procedimento de Transação Administrativa",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "Comissão Processante para realizar Processo Administrativo Disciplinar"
+  },
+  {
+   "source": "e3",
+   "target": "e4",
+   "type": "DECIDIDO_POR",
+   "evidence": "conciliadores para aplicação do procedimento de Transação Administrativa"
+  }
+ ]
+}

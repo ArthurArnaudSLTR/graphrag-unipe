@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Dispensa de Disciplina",
+   "type": "Processo",
+   "description": "Solicitação de dispensa de disciplinas cursadas em outras instituições de ensino",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Histórico escolar da instituição de origem",
+   "type": "DocumentoExigido",
+   "description": "Documento comprobatório da instituição de ensino de origem exigido no processo",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "EXIGE",
+   "evidence": "Para as solicitações de Dispensa de Disciplina cursadas em outras instituições de ensino é necessário apresentar o histórico escolar da instituição de origem."
+  }
+ ]
+}

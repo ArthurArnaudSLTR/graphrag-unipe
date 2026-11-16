@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Sindicância",
+   "type": "Processo",
+   "description": "procedimento de apuração de infração disciplinar",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "autoridade competente para decidir sobre a sindicância",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "procedimento disciplinar principal",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Transação Administrativa",
+   "type": "Processo",
+   "description": "procedimento de transação disciplinar",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "Os autos da Sindicância, contendo o relatório final, serão encaminhados para análise do Reitor, que decidirá"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "PRECEDE",
+   "evidence": "Os autos da Sindicância acompanharão o ato de instauração do procedimento de Transação Administrativa ou do Processo Administrativo Disciplinar"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "PRECEDE",
+   "evidence": "Os autos da Sindicância acompanharão o ato de instauração do procedimento de Transação Administrativa"
+  }
+ ]
+}

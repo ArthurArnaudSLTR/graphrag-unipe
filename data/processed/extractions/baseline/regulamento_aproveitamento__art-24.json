@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Deliberação de casos omissos",
+   "type": "Processo",
+   "description": "Deliberação referente a situações não previstas no regulamento",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Reitoria",
+   "type": "Orgao",
+   "description": "Órgão competente para deliberação de casos omissos",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "caberá à Reitoria e demais órgãos competentes a deliberação"
+  }
+ ]
+}

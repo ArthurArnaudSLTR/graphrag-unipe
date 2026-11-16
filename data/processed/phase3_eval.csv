@@ -1,0 +1,153 @@
+﻿id;modo;pergunta;esperada;resposta;taxa_suporte;cobertura_docs;descartadas;correta (0/1);completa (0/1);alucinacao (0/1);observacao
+1;graphrag;Quantas horas posso faltar numa disciplina de 60h/a?;Limite = carga horária x 0,25 (25%), ou seja, 15h/a;"- Para saber o limite de faltas permitidas no decorrer do semestre, você deve multiplicar a carga horária da disciplina por 0,25. [T6]
+- É considerado reprovado por falta o estudante que não cumprir a frequência mínima de 75% da carga horária da disciplina. [T1, T6]
+
+(Resposta parcial: parte da pergunta não teve base suficiente nos documentos.)";0.667;1.0;1;1;0;0;[avaliação: Claude] deu a regra (CH x 0,25) mas não o número 15h/a: a verificação descartou o cálculo porque 60 não está nas fontes
+1;hibrido;Quantas horas posso faltar numa disciplina de 60h/a?;Limite = carga horária x 0,25 (25%), ou seja, 15h/a;"- Para saber o limite de faltas permitidas no semestre, você deve multiplicar a carga horária da disciplina por 0,25, correspondendo aos 25% de faltas permitidas. [T1, T6]
+- Caso você não cumpra a frequência mínima de 75% da carga horária da disciplina, você será considerado reprovado. [T1, T6]
+
+(Resposta parcial: parte da pergunta não teve base suficiente nos documentos.)";0.667;1.0;1;1;0;0;[avaliação: Claude] deu a regra (CH x 0,25) mas não o número 15h/a: a verificação descartou o cálculo porque 60 não está nas fontes
+1;vetorial;Quantas horas posso faltar numa disciplina de 60h/a?;Limite = carga horária x 0,25 (25%), ou seja, 15h/a;"- Para saber o limite de faltas permitidas em uma disciplina, você deve multiplicar a carga horária da disciplina por 0,25, respeitando a frequência mínima exigida de 75%. [T1, T2]
+
+(Resposta parcial: parte da pergunta não teve base suficiente nos documentos.)";0.5;1.0;1;1;0;0;[avaliação: Claude] deu a regra (CH x 0,25) mas não o número 15h/a: a verificação descartou o cálculo porque 60 não está nas fontes
+2;graphrag;Tirei NF 5,0 com 80% de frequência. O que acontece?;"Pode fazer a AF (máx. 5,0), que substitui a menor entre A1 e A2; nova NF >= 6,0 aprova";"- Como a sua Nota Final (NF) e inferior a 6,0 pontos e a sua frequencia e igual ou superior a 75%, voce podera realizar a Avaliacao Final (AF). [T1, F1, F2]
+- A Avaliacao Final (AF) tem valor maximo de 5,0 pontos e sera aplicada conforme o calendario academico. [T1]
+- A nota da AF substituira a menor nota entre A1 e A2, e uma nova Nota Final (NF) sera calculada. [T1]
+- Se a nova NF for igual ou superior a 6,0 pontos, voce sera aprovado. [T1]";1.0;1.0;0;1;1;0;[avaliação: Claude] aplicou a regra ao caso (NF<6 e freq>=75%) usando fatos do grafo
+2;hibrido;Tirei NF 5,0 com 80% de frequência. O que acontece?;"Pode fazer a AF (máx. 5,0), que substitui a menor entre A1 e A2; nova NF >= 6,0 aprova";"- A Avaliação Final (AF) tem valor máximo de 5,0 (cinco) pontos e será aplicada conforme o calendário acadêmico. [T1]
+- A AF substituirá a menor nota entre A1 e A2, e uma nova Nota Final (NF) será calculada. [T1]
+- Se a nova NF for igual ou superior a 6,0 (seis) pontos, você será aprovado. [T1]
+- Caso seja uma disciplina específica do Curso de Medicina, devem ser observadas as normas estabelecidas no Regulamento de Avaliação do Desempenho Discente. [T1]
+
+(Resposta parcial: parte da pergunta não teve base suficiente nos documentos.)";0.8;1.0;1;1;0;0;[avaliação: Claude] idem vetorial: faltou dizer explicitamente que o aluno tem direito à AF
+2;vetorial;Tirei NF 5,0 com 80% de frequência. O que acontece?;"Pode fazer a AF (máx. 5,0), que substitui a menor entre A1 e A2; nova NF >= 6,0 aprova";"- A Avaliação Final (AF) tem valor máximo de 5,0 (cinco) pontos. [T1]
+- A AF substituirá a menor nota entre A1 e A2, e uma nova NF será calculada. [T1]
+- Se essa nova NF for igual ou superior a 6,0 (seis) pontos, você será aprovado. [T1]
+- A AF será aplicada conforme o calendário acadêmico. [T1]
+- Para disciplinas específicas do Curso de Medicina, devem ser observadas as normas do Regulamento de Avaliação do Desempenho Discente. [T1]
+
+(Resposta parcial: parte da pergunta não teve base suficiente nos documentos.)";0.833;1.0;1;1;0;0;[avaliação: Claude] explica a AF, mas a frase que diz que o aluno pode fazê-la foi descartada (80 não está nas fontes)
+3;graphrag;Quem pode pedir segunda chamada, com quais documentos, e há taxa?;"Situações listadas (ex.: convocação legal, óbito, casamento, doença); pedido na CAA On-line com documentos; taxa por disciplina";"- A segunda chamada da Prova Regimental (A1) e da Avaliação Final (AF) pode ser realizada em casos de serviços obrigatórios por lei, convocação para trabalho de caráter crítico e emergencial, óbito de familiar em primeiro ou segundo grau, cônjuge ou companheiro, casamento, ou doença própria, de familiar em primeiro grau, cônjuge ou companheiro. [T1]
+- Os documentos exigidos para comprovação são: declaração oficial do órgão competente e comprovante de comparecimento (serviços obrigatórios por lei); declaração do empregador em papel com identificação da empresa, firma reconhecida e comprovação de representação legal (trabalho crítico/emergencial); atestado de óbito (óbito de familiar); certidão de casamento (casamento); e atestado com Classificação Estatística Internacional de Doença - CID (doença). [T1, F2, F3, F4, F5]
+- A solicitação deve ser feita via CAA On-line, acompanhada do pagamento da taxa relativa a cada disciplina objeto de segunda chamada no ato da solicitação. [T1]
+- O serviço de segunda chamada de prova possui taxa não reembolsável, cujo valor não é devolvido mesmo em caso de deferimento, indeferimento ou cancelamento do protocolo. [T2]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+3;hibrido;Quem pode pedir segunda chamada, com quais documentos, e há taxa?;"Situações listadas (ex.: convocação legal, óbito, casamento, doença); pedido na CAA On-line com documentos; taxa por disciplina";"- A segunda chamada da Prova Regimental (A1) e da Avaliação Final (AF) pode ser solicitada em casos de serviços obrigatórios por lei, mediante a apresentação de declaração oficial do órgão competente e da autoridade convocante, além do comprovante de comparecimento. [T1]
+- Pode ser pedida por convocação para trabalho de caráter crítico e emergencial em que a presença do aluno-funcionário seja imprescindível, apresentando declaração do empregador em papel com identificação da empresa, firma reconhecida e comprovação de representação legal. [T1]
+- É permitida em virtude de óbito de familiar em primeiro grau (pai, mãe e filhos), segundo grau (irmãos, avós e netos), cônjuge ou companheiro, mediante apresentação do atestado de óbito. [T1]
+- Pode ser requerida por motivo de casamento, devendo ser apresentada a certidão de casamento. [T1]
+- Pode ser solicitada em caso de doença própria, de familiar em primeiro grau e de cônjuge ou companheiro, mediante apresentação de atestado com Classificação Estatística Internacional de Doença (CID). [T1]
+- Sim, há cobrança de taxa para a solicitação de segunda chamada via CAA On-line, devendo ser paga por cada disciplina no ato da solicitação, sendo este valor não reembolsável. [T1, T2]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+3;vetorial;Quem pode pedir segunda chamada, com quais documentos, e há taxa?;"Situações listadas (ex.: convocação legal, óbito, casamento, doença); pedido na CAA On-line com documentos; taxa por disciplina";"- A segunda chamada da Prova Regimental (A1) e da Avaliação Final (AF) pode ser solicitada em situações de serviços obrigatórios por lei, mediante apresentação de declaração oficial do órgão competente e autoridade que fez a convocação, além do comprovante de comparecimento. [T1]
+- Pode ser requerida para atividades de trabalho de caráter crítico e emergencial em que a presença do aluno-funcionário seja imprescindível, apresentando declaração do empregador em papel com identificação da empresa, firma reconhecida e comprovação de que o signatário é representante legal da empresa. [T1]
+- É permitida nos casos de óbito de familiar em primeiro grau (pai, mãe e filhos), segundo grau (irmãos, avós e netos), cônjuge ou companheiro, devendo apresentar o atestado de óbito. [T1]
+- Pode ser solicitada por motivo de casamento, mediante a apresentação da certidão de casamento. [T1]
+- É autorizada em casos de doença própria, de familiar em primeiro grau e cônjuge ou companheiro, apresentando atestado com Classificação Estatística Internacional de Doença (CID). [T1]
+- Sim, o aluno deve pagar a taxa relativa a cada disciplina no ato da solicitação via CAA On-line, sendo essa uma taxa de serviço não reembolsável. [T1, T2]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+4;graphrag;Se eu for suspenso por 10 dias, isso conta como falta?;Faltas da suspensão são justificadas e não contam para reprovação por frequência (Art. 13, §2º);"- Durante o período de suspensão, você fica impedido de assistir a aulas, realizar atividades de avaliação e frequentar as dependências da Instituição, salvo autorização expressa da autoridade decisora. [T1]
+- As faltas decorrentes do período de suspensão serão consideradas justificadas. [T1]
+- Essas faltas não serão computadas para fins de reprovação por frequência. [T1]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+4;hibrido;Se eu for suspenso por 10 dias, isso conta como falta?;Faltas da suspensão são justificadas e não contam para reprovação por frequência (Art. 13, §2º);"- As faltas decorrentes do período de suspensão são consideradas justificadas. [T1]
+- Essas faltas não serão computadas para fins de reprovação por frequência. [T1]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+4;vetorial;Se eu for suspenso por 10 dias, isso conta como falta?;Faltas da suspensão são justificadas e não contam para reprovação por frequência (Art. 13, §2º);"- Durante o período de suspensão, você fica afastado das atividades acadêmicas e impedido de assistir a aulas, realizar atividades de avaliação e frequentar as dependências da Instituição, salvo autorização expressa da autoridade decisora. [T1]
+- As faltas decorrentes do período de suspensão são consideradas justificadas. [T1]
+- Essas faltas não serão computadas para fins de reprovação por frequência. [T1]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+5;graphrag;Fui punido por infração grave. Posso continuar monitor e manter a bolsa?;"Art. 15: perda de bolsa e destituição de monitoria em infração grave/gravíssima; monitoria exige nunca ter sofrido sanção";"- No caso de punição por infração grave, ocorre a perda de bolsa acadêmica ou benefício educacional, observado o disposto no Contrato de Prestação de Serviços Educacionais e na legislação aplicável ao programa de bolsa. [T1]
+- Também ocorre a destituição de cargos, funções e vínculos acadêmicos voluntários ou remunerados que você ocupe na Instituição, o que inclui a monitoria acadêmica. [T1, F7]";1.0;1.0;0;1;0;0;[avaliação: Claude] recuperou p. 24/25 do Manual mas não citou o requisito de não ter sofrido sanção
+5;hibrido;Fui punido por infração grave. Posso continuar monitor e manter a bolsa?;"Art. 15: perda de bolsa e destituição de monitoria em infração grave/gravíssima; monitoria exige nunca ter sofrido sanção";"- Em caso de aplicação de penalidade por infração grave, ocorre a perda da bolsa acadêmica ou benefício educacional, observado o disposto no Contrato de Prestação de Serviços Educacionais e na legislação aplicável ao programa de bolsa. [T1]
+- Além disso, a penalidade por infração grave acarreta a destituição de cargos, funções e vínculos acadêmicos voluntários ou remunerados na Instituição, o que inclui a monitoria acadêmica. [T1]";1.0;1.0;0;1;0;0;[avaliação: Claude] não usou o Manual: requisito da monitoria de não ter sofrido sanção
+5;vetorial;Fui punido por infração grave. Posso continuar monitor e manter a bolsa?;"Art. 15: perda de bolsa e destituição de monitoria em infração grave/gravíssima; monitoria exige nunca ter sofrido sanção";"- No caso de infrações graves, a aplicação da penalidade acarreta a perda de bolsa acadêmica ou benefício educacional. [T1]
+- Essa perda deve observar o disposto no Contrato de Prestação de Serviços Educacionais e na legislação aplicável ao programa de bolsa. [T1]
+- A aplicação de penalidade por infração grave também acarreta a destituição de cargos, funções e vínculos acadêmicos voluntários ou remunerados ocupados na Instituição, incluindo expressamente a monitoria acadêmica. [T1]";1.0;0.5;0;1;0;0;[avaliação: Claude] não usou o Manual: requisito da monitoria de não ter sofrido sanção
+6;graphrag;Quem julga o recurso contra uma penalidade, em que prazo e cabe novo recurso?;"Consepe; 5 dias úteis; da 2ª instância não cabe recurso (Art. 59)";"- O recurso contra a decisão do Reitor é julgado pelo Consepe, pela maioria simples dos membros presentes na reunião. [T1, F3]
+- O prazo para interpor o recurso é de cinco dias úteis. [T1, F4]
+- Das decisões proferidas em segunda instância pelo Consepe, não cabe novo recurso. [T1]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+6;hibrido;Quem julga o recurso contra uma penalidade, em que prazo e cabe novo recurso?;"Consepe; 5 dias úteis; da 2ª instância não cabe recurso (Art. 59)";"- O recurso contra a decisão do Reitor é julgado pelo Consepe. [T1]
+- O prazo para a interposição do recurso é de cinco dias úteis. [T1]
+- O Consepe decidirá pelo voto da maioria simples dos membros presentes à reunião em que for julgado o recurso. [T1]
+- Das decisões proferidas em segunda instância, não cabe recurso. [T1]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+6;vetorial;Quem julga o recurso contra uma penalidade, em que prazo e cabe novo recurso?;"Consepe; 5 dias úteis; da 2ª instância não cabe recurso (Art. 59)";"- Da decisão do Reitor, cabe recurso ao Consepe. [T1]
+- O prazo para interpor o recurso é de cinco dias úteis. [T1]
+- O Consepe decidirá pelo voto da maioria simples dos membros presentes à reunião em que for julgado o recurso. [T1]
+- Das decisões proferidas em segunda instância, não cabe recurso. [T1]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+7;graphrag;Fui acusado de plágio. Quais as etapas, prazos e penalidades possíveis?;"Infração gravíssima (Art. 8, VII): suspensão de 16 a 30 dias ou desligamento; Reitor decide entre sindicância e PAD; prazos de 45 e 10 dias úteis; Transação Administrativa não se aplica a gravíssimas";"- O plágio total ou parcial de obra de outrem na execução de atividades acadêmicas é enquadrado como infração disciplinar gravíssima. [T3]
+- As penalidades disciplinares genéricas previstas são advertência, repreensão, suspensão e desligamento. [T2]
+- A aplicação de penalidade por infração gravíssima produz os efeitos de anotação na pasta e livro de registro, perda de bolsa acadêmica ou benefício educacional, e destituição de cargos, funções e vínculos acadêmicos. [T1]
+- Os efeitos da penalidade são cancelados automaticamente após dois anos do trânsito em julgado da decisão. [T1, F5]
+- A substituição por penalidade alternativa não se aplica aos casos de infração disciplinar gravíssima. [T9]
+- Em relação ao procedimento, o Reitor analisa a notícia da infração e pode determinar Transação Administrativa, Sindicância, Processo Administrativo Disciplinar ou arquivamento. [T8, F1, F2, F3, F4]
+- A Sindicância precederá o Processo Administrativo Disciplinar, salvo se houver prova suficiente de autoria e materialidade para a instauração imediata pelo Reitor. [T11, T12, F23]
+- No Processo Administrativo Disciplinar, o aluno será citado para apresentar defesa prévia por escrito no prazo de dez dias úteis, podendo arrolar até três testemunhas e requerer provas. [T6, F29]
+- O prazo para a apresentação de alegações finais no processo é de dez dias úteis. [F28]
+- O prazo para a conclusão do Processo Administrativo Disciplinar não excederá quarenta e cinco dias úteis. [F18]
+- Após a decisão do Reitor, cabe recurso ao Consepe no prazo de cinco dias úteis. [F25, F26]
+- A contagem dos prazos exclui o primeiro dia, inclui o dia do vencimento e computa somente os dias úteis, iniciando-se a partir do recebimento da intimação ou citação. [T10, F9, F10, F11]";1.0;1.0;0;1;0;0;"[avaliação: Claude] etapas e prazos completos (10, 45, 5 dias; sindicância antes do PAD); falta a pena específica (suspensão 16-30 dias ou desligamento)"
+7;hibrido;Fui acusado de plágio. Quais as etapas, prazos e penalidades possíveis?;"Infração gravíssima (Art. 8, VII): suspensão de 16 a 30 dias ou desligamento; Reitor decide entre sindicância e PAD; prazos de 45 e 10 dias úteis; Transação Administrativa não se aplica a gravíssimas";"- O plágio, seja total ou parcial, de obra de qualquer natureza na execução de atividades acadêmicas é enquadrado como infração disciplinar gravíssima. [T3]
+- As penalidades disciplinares gerais previstas são advertência, repreensão, suspensão e desligamento. [T2]
+- Por se tratar de infração gravíssima, a sanção também pode acarretar a perda de bolsa acadêmica ou benefício educacional. [T1]
+- Também pode ocorrer a destituição de cargos, funções e vínculos acadêmicos voluntários ou remunerados ocupados por você na Instituição. [T1]
+- Ao receber a notícia da infração, o Reitor analisará o caso e poderá determinar a instauração de Transação Administrativa, Sindicância, Processo Administrativo Disciplinar ou o arquivamento. [T8]
+- Ao ser citado para tomar conhecimento dos fatos, você terá o prazo de dez dias úteis da citação para apresentar defesa prévia por escrito. [T6]
+- No prazo da defesa prévia, você poderá juntar documentos, requerer produção de provas e arrolar até três testemunhas. [T6]
+- Após a conclusão do relatório pela Comissão Processante, os autos serão encaminhados ao Reitor, que proferirá decisão fundamentada impondo ou não a sanção. [T7]
+
+(Resposta parcial: parte da pergunta não teve base suficiente nos documentos.)";1.0;1.0;0;1;0;0;"[avaliação: Claude] identifica gravíssima; faltam suspensão 16-30 dias/desligamento e o prazo de 45 dias"
+7;vetorial;Fui acusado de plágio. Quais as etapas, prazos e penalidades possíveis?;"Infração gravíssima (Art. 8, VII): suspensão de 16 a 30 dias ou desligamento; Reitor decide entre sindicância e PAD; prazos de 45 e 10 dias úteis; Transação Administrativa não se aplica a gravíssimas";"- Após o recebimento da notícia da infração, o Reitor analisará o caso e poderá determinar a instauração de Transação Administrativa, Sindicância, Processo Administrativo Disciplinar ou o arquivamento da notícia da infração. [T2]
+- Se instaurada a Comissão Processante, seu Presidente deve convocar os demais integrantes no prazo máximo de cinco dias úteis para deliberarem sobre a citação. [T5]
+- Após a citação, você terá o prazo de dez dias úteis para apresentar defesa prévia por escrito. [T1]
+- Na apresentação da defesa prévia, você poderá juntar documentos, arrolar até três testemunhas e requerer a produção de outras provas. [T1]
+- O prazo para a conclusão do Processo Administrativo Disciplinar não excederá quarenta e cinco dias úteis, contados da data de citação, salvo a necessidade de diligências adicionais. [T3]
+- As penalidades disciplinares a que os alunos estão sujeitos são advertência, repreensão, suspensão e desligamento. [T7]
+- Da decisão do Reitor, cabe recurso ao Consepe no prazo de cinco dias úteis. [T8]
+
+(Resposta parcial: parte da pergunta não teve base suficiente nos documentos.)";1.0;1.0;0;0;0;0;"[avaliação: Claude] não identifica o plágio como gravíssima; penalidades genéricas"
+8;graphrag;Cursei 70% da carga horária de uma disciplina em outra faculdade. Posso aproveitá-la?;Não: exige pelo menos 75% da carga horária da disciplina pretendida (Art. 7);"- Em nenhuma hipótese é concedido aproveitamento de estudos quando o número de horas cursadas na disciplina de origem for inferior a 75% (setenta por cento) da carga horária da disciplina cuja dispensa é pretendida. [T1, F10]
+- Como a carga horária de 70% cursada é inferior ao limite exigido de 75%, você não poderá aproveitá-la e estará obrigado a cursar regularmente a disciplina. [T1]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+8;hibrido;Cursei 70% da carga horária de uma disciplina em outra faculdade. Posso aproveitá-la?;Não: exige pelo menos 75% da carga horária da disciplina pretendida (Art. 7);"- O aproveitamento de estudos entre disciplinas pode ser concedido desde que haja similaridade de conteúdo e carga horária compatível. [T1]
+- Em nenhuma hipótese será concedido aproveitamento de estudos quando o número de horas cursadas na disciplina de origem for inferior a 75% (setenta por cento) da carga horária da disciplina cuja dispensa é pretendida. [T1]
+- Como 70% é um percentual inferior a 75% (setenta por cento), você não poderá obter o aproveitamento da disciplina. [T1]
+- Nessa situação, o estudante estará obrigado a cursar regularmente a disciplina. [T1]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+8;vetorial;Cursei 70% da carga horária de uma disciplina em outra faculdade. Posso aproveitá-la?;Não: exige pelo menos 75% da carga horária da disciplina pretendida (Art. 7);"- Em nenhuma hipótese será concedido aproveitamento de estudos quando o número de horas cursadas na disciplina de origem for inferior a 75% (setenta por cento) da carga horária da disciplina cuja dispensa é pretendida. [T1]
+- Como 70% é inferior ao limite exigido, você não poderá aproveitar a disciplina e estará obrigado a cursá-la regularmente. [T1]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+9;graphrag;Posso validar meu emprego como estágio obrigatório?;Art. 8, §2º: atividade profissional correlata nos últimos 2 anos (ou extensão/IC nos últimos 12 meses), se prevista no PPC;"- Você pode solicitar a validação de atividade profissional correlata ao seu curso, realizada nos últimos dois anos na condição de empregado ou empresário, como Estágio Curricular Obrigatório. [T1]
+- Para solicitar essa validação, as atividades precisam estar previstas no Projeto Pedagógico do Curso. [T1, F1]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+9;hibrido;Posso validar meu emprego como estágio obrigatório?;Art. 8, §2º: atividade profissional correlata nos últimos 2 anos (ou extensão/IC nos últimos 12 meses), se prevista no PPC;"- Você pode solicitar a validação da sua atividade profissional como Estágio Curricular Obrigatório se a tiver realizado nos últimos dois anos na condição de empregado ou empresário. [T1]
+- A atividade profissional exercida deve ser correlata ao seu curso. [T1]
+- Essa validação precisa estar prevista no Projeto Pedagógico do Curso. [T1]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+9;vetorial;Posso validar meu emprego como estágio obrigatório?;Art. 8, §2º: atividade profissional correlata nos últimos 2 anos (ou extensão/IC nos últimos 12 meses), se prevista no PPC;"- Você pode solicitar a validação de atividade profissional como Estágio Curricular Obrigatório se a tiver realizado nos últimos dois anos na condição de empregado ou empresário. [T1]
+- A atividade profissional deve ser correlata ao seu curso e estar prevista no Projeto Pedagógico do Curso. [T1]
+- A validação é regida pela Instrução Normativa nº 01/2019, conforme o Regulamento de Estágio do UNIPÊ. [T1]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+10;graphrag;Quantas DPs e adaptações posso incluir por semestre?;No máximo 3 disciplinas, além das regulares;"- Você pode incluir no máximo 3 disciplinas de Dependências (DPs) e Adaptações, além das suas disciplinas regulares do semestre. [T1, F1]
+- Para fazer essa inclusão, basta realizar a gestão das disciplinas na Área do Aluno durante o período de Rematrícula. [T1]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+10;hibrido;Quantas DPs e adaptações posso incluir por semestre?;No máximo 3 disciplinas, além das regulares;"- A inclusão de Dependências (DPs) e Adaptações é limitada a, no máximo, 3 disciplinas, além das disciplinas regulares do semestre. [T1]
+- Para realizar a inclusão, você deve fazer a gestão das disciplinas na Área do Aluno durante a Rematrícula. [T1]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+10;vetorial;Quantas DPs e adaptações posso incluir por semestre?;No máximo 3 disciplinas, além das regulares;"- A inclusão de Dependências (DPs) e Adaptações é limitada a no máximo 3 disciplinas, além das disciplinas regulares do semestre. [T1]
+- Para incluir essas disciplinas, você deve fazer a gestão delas na Área do Aluno durante a Rematrícula. [T1]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+11;graphrag;Depois de trancar, como volto e o que acontece se eu não voltar a tempo?;"Trancamento a partir do 2º semestre, máx. 1 semestre; perde o vínculo se não voltar; retorno sujeito a novo processo seletivo e adaptação ao currículo vigente";"- Para retornar à vida acadêmica após o trancamento de matrícula, você deve acessar: Área do Aluno > CAA On-line > Faça a sua Solicitação > Retorno ao Curso. [T3]
+- O retorno exige análise de reativação de vínculo e adaptação ao currículo vigente. [T3, F4]
+- Se você não retornar ao curso depois de 1 semestre letivo, perderá o vínculo com a Instituição. [T1, F2]
+- Caso perca o vínculo por não retornar a tempo, o retorno às aulas estará sujeito à realização de um novo processo seletivo. [T1]
+
+Atenção, as fontes divergem: No Regulamento de Aproveitamento de Estudos (2020), Art. 20, o procedimento é chamado de Destrancamento de Matrícula e requer constatação de vínculo acadêmico conforme prazo do Regimento Geral. No Manual do Aluno 2026 (2026), p. 32, o procedimento é denominado Retorno ao Curso, voltado a quem trancou por 1 semestre letivo.";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+11;hibrido;Depois de trancar, como volto e o que acontece se eu não voltar a tempo?;"Trancamento a partir do 2º semestre, máx. 1 semestre; perde o vínculo se não voltar; retorno sujeito a novo processo seletivo e adaptação ao currículo vigente";"- Para retornar à vida acadêmica após o trancamento de matrícula por um semestre, acesse: Área do Aluno > CAA On-line > Faça a sua Solicitação > Retorno ao Curso. [T3]
+- Ao solicitar o retorno aos estudos, você ficará sujeito à matriz curricular vigente. [T7]
+- Caso você não retorne ao curso depois de um semestre letivo, você perderá o vínculo com a Instituição. [T1]
+- Nessa situação de perda de vínculo, o seu retorno às aulas estará sujeito a um novo processo seletivo. [T1]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+11;vetorial;Depois de trancar, como volto e o que acontece se eu não voltar a tempo?;"Trancamento a partir do 2º semestre, máx. 1 semestre; perde o vínculo se não voltar; retorno sujeito a novo processo seletivo e adaptação ao currículo vigente";"- Para solicitar o retorno após o trancamento de matrícula por um semestre, acesse: Área do Aluno > CAA On-line > Faça a sua Solicitação > Retorno ao Curso. [T7]
+- O destrancamento de matrícula fica sujeito à matriz curricular vigente. [T2]
+- O trancamento de matrícula é permitido pelo limite máximo de 1 (um) semestre letivo. [T1]
+- Se você não retornar ao curso depois de um semestre letivo, perderá o vínculo com a Instituição. [T1]
+- Nesta situação de perda de vínculo, o retorno às aulas estará sujeito a um novo processo seletivo. [T1]";1.0;1.0;0;1;1;0;[avaliação: Claude] ok
+12;graphrag;A dispensa de disciplina é automática ou passa por análise?;Divergência entre versões: Manual 2026 (análise automática) x Regulamento 2020 (SNAC + SEGEN). O sistema deve apontar as duas fontes e anos;"- A solicitação de dispensa de disciplina é feita on-line e a sua análise é automática. [T1]
+- Compete à Instituição de Ensino a avaliação do conteúdo, podendo aprovar ou reprovar a solicitação do estudante. [T1]
+- A avaliação do aproveitamento de estudos por equivalência é realizada pelo Setor Nacional de Análise Curricular (SNAC) e sujeita à validação da Secretaria Geral de Ensino (SEGEN). [T7, T11, F7, F8, F16, F18, F19]
+
+Atenção, as fontes divergem: Existe divergência entre os documentos: o Manual do Aluno 2026 (2026) descreve o processo indicando que a análise é automática, enquanto o Regulamento de Aproveitamento de Estudos (2020), nos Arts. 1 e 11, estabelece que a análise curricular é realizada pelo Setor Nacional de Análise Curricular (SNAC) e validada pela Secretaria Geral de Ensino (SEGEN).";1.0;1.0;0;1;1;0;[avaliação: Claude] aponta a divergência Manual 2026 x Regulamento 2020
+12;hibrido;A dispensa de disciplina é automática ou passa por análise?;Divergência entre versões: Manual 2026 (análise automática) x Regulamento 2020 (SNAC + SEGEN). O sistema deve apontar as duas fontes e anos;"- Você pode solicitar o aproveitamento de conteúdo de disciplinas cursadas e aprovadas por disciplinas equivalentes ao currículo do curso em que está matriculado. [T1]
+- Compete à Instituição de Ensino a avaliação do conteúdo, podendo aprovar ou reprovar a sua solicitação. [T1]
+- Segundo o Manual do Aluno 2026, a solicitação é feita on-line e a análise é automática. [T1]
+- Segundo o Regulamento de Aproveitamento de Estudos (2020), o aproveitamento consiste em uma análise de equivalência, na qual a análise curricular é elaborada pelo SNAC e validada pela SEGEN, com consulta aos coordenadores de curso e à Pró-Reitoria Acadêmica (PROAC) se necessário. [T4, T7]
+
+Atenção, as fontes divergem: Há divergência entre os documentos de anos diferentes: o Manual do Aluno 2026 afirma que a análise de dispensa de disciplina é automática, enquanto o Regulamento de Aproveitamento de Estudos (2020), em seu Art. 11, estabelece que a análise curricular é elaborada pelo SNAC e validada pela SEGEN, consultando a PROAC e os coordenadores de curso se necessário.";1.0;1.0;0;1;1;0;[avaliação: Claude] aponta a divergência Manual 2026 x Regulamento 2020
+12;vetorial;A dispensa de disciplina é automática ou passa por análise?;Divergência entre versões: Manual 2026 (análise automática) x Regulamento 2020 (SNAC + SEGEN). O sistema deve apontar as duas fontes e anos;"- O aproveitamento de estudos não é automático, sendo o resultado da análise de equivalência entre a disciplina cursada na instituição de origem e a disciplina a ser cursada. [T8]
+- A dispensa de disciplina por equivalência de estudos passa por solicitação de análise curricular. [T1]
+- Após a elaboração da análise curricular pelo SNAC, o processo passa por validação da SEGEN, com consulta aos coordenadores de Curso e Pró-Reitoria Acadêmica - PROAC se necessário. [T3]";1.0;0.5;0;0;0;0;"[avaliação: Claude] só a versão do Regulamento (não automática); não aponta a divergência com o Manual 2026"

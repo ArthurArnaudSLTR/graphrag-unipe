@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Destrancamento de Matrícula",
+   "type": "Processo",
+   "description": "Retorno aos estudos em cursos do Centro Universitário UNIPÊ.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Constatação do vínculo acadêmico",
+   "type": "Regra",
+   "description": "Requisito para que o destrancamento de matrícula seja realizado.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Sujeição à matriz curricular vigente",
+   "type": "Regra",
+   "description": "Condição à qual o estudante fica submetido após o destrancamento de matrícula.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "O destrancamento de matrícula é realizado mediante solicitação do estudante, desde que constatado o vínculo acadêmico"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "ficando este sujeito à matriz curricular vigente."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Produção de provas",
+   "type": "Processo",
+   "description": "etapa de instrução probatória do processo disciplinar",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Alegações finais",
+   "type": "Processo",
+   "description": "última oportunidade de manifestação do aluno",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Elaboração do relatório",
+   "type": "Processo",
+   "description": "fase final conduzida pela comissão processante",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Comissão Processante",
+   "type": "Orgao",
+   "description": "órgão responsável pela elaboração do relatório",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PRECEDE",
+   "evidence": "depois da produção de todas as provas"
+  },
+  {
+   "source": "e2",
+   "target": "e3",
+   "type": "PRECEDE",
+   "evidence": "antes da elaboração do relatório pela Comissão Processante"
+  },
+  {
+   "source": "e3",
+   "target": "e4",
+   "type": "DECIDIDO_POR",
+   "evidence": "elaboração do relatório pela Comissão Processante"
+  }
+ ]
+}

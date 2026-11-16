@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Revisão da análise curricular",
+   "type": "Processo",
+   "description": "Revisão do processo de análise curricular do candidato ou estudante",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Apresentação clara dos pontos divergentes",
+   "type": "Regra",
+   "description": "Requisito de clareza na apresentação dos pontos divergentes pelo candidato ou estudante",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Documentos comprobatórios da revisão",
+   "type": "DocumentoExigido",
+   "description": "Documentos que suportam a revisão da análise curricular",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "revisão da análise curricular poderá ser realizada desde que o candidato/estudante apresente com clareza os pontos divergentes"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "EXIGE",
+   "evidence": "apresente os documentos que suportem claramente esta revisão"
+  }
+ ]
+}

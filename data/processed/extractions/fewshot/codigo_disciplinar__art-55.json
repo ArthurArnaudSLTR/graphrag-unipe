@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Alegações finais",
+   "type": "Processo",
+   "description": "etapa de manifestação no procedimento disciplinar",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Aprovação do relatório final",
+   "type": "Processo",
+   "description": "etapa de elaboração e deliberação sobre o relatório final do processo",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Comissão Processante",
+   "type": "Orgao",
+   "description": "comissão responsável por aprovar o relatório final",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PRECEDE",
+   "evidence": "Apresentadas ou não as alegações finais no prazo assinalado, a Comissão Processante reunir-se-á para aprovar o relatório final"
+  },
+  {
+   "source": "e2",
+   "target": "e3",
+   "type": "DECIDIDO_POR",
+   "evidence": "Comissão Processante reunir-se-á para aprovar o relatório final"
+  }
+ ]
+}

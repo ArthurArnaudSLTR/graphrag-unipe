@@ -1,0 +1,46 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Inclusão de Dependências e Adaptações",
+   "type": "Processo",
+   "description": "Inclusão de disciplinas de dependência e adaptação na rematrícula",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Máximo de 3 disciplinas além das regulares",
+   "type": "Regra",
+   "description": "Limite máximo de disciplinas de dependência e adaptação a serem inseridas",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Conclusão de Curso",
+   "type": "Processo",
+   "description": "Finalização do curso superior",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Aprovação em todas as disciplinas da matriz curricular",
+   "type": "Regra",
+   "description": "Requisito obrigatório para concluir o curso",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "A inclusão de Dependências (DPs) e Adaptações é limitada e podem ser inseridas no máximo 3 disciplinas, além das disciplinas regulares do semestre."
+  },
+  {
+   "source": "e3",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "para a conclusão do curso, é obrigatório cumprir e ser aprovado em todas as disciplinas previstas na matriz curricular."
+  }
+ ]
+}

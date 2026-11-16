@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Destrancamento de Matrícula",
+   "type": "Processo",
+   "description": "retorno aos estudos em cursos da instituição",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Constatação de vínculo acadêmico dentro do prazo",
+   "type": "Regra",
+   "description": "exigência de constatação de vínculo conforme prazo do Regimento Geral",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Sujeição à matriz curricular vigente",
+   "type": "Regra",
+   "description": "obrigação de ficar sujeito à matriz curricular vigente",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "desde que constatado o vínculo acadêmico conforme prazo estabelecido no Regimento Geral"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "ficando este sujeito à matriz curricular vigente"
+  }
+ ]
+}

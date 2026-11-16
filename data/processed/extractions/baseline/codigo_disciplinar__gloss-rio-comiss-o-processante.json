@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "Processo disciplinar conduzido por comissão instaurada via portaria",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Comissão Processante",
+   "type": "Orgao",
+   "description": "Comissão instaurada pelo Reitor para realizar determinado Processo Administrativo Disciplinar",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "Comissão Processante. Comissão instaurada pelo Reitor, mediante Portaria, para realizar determinado Processo Administrativo Disciplinar."
+  }
+ ]
+}

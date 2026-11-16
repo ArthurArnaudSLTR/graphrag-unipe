@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Análise Curricular",
+   "type": "Processo",
+   "description": "Análise do histórico para aproveitamento de estudos de disciplinas cursadas previamente.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Histórico escolar da IES de origem",
+   "type": "DocumentoExigido",
+   "description": "Documento comprobatório das disciplinas cursadas originalmente em outra IES ou curso.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "EXIGE",
+   "evidence": "será necessária a apresentação do histórico escolar da IES onde essas disciplinas foram cursadas originalmente."
+  }
+ ]
+}

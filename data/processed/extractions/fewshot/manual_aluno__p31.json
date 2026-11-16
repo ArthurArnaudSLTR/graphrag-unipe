@@ -1,0 +1,85 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Cancelamento de Matrícula",
+   "type": "Processo",
+   "description": "Interrupção permanente da matrícula",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Trancamento de Matrícula",
+   "type": "Processo",
+   "description": "Interrupção temporária dos estudos",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Realização de entrevista via WhatsApp",
+   "type": "Regra",
+   "description": "Requisito imprescindível para deferimento do processo",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Solicitação a partir do 2º semestre",
+   "type": "Regra",
+   "description": "Requisito para solicitar trancamento de matrícula",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "1 semestre",
+   "type": "Prazo",
+   "description": "Limite máximo de tempo para trancamento de matrícula",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "Transferência Interna",
+   "type": "Processo",
+   "description": "Transferência de curso, turno ou turma",
+   "gravidade": ""
+  },
+  {
+   "id": "e7",
+   "name": "Oferta e disponibilidade de vagas",
+   "type": "Regra",
+   "description": "Condição necessária para efetuar transferência interna",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "A realização da entrevista é imprescindível para que o processo seja deferido."
+  },
+  {
+   "source": "e2",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "A realização da entrevista é imprescindível para que o processo seja deferido."
+  },
+  {
+   "source": "e2",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "podendo ser solicitado a partir do 2° semestre do curso"
+  },
+  {
+   "source": "e2",
+   "target": "e5",
+   "type": "TEM_PRAZO",
+   "evidence": "pelo limite máximo de 1 (um) semestre letivo"
+  },
+  {
+   "source": "e6",
+   "target": "e7",
+   "type": "REQUER",
+   "evidence": "condicionado a oferta do curso, turno e turma desejados, bem como à disponibilidade de vagas"
+  }
+ ]
+}

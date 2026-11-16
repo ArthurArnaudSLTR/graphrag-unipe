@@ -1,0 +1,46 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Defesa prévia",
+   "type": "Processo",
+   "description": "defesa por escrito apresentada pelo aluno após citação",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "10 dias úteis",
+   "type": "Prazo",
+   "description": "prazo para apresentar defesa prévia",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Requerimento de produção de provas",
+   "type": "Processo",
+   "description": "pedido de juntada de documentos, testemunhas ou outras provas",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Comissão Processante",
+   "type": "Orgao",
+   "description": "órgão competente para apreciar requerimentos de provas",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "TEM_PRAZO",
+   "evidence": "apresentar defesa prévia, por escrito, no prazo de dez dias úteis"
+  },
+  {
+   "source": "e3",
+   "target": "e4",
+   "type": "DECIDIDO_POR",
+   "evidence": "A apreciação dos requerimentos de provas é da competência da Comissão Processante"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Aproveitamento de estudos",
+   "type": "Processo",
+   "description": "",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Mínimo de 75% da carga horária da disciplina de origem",
+   "type": "Regra",
+   "description": "",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Máximo de 70% da carga horária do curso dispensada",
+   "type": "Regra",
+   "description": "",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Mínimo de 30% da carga horária do curso cursada no UNIPÊ",
+   "type": "Regra",
+   "description": "",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "inferior a 75% (setenta por cento) da carga horária da disciplina cuja dispensa é pretendida"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "só poderá ser dispensado de, no máximo, 70% da carga horária do curso"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "obrigado a cursar no mínimo 30% da carga horária do curso no Centro Universitário de João Pessoa - UNIPÊ"
+  }
+ ]
+}

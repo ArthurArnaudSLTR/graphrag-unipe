@@ -1,0 +1,85 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Violação dos deveres estudantis",
+   "type": "Infracao",
+   "description": "descumprimento das obrigações dos estudantes",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Advertência",
+   "type": "Penalidade",
+   "description": "",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Repreensão",
+   "type": "Penalidade",
+   "description": "",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Suspensão",
+   "type": "Penalidade",
+   "description": "",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Expulsão",
+   "type": "Penalidade",
+   "description": "",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "Recurso",
+   "type": "Processo",
+   "description": "pedir nova análise das decisões",
+   "gravidade": ""
+  },
+  {
+   "id": "e7",
+   "name": "Órgãos Executivos e Deliberativos",
+   "type": "Orgao",
+   "description": "",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PUNIVEL_COM",
+   "evidence": "A violação dos deveres estudantis pode resultar em um processo disciplinar, com aplicação de penalidades ao estudante, seja advertência"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "PUNIVEL_COM",
+   "evidence": "A violação dos deveres estudantis pode resultar em um processo disciplinar, com aplicação de penalidades ao estudante, seja advertência, repreensão"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "PUNIVEL_COM",
+   "evidence": "A violação dos deveres estudantis pode resultar em um processo disciplinar, com aplicação de penalidades ao estudante, seja advertência, repreensão, suspensão"
+  },
+  {
+   "source": "e1",
+   "target": "e5",
+   "type": "PUNIVEL_COM",
+   "evidence": "A violação dos deveres estudantis pode resultar em um processo disciplinar, com aplicação de penalidades ao estudante, seja advertência, repreensão, suspensão e até expulsão."
+  },
+  {
+   "source": "e6",
+   "target": "e7",
+   "type": "DECIDIDO_POR",
+   "evidence": "pedir nova análise das decisões dos Órgãos Executivos e Deliberativos"
+  }
+ ]
+}

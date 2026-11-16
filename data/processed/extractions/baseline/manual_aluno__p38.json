@@ -1,0 +1,72 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Acesso às Salas de Aula",
+   "type": "Processo",
+   "description": "Utilização e acesso às salas de aula durante as atividades acadêmicas",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Matrícula regular",
+   "type": "Regra",
+   "description": "Requisito de ser estudante regularmente matriculado para utilizar a sala de aula",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Presença de Ouvintes",
+   "type": "Processo",
+   "description": "Presença de ouvintes nas salas de aula",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Autorização prévia",
+   "type": "Regra",
+   "description": "Exigência de autorização prévia para acesso de ouvintes e pets",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Coordenação",
+   "type": "Orgao",
+   "description": "Órgão responsável por conceder autorização prévia para presença de ouvintes",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "Participação de Pets",
+   "type": "Processo",
+   "description": "Entrada e permanência de animais de estimação nas salas de aula",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "as salas de aula do UDF devem ser utilizadas apenas por estudantes regularmente matriculados."
+  },
+  {
+   "source": "e3",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "A presença de ouvintes só poderá ocorrer mediante autorização prévia da Coordenação."
+  },
+  {
+   "source": "e3",
+   "target": "e5",
+   "type": "DECIDIDO_POR",
+   "evidence": "A presença de ouvintes só poderá ocorrer mediante autorização prévia da Coordenação."
+  },
+  {
+   "source": "e6",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "a participação pets também requer autorização prévia."
+  }
+ ]
+}

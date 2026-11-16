@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Atendimento na Ouvidoria do Estudante",
+   "type": "Processo",
+   "description": "Serviço de atendimento para demandas registradas em atraso ou concluídas insatisfatoriamente",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Ouvidoria do Estudante",
+   "type": "Orgao",
+   "description": "Última instância de atendimento para demandas acadêmicas ou administrativas",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Protocolo da CAA em atraso ou concluído insatisfatoriamente",
+   "type": "Regra",
+   "description": "Requisito de ter protocolo anterior em atraso ou concluído insatisfatoriamente",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Número de protocolo da Central de Atendimento ao Aluno",
+   "type": "DocumentoExigido",
+   "description": "Número do protocolo anterior da CAA obrigatório para abertura de demanda",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "A Ouvidoria do Estudante atua como a última instância de atendimento."
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "deve possuir um número de protocolo registrado na Central de Atendimento ao Aluno (presencial ou on-line) que esteja em atraso ou que tenha sido concluído insatisfatoriamente"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "EXIGE",
+   "evidence": "devendo fornecer, obrigatoriamente, o número do protocolo da Central de Atendimento ao Aluno"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Recurso",
+   "type": "Processo",
+   "description": "Recurso interposto contra decisão do Reitor ao Consepe",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Consepe",
+   "type": "Orgao",
+   "description": "Órgão colegiado que julga o recurso em segunda instância",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "5 dias úteis",
+   "type": "Prazo",
+   "description": "Prazo para interposição de recurso da decisão do Reitor",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Voto da maioria simples dos membros presentes",
+   "type": "Regra",
+   "description": "Quórum necessário no Consepe para decidir o recurso",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "TEM_PRAZO",
+   "evidence": "cabe recurso, no prazo de cinco dias úteis"
+  },
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "cabe recurso, no prazo de cinco dias úteis, ao Consepe, que decidirá"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "que decidirá pelo voto da maioria simples dos membros presentes à reunião em que for julgado o recurso"
+  }
+ ]
+}

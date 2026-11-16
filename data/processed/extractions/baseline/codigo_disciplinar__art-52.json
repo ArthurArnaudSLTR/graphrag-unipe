@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Novas Diligências Probatórias",
+   "type": "Processo",
+   "description": "Realização de novas diligências decorrentes de circunstâncias apuradas na audiência",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Comissão Processante",
+   "type": "Orgao",
+   "description": "Comissão responsável por determinar novas diligências probatórias",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Produção de Provas",
+   "type": "Processo",
+   "description": "Fase probatória antecedente à realização de novas diligências",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "poderão ser realizadas, por determinação da Comissão Processante"
+  },
+  {
+   "source": "e3",
+   "target": "e1",
+   "type": "PRECEDE",
+   "evidence": "Concluída a produção das provas, poderão ser realizadas, por determinação da Comissão Processante ou a requerimento do aluno, novas diligências probatórias"
+  }
+ ]
+}

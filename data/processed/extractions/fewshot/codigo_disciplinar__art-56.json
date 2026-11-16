@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Sindicância",
+   "type": "Processo",
+   "description": "Procedimento prévio de apuração",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "Procedimento para apuração de infração disciplinar",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PRECEDE",
+   "evidence": "autos da Sindicância, quando esta tiver sido realizada; II - cópia da Portaria que determinou a instauração do Processo Administrativo Disciplinar"
+  }
+ ]
+}

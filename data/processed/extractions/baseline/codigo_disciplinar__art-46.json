@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "Procedimento para apuração de infrações disciplinares discentes",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "45 dias úteis",
+   "type": "Prazo",
+   "description": "Prazo máximo para a conclusão do Processo Administrativo Disciplinar",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "TEM_PRAZO",
+   "evidence": "O prazo para a conclusão do Processo Administrativo Disciplinar não excederá quarenta e cinco dias úteis"
+  }
+ ]
+}

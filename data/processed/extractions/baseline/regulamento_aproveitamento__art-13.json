@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Aproveitamento de Estudos",
+   "type": "Processo",
+   "description": "Processo de análise e dispensas acadêmicas",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Plano de Ensino",
+   "type": "DocumentoExigido",
+   "description": "Documento para verificação dos conteúdos estudados",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "EXIGE",
+   "evidence": "poderão ser exigidos os Planos de Ensino para verificação dos conteúdos estudados"
+  }
+ ]
+}

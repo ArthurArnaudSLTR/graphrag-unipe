@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Incidente de impedimento",
+   "type": "Processo",
+   "description": "Procedimento para arguição e apreciação de impedimento de atuantes em processos disciplinares.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Autoridade instauradora",
+   "type": "Orgao",
+   "description": "Autoridade responsável por apreciar o incidente de impedimento.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "Arguido o impedimento, o incidente será apreciado pela autoridade instauradora."
+  }
+ ]
+}

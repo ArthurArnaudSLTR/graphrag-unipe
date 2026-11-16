@@ -1,0 +1,46 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Avaliação da Aprendizagem",
+   "type": "Processo",
+   "description": "Avaliação de aprendizagem das disciplinas ou unidades curriculares.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Mínimo de 75% de frequência",
+   "type": "Regra",
+   "description": "Exigência de participação mínima nas atividades da disciplina.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Estágio Curricular Supervisionado",
+   "type": "Processo",
+   "description": "Estágio curricular supervisionado previsto no curso.",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "100% da carga horária do estágio",
+   "type": "Regra",
+   "description": "Exigência de cumprimento integral da carga horária do estágio.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "Você deve ter, no mínimo, 75% (setenta e cinco por cento) de participação nas atividades previstas de cada disciplina/ unidade curricular"
+  },
+  {
+   "source": "e3",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "bem como atingir 100% (cem por cento) da carga horária do Estágio Curricular Supervisionado"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Análise Curricular",
+   "type": "Processo",
+   "description": "Procedimento de análise curricular realizado no processo de aproveitamento de estudos",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Validação",
+   "type": "Processo",
+   "description": "Etapa de validação do processo realizada após a análise curricular",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "SNAC",
+   "type": "Orgao",
+   "description": "Órgão responsável pela elaboração da análise curricular",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "SEGEN",
+   "type": "Orgao",
+   "description": "Órgão responsável pela validação do processo e gestão do registro de disciplinas",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PRECEDE",
+   "evidence": "Após a elaboração da análise curricular pelo SNAC, o processo passará por validação da SEGEN"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "DECIDIDO_POR",
+   "evidence": "elaboração da análise curricular pelo SNAC"
+  },
+  {
+   "source": "e2",
+   "target": "e4",
+   "type": "DECIDIDO_POR",
+   "evidence": "o processo passará por validação da SEGEN"
+  }
+ ]
+}

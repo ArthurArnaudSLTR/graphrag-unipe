@@ -1,0 +1,65 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Regime de Exercícios Domiciliares",
+   "type": "Processo",
+   "description": "Procedimento que permite ao estudante realizar atividades acadêmicas de forma remota em caso de afastamento.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Comprovação oficial",
+   "type": "DocumentoExigido",
+   "description": "Documento oficial exigido para solicitação de regime domiciliar em casos específicos.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "20 dias corridos",
+   "type": "Prazo",
+   "description": "Prazo para entrega das atividades a partir do término do afastamento.",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Não ser disciplina prática ou de estágio",
+   "type": "Regra",
+   "description": "Vedação do regime domiciliar para disciplinas práticas e estágios supervisionados.",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "Não ser disciplina online",
+   "type": "Regra",
+   "description": "Vedação do regime domiciliar para disciplinas na modalidade online.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "EXIGE",
+   "evidence": "poderão solicitar Regime Domiciliar, mediante comprovação oficial"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "TEM_PRAZO",
+   "evidence": "realizar a entrega das atividades no prazo de até 20 (vinte) dias corridos"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "REQUER",
+   "evidence": "Disciplinas que contemplem atividades Práticas e Estágios Supervisionados não são passíveis de Regime de Exercícios Domiciliares"
+  },
+  {
+   "source": "e1",
+   "target": "e5",
+   "type": "REQUER",
+   "evidence": "Disciplinas na modalidade online (DOLS) também não são elegíveis ao Regime de Exercícios Domiciliares"
+  }
+ ]
+}

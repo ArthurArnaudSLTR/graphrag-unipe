@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Intimação",
+   "type": "Processo",
+   "description": "comunicação aos interessados sobre atos processuais",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "3 dias úteis",
+   "type": "Prazo",
+   "description": "antecedência mínima para feitura das intimações",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "TEM_PRAZO",
+   "evidence": "as intimações serão feitas com antecedência mínima de três dias úteis da data da realização do ato."
+  }
+ ]
+}

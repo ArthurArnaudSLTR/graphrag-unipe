@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Aproveitamento de Estudos",
+   "type": "Processo",
+   "description": "Processo de análise para dispensa de disciplinas",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Análise de equivalência entre disciplinas",
+   "type": "Regra",
+   "description": "Exigência de equivalência entre as disciplinas cursadas e as pretendidas",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Disciplinas cursadas em IES credenciadas pelo MEC",
+   "type": "Regra",
+   "description": "As disciplinas devem ser cursadas em IES autorizadas/credenciadas pelo MEC no mesmo nível de ensino ou superior",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "O aproveitamento de estudos é o resultado da análise de equivalência entre a(s) disciplina(s) cursada(s)"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "REQUER",
+   "evidence": "Para fins de aproveitamento serão consideradas as disciplinas cursadas em instituições de ensino superior autorizadas ou credenciadas pelo Ministério da Educação"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Processo Administrativo Disciplinar",
+   "type": "Processo",
+   "description": "processo ao término do qual a sanção de suspensão pode ser substituída por penalidades alternativas",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "órgão que possui o critério de substituir a sanção de suspensão por penalidades alternativas",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "substituir a sanção de suspensão a critério do Reitor e mediante expressa aceitação do aluno, ao término do Processo Administrativo Disciplinar"
+  }
+ ]
+}

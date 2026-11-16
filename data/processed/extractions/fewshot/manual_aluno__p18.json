@@ -1,0 +1,52 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Regime de Exercícios Domiciliares",
+   "type": "Processo",
+   "description": "regime especial de acompanhamento de estudos para aluna ou aluno afastado",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Vedação para disciplinas práticas, estágios e DOLS",
+   "type": "Regra",
+   "description": "disciplinas práticas, de estágio e DOLS não são elegíveis ao regime domiciliar",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Comprovação oficial",
+   "type": "DocumentoExigido",
+   "description": "documento oficial para convocações militares, representação esportiva ou órgãos institucionais",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "20 dias corridos",
+   "type": "Prazo",
+   "description": "prazo para entrega das atividades após o término do afastamento",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "Disciplinas na modalidade online (DOLS) também não são elegíveis ao Regime de Exercícios Domiciliares"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "EXIGE",
+   "evidence": "poderão solicitar Regime Domiciliar, mediante comprovação oficial"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "TEM_PRAZO",
+   "evidence": "realizar a entrega das atividades no prazo de até 20 (vinte) dias corridos, contados a partir do término do período de afastamento"
+  }
+ ]
+}

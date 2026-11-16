@@ -1,0 +1,39 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Afastamento temporário",
+   "type": "Processo",
+   "description": "Medida cautelar e preventiva determinável em razão de gravidade ou ameaça à vida, integridade física ou moral.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Reitor",
+   "type": "Orgao",
+   "description": "Autoridade competente para determinar, prorrogar ou revogar o afastamento temporário.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "30 dias",
+   "type": "Prazo",
+   "description": "Prazo inicial do afastamento temporário, prorrogável uma única vez por igual período.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "DECIDIDO_POR",
+   "evidence": "o Reitor poderá determinar, em caráter preventivo e a qualquer tempo, o afastamento temporário do envolvido."
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "TEM_PRAZO",
+   "evidence": "O afastamento temporário terá prazo inicial de até trinta dias"
+  }
+ ]
+}

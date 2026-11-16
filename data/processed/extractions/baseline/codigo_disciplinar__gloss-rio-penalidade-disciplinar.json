@@ -1,0 +1,26 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Infração disciplinar",
+   "type": "Infracao",
+   "description": "Conduta sujeita à medida punitiva",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Penalidade disciplinar",
+   "type": "Penalidade",
+   "description": "Medida punitiva imposta ao autor de infração disciplinar",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "PUNIVEL_COM",
+   "evidence": "Medida punitiva imposta ao autor de infração disciplinar."
+  }
+ ]
+}

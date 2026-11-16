@@ -1,0 +1,91 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Compensação de Ausências em Regime Domiciliar",
+   "type": "Processo",
+   "description": "Regime domiciliar para estudantes impossibilitados de frequentar aulas por razões de saúde ou gestação.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Atestado médico",
+   "type": "DocumentoExigido",
+   "description": "Atestado emitido por profissional habilitado comprovando período e condições de saúde.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Laudo médico",
+   "type": "DocumentoExigido",
+   "description": "Laudo emitido por profissional habilitado para instrução do pedido.",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "Termo judicial",
+   "type": "DocumentoExigido",
+   "description": "Documento comprobatório de guarda judicial ou adoção.",
+   "gravidade": ""
+  },
+  {
+   "id": "e5",
+   "name": "15 dias corridos",
+   "type": "Prazo",
+   "description": "Prazo máximo para formalização da solicitação a partir do primeiro dia de afastamento.",
+   "gravidade": ""
+  },
+  {
+   "id": "e6",
+   "name": "Duração de 15 a 60 dias",
+   "type": "Regra",
+   "description": "Requisito de período mínimo e máximo de afastamento para afecções médicas gerais.",
+   "gravidade": ""
+  },
+  {
+   "id": "e7",
+   "name": "A partir do oitavo mês de gestação",
+   "type": "Regra",
+   "description": "Requisito temporal para concessão do regime domiciliar a gestantes.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "EXIGE",
+   "evidence": "É obrigatória a apresentação de laudo ou atestado médico emitido por profissional habilitado"
+  },
+  {
+   "source": "e1",
+   "target": "e3",
+   "type": "EXIGE",
+   "evidence": "É obrigatória a apresentação de laudo ou atestado médico emitido por profissional habilitado"
+  },
+  {
+   "source": "e1",
+   "target": "e4",
+   "type": "EXIGE",
+   "evidence": "mediante apresentação do respectivo termo judicial"
+  },
+  {
+   "source": "e1",
+   "target": "e5",
+   "type": "TEM_PRAZO",
+   "evidence": "no prazo máximo de 15 (quinze) dias corridos, contados a partir do primeiro dia de afastamento"
+  },
+  {
+   "source": "e1",
+   "target": "e6",
+   "type": "REQUER",
+   "evidence": "com duração mínima de 15 (quinze) dias e máxima de 60 (sessenta) dias"
+  },
+  {
+   "source": "e1",
+   "target": "e7",
+   "type": "REQUER",
+   "evidence": "Estudantes gestantes, a partir do oitavo mês de gestação, nos termos da Lei nº 6.202/1975"
+  }
+ ]
+}

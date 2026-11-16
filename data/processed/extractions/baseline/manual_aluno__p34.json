@@ -1,0 +1,46 @@
+{
+ "entities": [
+  {
+   "id": "e1",
+   "name": "Colação de Grau por Edital",
+   "type": "Processo",
+   "description": "Ato oficial obrigatório e virtual que atesta a conclusão de todas as exigências do curso.",
+   "gravidade": ""
+  },
+  {
+   "id": "e2",
+   "name": "Conclusão de todas as exigências do curso",
+   "type": "Regra",
+   "description": "Requisito necessário atestado na colação de grau.",
+   "gravidade": ""
+  },
+  {
+   "id": "e3",
+   "name": "Solicitação de Instalação de Software",
+   "type": "Processo",
+   "description": "Procedimento realizado por docente via Sistema de Chamado 4biz para instalação de softwares.",
+   "gravidade": ""
+  },
+  {
+   "id": "e4",
+   "name": "14 dias",
+   "type": "Prazo",
+   "description": "Antecedência mínima exigida para solicitação de instalação de software.",
+   "gravidade": ""
+  }
+ ],
+ "relations": [
+  {
+   "source": "e1",
+   "target": "e2",
+   "type": "REQUER",
+   "evidence": "atesta que o aluno concluiu todas as exigências do curso."
+  },
+  {
+   "source": "e3",
+   "target": "e4",
+   "type": "TEM_PRAZO",
+   "evidence": "solicitação deverá ser realizada pelo .docente através do Sistema de Chamado 4biz com antecedência de 14 (quatorze) dias"
+  }
+ ]
+}
